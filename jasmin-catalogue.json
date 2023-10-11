@@ -186,9 +186,9 @@
       }
     ]
   },
-  "id": "hackathon-catalogue.csv",
+  "id": "jasmin-catalogue",
   "description": null,
   "title": null,
   "last_updated": "2023-10-11T15:00:23Z",
-  "catalog_file": "hackathon-catalogue.csv"
+  "catalog_file": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/main/jasmin-catalogue.csv"
 }
