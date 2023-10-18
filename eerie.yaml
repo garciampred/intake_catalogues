@@ -1,0 +1,11 @@
+sources:
+  jasmin:
+    args:
+      path: "{{CATALOG_DIR}}/jasmin-catalogue.json"
+    description: This catalog contains datasets for EERIE data accessible on JASMIN
+    driver: intake.open_esm_datastore
+  dkrz:
+    args:
+      path: "{{CATALOG_DIR}}/dkrz_eerie.yaml"
+    description: This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+    driver: yaml_file_cat
