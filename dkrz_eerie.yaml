@@ -1,0 +1,26 @@
+sources:
+  dkrz_eerie_kerchunk:
+    args:
+      path: "{{CATALOG_DIR}}/dkrz_eerie_kerchunk.yaml"
+    description: This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+    driver: yaml_file_cat
+  dkrz_eerie_archive:
+    args:
+      path: "{{CATALOG_DIR}}/dkrz_eerie_archive.yaml"
+    description: This catalog contains datasets for archived data in /arch/bm1344
+    driver: yaml_file_cat
+  dkrz_eerie_xpublish:
+    args:
+      path: "https://eerie.cloud.dkrz.de/intake.yaml"
+    description: This catalog contains the same datasets as *dkrz_eerie_kerchunk* but data access is via the xpublish server *eerie.cloud.dkrz.de*
+    driver: yaml_file_cat
+  dkrz_eerie_evaluation: 
+    args:
+      path: "{{CATALOG_DIR}}/dkrz_eerie_evaluation.yaml"
+    description: This catalog contains additional EERIE evaluation data from /work/bm1344/DKRZ
+    driver: yaml_file_cat
+  dkrz_catalog:
+    args:
+      path: "https://gitlab.dkrz.de/data-infrastructure-services/intake-esm/-/raw/master/esm-collections/cloud-access/dkrz_catalog.yaml"
+    description: DKRZ master catalog for all /pool/data catalogs available
+    driver: yaml_file_cat
