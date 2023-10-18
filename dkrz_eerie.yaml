@@ -1,12 +1,12 @@
 sources:
   dkrz_eerie_kerchunk:
     args:
-      path: "{{CATALOG_DIR}}/dkrz_eerie_kerchunk.yaml"
+      path: "/work/bm1344/DKRZ/intake/dkrz_eerie_kerchunk.yaml"
     description: This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
     driver: yaml_file_cat
   dkrz_eerie_archive:
     args:
-      path: "{{CATALOG_DIR}}/dkrz_eerie_archive.yaml"
+      path: "/work/bm1344/DKRZ/intake/dkrz_eerie_archive.yaml"
     description: This catalog contains datasets for archived data in /arch/bm1344
     driver: yaml_file_cat
   dkrz_eerie_xpublish:
@@ -16,7 +16,7 @@ sources:
     driver: yaml_file_cat
   dkrz_eerie_evaluation: 
     args:
-      path: "{{CATALOG_DIR}}/dkrz_eerie_evaluation.yaml"
+      path: "/work/bm1344/DKRZ/intake/dkrz_eerie_evaluation.yaml"
     description: This catalog contains additional EERIE evaluation data from /work/bm1344/DKRZ
     driver: yaml_file_cat
   dkrz_catalog:
