@@ -6,6 +6,6 @@ sources:
     driver: yaml_file_cat
   dkrz_eerie_observations:
     args:
-      path: "{{CATALOG_DIR}}/dkrz_eerie_observations.yaml
+      path: "{{CATALOG_DIR}}/dkrz_eerie_observations.yaml"
     description: This catalog contains observational data that is used for EERIE evaluation
     driver: yaml_file_cat
