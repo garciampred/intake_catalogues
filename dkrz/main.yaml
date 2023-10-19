@@ -19,3 +19,9 @@ sources:
       path: "https://gitlab.dkrz.de/data-infrastructure-services/intake-esm/-/raw/master/esm-collections/cloud-access/dkrz_catalog.yaml"
     description: DKRZ master catalog for all /pool/data catalogs available
     driver: yaml_file_cat
+  dkrz_ngc3:
+    args:
+      path: "https://data.nextgems-h2020.eu/catalog.yaml"
+    description: NextGEMs Cycle 3 data
+    driver: yaml_file_cat
+
