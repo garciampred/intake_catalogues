@@ -1,6 +1,46 @@
 sources:
-  tbd:
-    args:
-      path: "tbd"
-    description: "tbd"
+  MSWEP:
+    description: MSWEP_V280 precipitation data
     driver: yaml_file_cat
+    args:
+        path: "{{CATALOG_DIR}}/MSWEP/main.yaml"
+  ERA5:
+    description: ERA5 reanalysis data
+    driver: yaml_file_cat
+    args:
+        path: "{{CATALOG_DIR}}/ERA5/main.yaml"
+  CERES:
+    description: CERES-EBAF radiation data
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/CERES/main.yaml"
+  AVISO:
+    description: AVISO SSH data
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/AVISO/main.yaml"
+  PHC3:
+    description: PHC3 climatology
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/PHC3/main.yaml"
+  WOA18:
+    description: World Ocean Atlas climatology
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/WOA18/main.yaml"
+  OSI-SAF:
+    description: OSI-SAF sea-ice data
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/OSI-SAF/main.yaml"
+  EN4:
+    description: EN4 3D temperature and salinity observational data
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/EN4/main.yaml"
+  GPM:
+    description: Global Precipitation Measurement
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/GPM/main.yaml"
