@@ -2,10 +2,10 @@ sources:
   jasmin:
     args:
       obj: "{{CATALOG_DIR}}/jasmin/jasmin-catalogue.json"
-    description: This catalog contains datasets for EERIE accessible on JASMIN
+    description: This catalog contains datasets for EERIE stored on JASMIN
     driver: intake.open_esm_datastore
   dkrz:
     args:
       path: "{{CATALOG_DIR}}/dkrz/main.yaml"
-    description: This catalog contains datasets for EERIE accessible on DKRZ
+    description: This catalog contains datasets for EERIE stored on DKRZ
     driver: yaml_file_cat
