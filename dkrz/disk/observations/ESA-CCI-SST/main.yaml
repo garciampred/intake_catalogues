@@ -1,0 +1,22 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  kerchunk:
+    description: >
+      Rewritten sst_cci data with blosc filter and kerchunked to a complete time series.
+      This v2.1 SST_cci Level 4 Analysis Climate Data Record (CDR) provides a globally-complete daily analysis of sea surface temperature (SST) on a 0.05 degree regular latitude - longitude grid.
+      It combines data from both the Advanced Very High Resolution Radiometer (AVHRR ) and Along Track Scanning Radiometer (ATSR) SST_cci Climate Data Records, using a data assimilation method to provide SSTs where there were no measurements.
+      These data cover the period between 09/1981 and 12/2016.
+      The dataset has been produced as part of the European Space Agency (ESA) Climate Change Initiative Sea Surface Temperature project(ESA SST_cci). The data products from SST_cci accurately map the surface temperature of the global oceans over the period 1981 to 2016 using observations from many satellites.
+      The data provide independently quantified SSTs to a quality suitable for climate research.
+      The CDR Version 2.1 product supercedes the CDR Version 2.0 product. Data are made freely and openly available under a Creative Commons License by Attribution (CC By 4.0) https://creativecommons.org/licenses/by/4.0/
+      Citation data paper: Merchant, C.J., Embury, O., Bulgin, C.E., Block T., Corlett, G.K., Fiedler, E., Good, S.A., Mittaz, J., Rayner, N.A., Berry, D., Eastwood, S., Taylor, M., Tsushima, Y., Waterfall, A., Wilson, R., Donlon, C. Satellite-based time-series of sea-surface temperature since 1981 for climate applications, Scientific Data 6:223 (2019). http://doi.org/10.1038/s41597-019-0236-x
+      Citation analysis:  Good, S.A.; Embury, O.; Bulgin, C.E.; Mittaz, J. (2019): ESA Sea Surface Temperature Climate Change Initiative (SST_cci): Level 4 Analysis Climate Data Record, version 2.1. Centre for Environmental Data Analysis, 22 August 2019. 
+    driver: zarr
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        fo: /work/bm1344/DKRZ/ESA/sst-cci.json
+      urlpath: reference://
