@@ -48,4 +48,4 @@ sources:
     description: Daily SST and Sea Ice from 1987-2011 on 0.05 degree lon-lat.
     driver: yaml_file_cat
     args:
-      path "{{CATALOG_DIR}}/ESA-CCI-SST/main.yaml"
+      path: "{{CATALOG_DIR}}/ESA-CCI-SST/main.yaml"
