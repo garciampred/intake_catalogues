@@ -1,7 +1,7 @@
 sources:
-  esm:
+  models:
     args:
-      path: "/work/bm1344/DKRZ/intake/dkrz_eerie_esm.yaml"
+      path: "{{CATALOG_DIR}}/models/main.yaml"
     description: EERIE Earth System Model output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
     driver: yaml_file_cat
   observations:
