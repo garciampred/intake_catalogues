@@ -1,6 +1,6 @@
 sources:
-  eerie-1950control:
+  eerie-control-1950:
     args:
-      path: "{{CATALOG_DIR}}/eerie-1950control/main.yaml"
-    description: This catalog contains EERIE IFS-FESOM2 eerie-1950control output available at DKRZ disk.
+      path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
+    description: This catalog contains EERIE IFS-FESOM2 eerie-control-1950 output available at DKRZ disk.
     driver: yaml_file_cat
