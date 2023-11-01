@@ -1,0 +1,20 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  ifs-fesom2_fesom_eerie-control-1950_daily_gr025:
+    args:
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/FESOM/025/daily/*.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+        decode_times: 'False'
+    driver: netcdf
+  ifs-fesom2_fesom_eerie-control-1950_monthly_gr025:
+    args:
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/FESOM/025/monthly/*.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+        decode_times: 'False'
+    driver: netcdf

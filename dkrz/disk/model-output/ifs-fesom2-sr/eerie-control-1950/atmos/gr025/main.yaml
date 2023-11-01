@@ -1,0 +1,12 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  ifs_eerie-1950control-daily-gr025:
+    args:
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/IFS/025/daily/*.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+        decode_times: 'False'
+    driver: netcdf
