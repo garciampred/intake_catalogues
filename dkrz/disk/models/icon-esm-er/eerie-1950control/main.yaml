@@ -1,0 +1,15 @@
+sources:
+  atm:
+    args:
+      path: "{{CATALOG_DIR}}/atm/main.yaml"
+    description: ICON-ESM-ER output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+    driver: yaml_file_cat
+  oce:
+    args:
+      path: "{{CATALOG_DIR}}/oce/main.yaml"    description: ICON-ESM-ER output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+    driver: yaml_file_cat
+  lnd:
+    args:
+      path: "{{CATALOG_DIR}}/lnd/main.yaml"    description: ICON-ESM-ER output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+    driver: yaml_file_cat
+    
