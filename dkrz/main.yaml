@@ -6,7 +6,7 @@ sources:
     driver: yaml_file_cat
   archive:
     args:
-      path: "/work/bm1344/DKRZ/intake/dkrz_eerie_archive.yaml"
+      path: "{{CATALOG_DIR}}/archive/main.yaml"
     description: Only use this catalog if your desired data is not available on diks and needs to be retrieved from DKRZ's tape archive. This catalog contains datasets for archived data in /arch/bm1344
     driver: yaml_file_cat
   cloud:
