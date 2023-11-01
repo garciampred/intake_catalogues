@@ -1,0 +1,544 @@
+sources:
+  2d_1d_mean_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1d_mean_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40340 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sat Oct 21 13:40:43 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,atmos_fluxes_FrshFlux_Evaporation,atmos_fluxes_FrshFlux_Precipitation,atmos_fluxes_FrshFlux_Runoff,atmos_fluxes_FrshFlux_SnowFall,atmos_fluxes_HeatFlux_Latent,atmos_fluxes_HeatFlux_Sensible,atmos_fluxes_HeatFlux_LongWave,atmos_fluxes_HeatFlux_ShortWave,atmos_fluxes_HeatFlux_Total,atmos_fluxes_stress_x,delhs,mlotst,mlotst10,ssh,sea_level_pressure,Wind_Speed_10m,stretch_c,to,so,u,v
+        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_mean_20020101T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_mean_remap025_20020101T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: Wind_Speed_10m
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - Change in mean snow thickness due to thermodynamic melting
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - Sea Level Pressure
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      variables:
+      - Wind_Speed_10m
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - delhs
+      - mlotst
+      - mlotst10
+      - sea_level_pressure
+      - so
+      - ssh
+      - stretch_c
+      - to
+      - u
+      - v
+  2d_1d_square_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1d_square_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40341 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sat Oct 21 13:57:39 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,to /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_square_20020101T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1d_square_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_square_remap025_20020101T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: to
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: square
+      title: ICON simulation
+      variable-long_names:
+      - sea water potential temperature
+      variables:
+      - to
+  2d_1mth_mean_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1mth_mean_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40344 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sat Oct 21 17:31:56 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,ssh,to,so,mlotst,mlotst10,atmos_fluxes_HeatFlux_Total,atmos_fluxes_stress_xw,atmos_fluxes_stress_yw,atmos_fluxes_FrshFlux_Evaporation,atmos_fluxes_FrshFlux_Precipitation,atmos_fluxes_FrshFlux_Runoff,atmos_fluxes_FrshFlux_SnowFall,atmos_fluxes_HeatFlux_Latent,atmos_fluxes_HeatFlux_Sensible,atmos_fluxes_HeatFlux_LongWave,atmos_fluxes_HeatFlux_ShortWave,atmos_fluxes_stress_x,atmos_fluxes_stress_y,Qtop,Qbot,ice_v,sea_level_pressure,Wind_Speed_10m,stretch_c
+        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_remap025_20020201T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: Qbot
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - Conductive heat flux at ice-ocean interface
+      - Energy flux available for surface melting
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - Sea Level Pressure
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+      variables:
+      - Qbot
+      - Qtop
+      - Wind_Speed_10m
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - ice_v
+      - mlotst
+      - mlotst10
+      - sea_level_pressure
+      - so
+      - ssh
+      - stretch_c
+      - to
+  2d_1mth_square_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1mth_square_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40345 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sat Oct 21 17:37:31 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,ssh,mlotst,mlotst10,to /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_square_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1mth_square_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_square_remap025_20020201T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: mlotst
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: square
+      title: ICON simulation
+      variable-long_names:
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - surface elevation at cell center
+      - sea water potential temperature
+      variables:
+      - mlotst
+      - mlotst10
+      - ssh
+      - to
+  5lev_1d_mean_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_5lev_1d_mean_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40343 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sat Oct 21 14:03:44 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,to,so,u,v,w /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/olev5/erc1011_oce_5lev_1d_mean_20020102T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_5lev_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_5lev_1d_mean_remap025_20020102T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: so
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertical velocity at cells
+      variables:
+      - so
+      - to
+      - u
+      - v
+      - w
+  eddy_1mth_mean_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_eddy_1mth_mean_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40339 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sat Oct 21 18:40:35 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,w_prismcenter,sigma0,hflR,fwR,tauxu,tauyv,uT,uS,uR,uu,vT,vS,vR,vv,wT,wS,wR,ww,RR,SS,TT,uv,uw,vw
+        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_eddy_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_eddy_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_eddy_1mth_mean_remap025_20020201T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: RR
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - square of density
+      - square of salinity
+      - square of temperature
+      - product of fw flux and density
+      - product of net heatflux and density
+      - density anomaly
+      - product of x windstress and u-velocity
+      - product of y windstress and v-velocity
+      - product of zonal velocity and density
+      - product of zonal velocity and salinity
+      - product of zonal velocity and temperature
+      - square of zonal velocity
+      - product of zonal velocity and meridional velocity
+      - product of zonal velocity and vertical velocity
+      - product of meridional velocity and density
+      - product of meridional velocity and salinity
+      - product of meridional velocity and temperature
+      - square of meridional velocity
+      - product of meridional velocity and vertical velocity
+      - product of vertical velocity and density
+      - product of vertical velocity and salinity
+      - product of vertical velocity and temperature
+      - vertical velocity at prism center
+      - square of vertical velocity
+      variables:
+      - RR
+      - SS
+      - TT
+      - fwR
+      - hflR
+      - sigma0
+      - tauxu
+      - tauyv
+      - uR
+      - uS
+      - uT
+      - uu
+      - uv
+      - uw
+      - vR
+      - vS
+      - vT
+      - vv
+      - vw
+      - wR
+      - wS
+      - wT
+      - w_prismcenter
+      - ww
+  ml_1d_mean_remap025:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_ml_1d_mean_remap025.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON Control run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON Control run
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40342 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1011
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: 'Sun Oct 22 03:27:44 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,to,so /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_ml_1d_mean_20020102T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_ml_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_ml_1d_mean_remap025_20020102T000000Z.nc_temp
+
+        ./icon at 20230924 141009'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: so
+      project: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - sea water salinity
+      - sea water potential temperature
+      variables:
+      - so
+      - to
