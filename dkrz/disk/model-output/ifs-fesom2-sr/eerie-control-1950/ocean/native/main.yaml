@@ -25,7 +25,6 @@ sources:
         compat: override
         coords: minimal
         decode_times: 'False'
-    driver: netcdf
-~                                                                                                                                                    
+    driver: netcdf                                                                                                                                    
 ~                                                                                                                                                    
 ~                                                                                                                                                    
