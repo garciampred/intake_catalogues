@@ -1,0 +1,6 @@
+sources:
+  atmos:
+    description: IFS-AMIP forced with historical OSTIA SST & sea ice. New EERIE configuration.
+    driver: yaml_file_cat
+    args:
+        path: "{{CATALOG_DIR}}/atm.yaml"
