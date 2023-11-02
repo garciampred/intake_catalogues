@@ -12,7 +12,7 @@ sources:
     driver: netcdf
   monthly_center:
     args:
-      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/FESOM/native1/monthly/*.nc
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/FESOM/native/native1/monthly/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
@@ -20,7 +20,7 @@ sources:
     driver: netcdf
   monthly_edge:
     args:
-      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/FESOM/native2/monthly/*.nc
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/FESOM/native/native2/monthly/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
