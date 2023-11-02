@@ -1,0 +1,6 @@
+sources:
+  OSTIA:
+    description: OSTIA SST and sea ice data
+    driver: yaml_file_cat
+    args:
+        path: "{{CATALOG_DIR}}/ostia.yaml"

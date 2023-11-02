@@ -1,0 +1,52 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  daily:
+    description: OSTIA SST and sea ice at 1/20 degree from https://data.marine.copernicus.eu/product/SST_GLO_SST_L4_REP_OBSERVATIONS_010_011/description
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original.zarr
+  clim:
+    description: Daily climatology of OSTIA SST and sea ice at 1/20 degree. Climatology computed with 20-day smoothing using a LOESS filter
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_clim_loess.zarr
+  anom:
+    description: Daily anomalies of OSTIA SST; <daily> minus <clim>.
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_loess_f32.zarr
+  anom_lr30:
+    description: Smoothed daily anomalies of OSTIA SST. Filtering done using gcm-filters with a filtering length scale of 30x the local Rossby radius, capped at 300 (below) and 1500 (above).
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_fl_LR30.zarr
+  anom_lr5:
+    description: Smoothed daily anomalies of OSTIA SST. Filtering done using gcm-filters with a filtering length scale of 5x the local Rossby radius, capped at 50 (below) and 250 (above).
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_fl_LR5.zarr
+  anom_lr12:
+    description: Smoothed daily anomalies of OSTIA SST. Filtering done using gcm-filters with a filtering length scale of 12x the local Rossby radius, capped at 120 (below) and 600 (above).
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_fl_LR12.zarr
+  anom_lr90:
+    description: Smoothed daily anomalies of OSTIA SST. Filtering done using gcm-filters with a filtering length scale of 90x the local Rossby radius, capped at 900 (below) and 4500 (above).
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_fl_LR90.zarr
+  anom_latlon_5_5:
+    description: Smoothed daily anomalies of OSTIA SST. Filtering done using gcm-filters with a filtering length corresponding to a local distance of 5 degrees longitude and latitude, respectively.
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_fl_latlon_5_5.zarr
