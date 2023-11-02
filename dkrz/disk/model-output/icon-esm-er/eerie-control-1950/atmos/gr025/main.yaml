@@ -1,5 +1,5 @@
 sources:
-  2d_1d_max_remap025:
+  2d_daily_max_:
     args:
       chunks: auto
       consolidated: false
@@ -55,7 +55,7 @@ sources:
       variables:
       - sfcwind
       - tas
-  2d_1d_mean_remap025:
+  2d_daily_mean_:
     args:
       chunks: auto
       consolidated: false
@@ -143,7 +143,7 @@ sources:
       - tas
       - uas
       - vas
-  2d_1d_min_remap025:
+  2d_daily_min_:
     args:
       chunks: auto
       consolidated: false
@@ -197,7 +197,7 @@ sources:
       - temperature in 2m
       variables:
       - tas
-  2d_1mth_mean_remap025:
+  2d_monthly_mean_:
     args:
       chunks: auto
       consolidated: false
@@ -315,7 +315,7 @@ sources:
       - ts
       - uas
       - vas
-  ml_1mth_mean_remap025:
+  model-levelmonthly_mean_:
     args:
       chunks: auto
       consolidated: false
