@@ -1,0 +1,340 @@
+sources:
+  2d_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1007/atm_2d_1mth_mean.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l30045 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1007
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: ./icon at 20230606 134320
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500301T000000-19500331T235845/erc1007_atm_2d_1mth_mean_19500401T000000Z.nc
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      variable-long_names:
+      - vertically integrated cloud ice
+      - vertically integrated cloud water
+      - total cloud cover
+      - vert_int_dry_static_energy
+      - dew point temperature in 2m
+      - evaporation
+      - latent heat flux
+      - sensible heat flux
+      - center latitude
+      - center longitude
+      - precipitation flux
+      - large-scale precipitation flux (water)
+      - vertically integrated water vapour
+      - surface pressure
+      - mean sea level pressure
+      - vertically integrated graupel
+      - vertically integrated rain
+      - vertically integrated snow
+      - surface downwelling longwave radiation
+      - surface upwelling longwave radiation
+      - toa outgoing longwave radiation
+      - surface downwelling diffuse near infrared radiation
+      - surface downwelling diffuse photosynthetically active radiation
+      - surface downwelling direct photosynthetically active radiation
+      - surface downwelling shortwave radiation
+      - toa incident shortwave radiation
+      - surface upwelling shortwave radiation
+      - toa outgoing shortwave radiation
+      - surface downwelling diffuse visible radiation
+      - 10m windspeed
+      - fraction of ocean covered by sea ice
+      - sea ice thickness
+      - temperature in 2m
+      - u-momentum flux at the surface
+      - v-momentum flux at the surface
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+      variables:
+      - cfh_lnd
+      - clivi
+      - cllvi
+      - clt
+      - cptgzvi
+      - dew2
+      - evspsbl
+      - hfls
+      - hfss
+      - lat
+      - lon
+      - pr
+      - prlr
+      - prw
+      - ps
+      - psl
+      - qgvi
+      - qrvi
+      - qsvi
+      - rlds
+      - rlus
+      - rlut
+      - rnds_dif
+      - rpds_dif
+      - rpds_dir
+      - rsds
+      - rsdt
+      - rsus
+      - rsut
+      - rvds_dif
+      - sfcwind
+      - sic
+      - sit
+      - tas
+      - tauu
+      - tauv
+      - ts
+      - uas
+      - vas
+  atm_mon:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1007/erc1007_atm_mon.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l30043 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1007
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: ./icon at 20230606 134320
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500301T000000-19500331T235845/erc1007_atm_mon_19500401T000000Z.nc
+      variable-long_names:
+      - global mean evaporation flux
+      - mean surface freshwater flux over ocean surface
+      - global mean precipitation flux
+      - global mean toa total radiation
+      - global mean toa outgoing longwave radiation
+      - global mean toa incident shortwave radiation
+      - global mean toa outgoing shortwave radiation
+      - global mean temperature at 2m
+      variables:
+      - evap_gmean
+      - fwfoce_gmean
+      - prec_gmean
+      - radtop_gmean
+      - rlut_gmean
+      - rsdt_gmean
+      - rsut_gmean
+      - tas_gmean
+  atm_vgrid:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1007/erc1007_atm_vgrid.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      comment: Sapphire Dyamond (k203123) on l40590 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1007
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      history: ./icon at 20230606 121051
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      number_of_grid_used: 33
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM-ER
+      title: ICON simulation
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - metrics functional determinant
+      - center latitude
+      - center longitude
+      - geometric height at full level center
+      - geometric height at half level center
+      variables:
+      - clat_bnds
+      - clon_bnds
+      - dzghalf
+      - height_2_bnds
+      - height_bnds
+      - lat
+      - lon
+      - zg
+      - zghalf
+  model-level_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1007/atm_ml_1mth_mean.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l30044 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1007
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: ./icon at 20230606 134320
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500301T000000-19500331T235845/erc1007_atm_ml_1mth_mean_19500401T000000Z.nc
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - specific cloud ice content
+      - specific cloud water content
+      - Specific humidity
+      - center latitude
+      - center longitude
+      - Pressure
+      - density
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+      variables:
+      - cli
+      - clw
+      - height_bnds
+      - hus
+      - lat
+      - lon
+      - pfull
+      - rho
+      - ta
+      - ua
+      - va
+      - wa
+  quickplot:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1007/atm_quickplot.json
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l30046 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: erc1007
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: ./icon at 20230606 134320
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500301T000000-19500331T235845/erc1007_atm_quickplot_19500401T000000Z.nc
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      variable-long_names:
+      - center latitude
+      - center longitude
+      - surface downwelling clear-sky longwave radiation
+      - toa outgoing clear-sky longwave radiation
+      - surface downwelling clear-sky shortwave radiation
+      - surface upwelling clear-sky shortwave radiation
+      - toa outgoing clear-sky shortwave radiation
+      variables:
+      - lat
+      - lon
+      - rldscs
+      - rlutcs
+      - rsdscs
+      - rsuscs
+      - rsutcs
