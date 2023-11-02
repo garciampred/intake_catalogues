@@ -1,0 +1,18 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+
+sources:
+  monthly:
+    description: QuikSCAT monthly data from 1999-07 to 2009-11
+    driver: zarr
+    args:
+      urlpath: '/work/bm1344/DKRZ/NCAR/QuikSCAT_Zarr'
+      chunks: 
+        time: 125
+    metadata:
+      variables: 'wind_speed,wind_dir' 
+
+
+

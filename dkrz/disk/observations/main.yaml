@@ -49,3 +49,8 @@ sources:
     driver: yaml_file_cat
     args:
       path: "{{CATALOG_DIR}}/ESA-CCI-SST/main.yaml"
+  QUIKSCAT:
+    description: Daily and monthly wind speed and wind direction converted to zarr
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/QUIKSCAT/main.yaml"
