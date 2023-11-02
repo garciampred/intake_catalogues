@@ -1,5 +1,5 @@
 sources:
-  2d_daily_mean_:
+  2d_daily_mean:
     args:
       chunks: auto
       consolidated: false
@@ -67,7 +67,7 @@ sources:
       - hydro_w_snow_can_box
       - hydro_w_soil_sl_box
       - soil_depth_water_bnds
-  2d_monthly_mean_:
+  2d_monthly_mean:
     args:
       chunks: auto
       consolidated: false

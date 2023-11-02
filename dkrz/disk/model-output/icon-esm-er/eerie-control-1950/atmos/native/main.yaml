@@ -600,7 +600,7 @@ sources:
       - rsdt_gmean
       - rsut_gmean
       - tas_gmean
-  model-leveldaily_mean_1:
+  model-level_daily_mean_1:
     args:
       chunks: auto
       consolidated: false
@@ -657,7 +657,7 @@ sources:
       - ua
       - va
       - wa
-  model-leveldaily_mean_2:
+  model-level_daily_mean_2:
     args:
       chunks: auto
       consolidated: false
@@ -712,7 +712,7 @@ sources:
       - lat
       - lon
       - pfull
-  model-levelmonthly_mean:
+  model-level_monthly_mean:
     args:
       chunks: auto
       consolidated: false

@@ -549,7 +549,7 @@ sources:
       - pacific_moc
       - pacific_sltbasin
       - pacific_wfl
-  model-leveldaily_mean:
+  model-level_daily_mean:
     args:
       chunks: auto
       consolidated: false
@@ -583,7 +583,7 @@ sources:
       - u
       - v
       - w
-  model-levelmonthly_mean:
+  model-level_monthly_mean:
     args:
       chunks: auto
       consolidated: false
