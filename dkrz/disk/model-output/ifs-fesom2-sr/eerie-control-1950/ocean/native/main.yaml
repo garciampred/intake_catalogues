@@ -26,3 +26,50 @@ sources:
         coords: minimal
         decode_times: 'False'
     driver: netcdf
+  elem_grid:
+    args:
+      urlpath: /work/bm1235/a270046/meshes/NG5_griddes_elems_IFS.nc
+    driver:
+    - netcdf
+    metadata:
+      variable-long_names:
+      - grid dimensions
+      - land sea mask
+      - area of grid cell
+      - Indicates which other nodes neighbour each node.
+      - Maps every triangular face to its three corner nodes.
+      - 'Indicates coastal triangles: coast=1, internal=0'
+      variables:
+      - grid_dims
+      - grid_imask
+      - cell_area
+      - node_node_links
+      - triag_nodes
+      - coast
+  node_grid:
+    args:
+      urlpath: /work/bm1235/a270046/meshes/NG5_griddes_nodes_IFS.nc
+    driver:
+    - netcdf
+    metadata:
+      variable-long_names:
+      - grid dimensions
+      - land sea mask
+      - area of grid cell
+      - Indicates which other nodes neighbour each node.
+      - Maps every triangular face to its three corner nodes.
+      - 'Indicates coastal nodes: coast=1, internal=0'
+      - depth of model levels in metres (positive downwards)
+      - depth of model level bounds in metres (positive downwards)
+      - depth in terms of number of active levels beneath each ocean surface grid
+        point
+      variables:
+      - grid_dims
+      - grid_imask
+      - cell_area
+      - node_node_links
+      - triag_nodes
+      - coast
+      - depth
+      - depth_bnds
+      - depth_lev
