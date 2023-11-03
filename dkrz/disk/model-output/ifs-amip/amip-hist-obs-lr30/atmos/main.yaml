@@ -1,6 +1,0 @@
-sources:
-  atmos:
-    description: IFS-AMIP forced with historical OSTIA SST & sea ice where SST anomalies have been smoothed with a diffusive filter with a lengthscale of 30 times the local Rossby radius (bounded by 300 and 1500 km). New EERIE configuration.
-    driver: yaml_file_cat
-    args:
-        path: "{{CATALOG_DIR}}/atm.yaml"
