@@ -44,6 +44,11 @@ sources:
     driver: yaml_file_cat
     args:
       path: "{{CATALOG_DIR}}/GPM/main.yaml"
+  OSTIA:
+    description: Daily SST and Sea Ice from 1982-2022 on 0.05 degree lon-lat. Includes climatology and anomalies, including filtering with several filter lengthscales.
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/OSTIA/main.yaml"
   ESA-CCI-SST:
     description: Daily SST and Sea Ice from 1987-2011 on 0.05 degree lon-lat.
     driver: yaml_file_cat
