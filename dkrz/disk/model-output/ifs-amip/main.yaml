@@ -1,21 +1,21 @@
 sources:
-  amip-hist-obs:
+  amip-hist-obs.atmos.gr025:
     args:
-      path: "{{CATALOG_DIR}}/amip-hist-obs/atm/main.yaml"
+      path: "{{CATALOG_DIR}}/amip-hist-obs/atmos/gr025/main.yaml"
     description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and new EERIE configuration 
     driver: yaml_file_cat
-  amip-hist-obs-lr30:
+  amip-hist-obs-lr30.atmos.gr025:
     args:
-      path: "{{CATALOG_DIR}}/amip-hist-obs-lr30/atm/main.yaml"
+      path: "{{CATALOG_DIR}}/amip-hist-obs-lr30/atmos/gr025/main.yaml"
     description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 output available at DKRZ disk - smoothed OSTIA SST and new EERIE configuration 
     driver: yaml_file_cat
-  amip-ng-obs:
+  amip-ng-obs.atmos.gr025:
     args:
-      path: "{{CATALOG_DIR}}/amip-ng-obs/atm/main.yaml"
+      path: "{{CATALOG_DIR}}/amip-ng-obs/atmos/gr025/main.yaml"
     description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and NextGEMS cycle3 configuration 
     driver: yaml_file_cat
-  amip-ng-obs-lr30:
+  amip-ng-obs-lr30.atmos.gr025:
     args:
-      path: "{{CATALOG_DIR}}/amip-ng-obs-lr30/atm/main.yaml"
+      path: "{{CATALOG_DIR}}/amip-ng-obs-lr30/atmos/gr025/main.yaml"
     description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 output available at DKRZ disk - smoothed OSTIA SST and NextGEMS cycle3 configuration 
     driver: yaml_file_cat
