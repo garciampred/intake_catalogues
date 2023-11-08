@@ -10,6 +10,7 @@ sources:
       xarray_kwargs:
         compat: override
         coords: minimal
+        data_vars: minimal
         decode_times: 'False'
     driver: netcdf
   monthly:
@@ -17,6 +18,7 @@ sources:
       urlpath: /work/bm1344/b382119/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/Omon/*/gn/v20220109/*
       xarray_kwargs:
         compat: override
+        data_vars: minimal
         coords: minimal
         decode_times: 'False'
     driver: netcdf
