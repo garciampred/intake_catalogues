@@ -51,12 +51,12 @@ sources:
       consolidated: false
       urlpath: /work/bk1377/b382473/obs/OSTIA/original_anom_fl_latlon_5_5.zarr
   rossby_0.05deg:
-    description: Rossby radius at 1/20 degree OSTIA grid. 1/4 data has been bilinearly regridded and smoothed with a 1x1 degree gcm-filter to remove the 1/4 structure visible in the data.
+    description: Rossby radius at 1/20 degree OSTIA grid. 1/4 data has been bilinearly regridded and smoothed with a 1x1 degree gcm-filter to remove the 1/4 structure visible in the data. Note land is not masked but filled using cdo setmisstonn. See OSTIA data for land-sea mask.
     driver: netcdf
     args:
       urlpath: "/work/bk1377/b382473/obs/OSTIA/rossby_radius/LR_filtered_1degree.nc"
   rossby_0.25deg:
-    description: Rossby radius at 1/4 degree grid
+    description: Rossby radius at irregular 1/4 degree grid. 
     driver: netcdf
     args:
       urlpath: "/work/bk1377/b382473/obs/OSTIA/rossby_radius/rossrad_miss_025.nc"
