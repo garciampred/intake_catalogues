@@ -4,8 +4,19 @@ plugins:
 sources:
   daily:
     args:
-      urlpath: /work/bm1344/b382119/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/day/*/gr/v20220109/*
+      urlpath: /work/bm1344/b382119/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/day/{{var}}/gr/v20220109/*
       xarray_kwargs:
         compat: override
         coords: minimal
     driver: netcdf
+    parameters:
+      var:
+        allowed:
+        - hfls
+        - hfss
+        - hus
+        - ua
+        - va
+        default: hfls
+        description: Variable name
+        type: str
