@@ -10,8 +10,6 @@ sources:
       xarray_kwargs:
         compat: override
         coords: minimal
-        data_vars: minimal
-        decode_times: 'False'
     driver: netcdf
   monthly:
     args:
@@ -19,5 +17,4 @@ sources:
       xarray_kwargs:
         compat: override
         coords: minimal
-        decode_times: 'False'
     driver: netcdf

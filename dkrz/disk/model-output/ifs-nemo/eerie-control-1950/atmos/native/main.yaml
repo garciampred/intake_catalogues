@@ -8,5 +8,4 @@ sources:
       xarray_kwargs:
         compat: override
         coords: minimal
-        decode_times: 'False'
     driver: netcdf
