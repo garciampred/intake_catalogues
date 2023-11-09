@@ -2,11 +2,20 @@ plugins:
   source:
   - module: intake_xarray
 sources:
-  daily:
+  2d_daily:
     args:
-      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/IFS/025/daily/*.nc
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/IFS/025/daily/2d/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
         decode_times: 'False'
     driver: netcdf
+  3d_daily:
+    args:
+      urlpath: /work/bm1344/a270228/EERIE_Hackathon/IFS-FESOM_CONTROL-1950/tco1279-NG5/*/IFS/025/daily/3d/*.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+        decode_times: 'False'
+    driver: netcdf
+
