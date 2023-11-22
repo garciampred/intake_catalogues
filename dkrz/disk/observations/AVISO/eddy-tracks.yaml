@@ -1,0 +1,15 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  cyclonic:
+    description: cyclones eddies
+    driver: netcdf
+    args:
+      urlpath: "/work/bk1377/b382473/obs/AVISO/META3.2_DT_allsat_Cyclonic_long_19930101_20220209.nc"
+  anticyclonic:
+    description: anticyclones eddies
+    driver: netcdf
+    args:
+      urlpath: "/work/bk1377/b382473/obs/AVISO/META3.2_DT_allsat_Anticyclonic_long_19930101_20220209.nc"

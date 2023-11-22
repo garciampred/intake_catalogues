@@ -4,3 +4,8 @@ sources:
     driver: yaml_file_cat
     args:
       path: "{{CATALOG_DIR}}/ssh-L4.yaml"
+ eddy-tracks:
+    description: AVISO eddy tracks with py-eddy-tracker
+    driver: yaml_file_cat
+    args:
+      path: "{{CATALOG_DIR}}/eddy-tracks.yaml"
