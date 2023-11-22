@@ -3,34 +3,38 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/atm_2d_1d_max_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_max_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON Control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON Control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40340 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Fri Oct 13 11:35:48 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
+      history: 'Sun Oct 22 12:39:30 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
         -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,tas,sfcwind /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atm_2d_1d_max_20020301T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_max_remap025/run_20020201T000000-20020228T235845/erc1011_atm_2d_1d_max_remap025_20020301T000000Z.nc_temp
+        -selname,tas,sfcwind /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_max_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_max_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_max_remap025_20020201T000000Z.nc_temp
 
-        ./icon at 20230924 154129'
+        ./icon at 20230924 141009'
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
+      member_id: r1i1p1f1
       plots:
         quadmesh:
           geo: true
@@ -47,6 +51,7 @@ sources:
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
+      source_type: AOGCM
       time_reduction: max
       title: ICON simulation
       variable-long_names:
@@ -59,36 +64,40 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/atm_2d_1d_mean_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_mean_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON Control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON Control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40338 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1day
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Fri Oct 13 10:44:08 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
+      history: 'Sun Oct 22 12:27:30 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
         -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
         -selname,ps,dew2,tas,pr,psl,sfcwind,clt,uas,vas,hfls,hfss,rlds,rlus,rsds,rsus,rlut,evspsbl
-        /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atm_2d_1d_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_mean_remap025/run_20020201T000000-20020228T235845/erc1011_atm_2d_1d_mean_remap025_20020201T000000Z.nc_temp
+        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_mean_20020101T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_mean_remap025_20020101T000000Z.nc_temp
 
-        ./icon at 20230924 154129'
+        ./icon at 20230924 141009'
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
+      member_id: r1i1p1f1
       plots:
         quadmesh:
           geo: true
@@ -105,6 +114,7 @@ sources:
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
+      source_type: AOGCM
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -147,34 +157,38 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/atm_2d_1d_min_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_min_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON Control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON Control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40339 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Fri Oct 13 11:33:34 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
+      history: 'Sun Oct 22 12:36:46 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
         -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,tas /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atm_2d_1d_min_20020301T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_min_remap025/run_20020201T000000-20020228T235845/erc1011_atm_2d_1d_min_remap025_20020301T000000Z.nc_temp
+        -selname,tas /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_min_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_min_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_min_remap025_20020201T000000Z.nc_temp
 
-        ./icon at 20230924 154129'
+        ./icon at 20230924 141009'
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
+      member_id: r1i1p1f1
       plots:
         quadmesh:
           geo: true
@@ -191,6 +205,7 @@ sources:
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
+      source_type: AOGCM
       time_reduction: min
       title: ICON simulation
       variable-long_names:
@@ -201,36 +216,40 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/atm_2d_1mth_mean_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1mth_mean_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON Control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON Control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40335 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Fri Oct 13 13:38:54 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
+      history: 'Sun Oct 22 12:24:08 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
         -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
         -selname,tas,tasmin,tasmax,ts,psl,ps,uas,vas,sfcwind,dew2,pr,evspsbl,tauu,tauv,hfls,hfss,rlds,rlus,rsds,rsus,rsdscs,rsuscs,rldscs,rsdt,rsut,rlut,rlutcs,rsutcs,prw,clt,clivi,cllvi
-        /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atm_2d_1mth_mean_20020301T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1mth_mean_remap025/run_20020201T000000-20020228T235845/erc1011_atm_2d_1mth_mean_remap025_20020301T000000Z.nc_temp
+        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1mth_mean_remap025_20020201T000000Z.nc_temp
 
-        ./icon at 20230924 154129'
+        ./icon at 20230924 141009'
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
+      member_id: r1i1p1f1
       plots:
         quadmesh:
           geo: true
@@ -247,6 +266,7 @@ sources:
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
+      source_type: AOGCM
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -319,35 +339,39 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/atm_ml_1mth_mean_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1mth_mean_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON Control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON Control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40334 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Fri Oct 13 12:41:18 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
+      history: 'Sun Oct 22 12:17:55 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
         -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,ta,ua,va,wa,hus,gpsm,clw,cli,pfull,phalf /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atm_ml_1mth_mean_20020301T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_ml_1mth_mean_remap025/run_20020201T000000-20020228T235845/erc1011_atm_ml_1mth_mean_remap025_20020301T000000Z.nc_temp
+        -selname,ta,ua,va,wa,hus,gpsm,clw,cli,pfull,phalf /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_ml_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_ml_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_atm_ml_1mth_mean_remap025_20020201T000000Z.nc_temp
 
-        ./icon at 20230924 154129'
+        ./icon at 20230924 141009'
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
+      member_id: r1i1p1f1
       plots:
         quadmesh:
           geo: true
@@ -364,6 +388,7 @@ sources:
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
+      source_type: AOGCM
       time_reduction: mean
       title: ICON simulation
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
@@ -383,6 +408,164 @@ sources:
       - clw
       - gpsm
       - height_bnds
+      - hus
+      - pfull
+      - phalf
+      - ta
+      - ua
+      - va
+      - wa
+  plev19_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1d_mean_remap025/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40570 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1day
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: 'Mon Oct 30 09:40:41 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        -selname,ta,ua,va,wa,hus,gpsm,pfull /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1d_mean/erc1011_atm_plev19_1d_mean_1_20080102T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1d_mean_remap025/erc1011_atm_plev19_1d_mean_remap025_20080102T000000Z.nc_temp
+
+        Wed Oct 25 17:50:19 2023: cdo -L -P 16 -ap2pl,100000,92500,85000,70000,60000,50000,40000,30000,25000,20000,15000,10000,7000,5000,3000,2000,1000,500,100
+        -merge [ /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atm_ml_1d_mean_1_20080102T000000Z.nc
+        /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atm_ml_1d_mean_2_20080102T000000Z.nc
+        ] /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/atm_plev19_1d_mean/erc1011_atm_plev19_1d_mean_1_20080102T000000Z.nc_temp
+
+        ./icon at 20231005 005908'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: gpsm
+      project: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      title: ICON simulation
+      variable-long_names:
+      - geopotential above surface
+      - Specific humidity
+      - Pressure
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+      variables:
+      - gpsm
+      - hus
+      - pfull
+      - ta
+      - ua
+      - va
+      - wa
+  plev19_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1mth_mean_remap025/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30782 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: 'Mon Oct 16 13:40:40 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        -selname,ta,ua,va,wa,hus,gpsm,clw,cli,pfull,phalf /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1mth_mean/erc1011_atm_plev19_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1mth_mean_remap025/erc1011_atm_plev19_1mth_mean_remap025_20020201T000000Z.nc_temp
+
+        Wed Oct 04 11:36:18 2023: cdo -P 48 -ap2pl,100000,92500,85000,70000,60000,50000,40000,30000,25000,20000,15000,10000,7000,5000,3000,2000,1000,500,100
+        /work/bm1344/k203123/experiments/erc1011/run_19500101T000000-19500131T235845/erc1011_atm_ml_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/erc1011_atm_plev19_1mth_mean_20020201T000000Z.nc_temp
+
+        ./icon at 20230924 115726'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      plots:
+        quadmesh:
+          geo: true
+          height: 600
+          project: true
+          rasterize: true
+          width: 800
+          x: lon
+          y: lat
+          z: cli
+      project: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - specific cloud ice content
+      - specific cloud water content
+      - geopotential above surface
+      - Specific humidity
+      - Pressure
+      - pressure at half level
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+      variables:
+      - cli
+      - clw
+      - gpsm
       - hus
       - pfull
       - phalf

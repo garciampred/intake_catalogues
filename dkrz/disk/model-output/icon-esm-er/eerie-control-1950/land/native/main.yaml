@@ -3,20 +3,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/lnd_2d_1d_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1d_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40331 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1day
@@ -43,8 +45,6 @@ sources:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
       - drainage
       - Surface runoff
-      - center latitude
-      - center longitude
       variables:
       - cell_sea_land_mask
       - hydro_drainage_box
@@ -54,27 +54,27 @@ sources:
       - hydro_w_snow_box
       - hydro_w_snow_can_box
       - hydro_w_soil_sl_box
-      - lat
-      - lon
       - soil_depth_water_bnds
   2d_monthly_mean:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/lnd_2d_1mth_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
@@ -105,8 +105,6 @@ sources:
       - Surface runoff
       - Density of snow on soil
       - Transpiration from surface
-      - center latitude
-      - center longitude
       - Ground heat flux (old)
       variables:
       - cell_sea_land_mask
@@ -118,6 +116,4 @@ sources:
       - hydro_transpiration_box
       - hydro_w_snow_box
       - hydro_w_snow_can_box
-      - lat
-      - lon
       - sse_grnd_hflx_old_box

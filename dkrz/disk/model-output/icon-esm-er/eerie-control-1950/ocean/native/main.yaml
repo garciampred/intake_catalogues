@@ -3,20 +3,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1d_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40340 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1day
@@ -62,8 +64,6 @@ sources:
       - snow thickness
       - zonal velocity
       - meridional velocity
-      - center latitude
-      - center longitude
       - ocean_mixed_layer_thickness_defined_by_sigma_t
       - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
       - Sea Level Pressure
@@ -97,8 +97,6 @@ sources:
       - hs
       - ice_u
       - ice_v
-      - lat
-      - lon
       - mlotst
       - mlotst10
       - sea_level_pressure
@@ -113,20 +111,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1d_square.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_square/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40341 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1day
@@ -151,32 +151,30 @@ sources:
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - center latitude
-      - center longitude
       - sea water potential temperature
       variables:
       - cell_sea_land_mask
-      - lat
-      - lon
       - to
   2d_monthly_mean:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1mth_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40344 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
@@ -228,8 +226,6 @@ sources:
       - snow thickness
       - zonal velocity
       - meridional velocity
-      - center latitude
-      - center longitude
       - ocean_mixed_layer_thickness_defined_by_sigma_t
       - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
       - Sea Level Pressure
@@ -266,8 +262,6 @@ sources:
       - hs
       - ice_u
       - ice_v
-      - lat
-      - lon
       - mlotst
       - mlotst10
       - sea_level_pressure
@@ -280,20 +274,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_2d_1mth_square.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_square/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40345 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
@@ -319,16 +315,12 @@ sources:
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - center latitude
-      - center longitude
       - ocean_mixed_layer_thickness_defined_by_sigma_t
       - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
       - surface elevation at cell center
       - sea water potential temperature
       variables:
       - cell_sea_land_mask
-      - lat
-      - lon
       - mlotst
       - mlotst10
       - ssh
@@ -337,22 +329,24 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_5lev_1d_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_5lev_1d_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40329 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-      grid_label: gn
+      grid_label: native
       history: ./icon at 20231007 021342
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       member_id: r1i1p1f1
@@ -366,8 +360,6 @@ sources:
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - center latitude
-      - center longitude
       - sea water salinity
       - sea water potential temperature
       - u zonal velocity component
@@ -375,8 +367,6 @@ sources:
       - vertical velocity at cells
       variables:
       - cell_sea_land_mask
-      - lat
-      - lon
       - so
       - to
       - u
@@ -386,20 +376,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_eddy_1mth_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_eddy_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40339 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
@@ -430,8 +422,6 @@ sources:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
       - product of fw flux and density
       - product of net heatflux and density
-      - center latitude
-      - center longitude
       - density anomaly
       - product of x windstress and u-velocity
       - product of y windstress and v-velocity
@@ -458,8 +448,6 @@ sources:
       - cell_sea_land_mask
       - fwR
       - hflR
-      - lat
-      - lon
       - sigma0
       - tauxu
       - tauyv
@@ -483,20 +471,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_moc_1mth_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_moc_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
@@ -587,20 +577,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_ml_1mth_mean.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_ml_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40346 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
@@ -625,8 +617,7 @@ sources:
       uri: /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_oce_ml_1mth_mean_20020301T000000Z.nc
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
-      - center latitude
-      - center longitude
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
       - Net Rate of Absorption of Shortwave Energy in Ocean Layer
       - sea water salinity
       - sea water potential temperature
@@ -634,8 +625,7 @@ sources:
       - v meridional velocity component
       - vertical velocity at cells
       variables:
-      - lat
-      - lon
+      - cell_sea_land_mask
       - rsdoabsorb
       - so
       - to
@@ -646,20 +636,22 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/erc1011_oce_mon.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/erc1011_oce_mon/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       comment: Sapphire Dyamond (k203123) on l40339 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month

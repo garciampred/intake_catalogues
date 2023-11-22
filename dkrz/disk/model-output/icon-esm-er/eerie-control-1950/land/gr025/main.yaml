@@ -3,22 +3,24 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/lnd_2d_1d_mean_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1d_mean_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40331 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1day
@@ -71,34 +73,37 @@ sources:
     args:
       chunks: auto
       consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/lnd_2d_1mth_mean_remap025.json
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1mth_mean_remap025/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
       DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-1950control run
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       cdo_openmp_thread_number: 16
       comment: Sapphire Dyamond (k203123) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
-      experiment: erc1011
+      experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       frequency: 1month
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Fri Oct 13 11:39:29 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+      history: 'Mon Oct 30 04:41:39 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights_lnd_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
         -selname,hydro_w_snow_box,hydro_w_snow_can_box,hydro_discharge_ocean_box,hydro_drainage_box,hydro_runoff_box,hydro_transpiration_box,sse_grnd_hflx_old_box,hydro_canopy_cond_limited_box,hydro_snow_soil_dens_box
-        /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_lnd_2d_1mth_mean_20020301T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//lnd_2d_1mth_mean_remap025/run_20020201T000000-20020228T235845/erc1011_lnd_2d_1mth_mean_remap025_20020301T000000Z.nc_temp
+        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_lnd_2d_1mth_mean_20020201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_lsm.nc ]
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//lnd_2d_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_lnd_2d_1mth_mean_remap025_20020201T000000Z.nc_temp
 
-        ./icon at 20230924 154129'
+        ./icon at 20230924 141009'
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
