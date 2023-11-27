@@ -39,11 +39,17 @@ sources:
       level_type: ml
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - 0.0
+          - 0.001
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -109,11 +115,17 @@ sources:
       level_type: ml
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - 0.0
+          - 0.016
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat

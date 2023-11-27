@@ -39,11 +39,17 @@ sources:
       level_type: 2d
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - 0.56
+          - 23.055
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -140,11 +146,17 @@ sources:
       level_type: 2d
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - -537.923
+          - 387.823
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -201,11 +213,17 @@ sources:
       level_type: 2d
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - 0.0
+          - 833.172
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -263,11 +281,17 @@ sources:
       level_type: 2d
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - -277.509
+          - 11.871
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -370,11 +394,17 @@ sources:
       level_type: 2d
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - -350.987
+          - 323.66
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -431,11 +461,17 @@ sources:
       level_type: 2d
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - 1.011
+          - 6474432.5
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
@@ -498,15 +534,23 @@ sources:
       level_type: ml
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - -1.748
+          - 2.03
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby:
+          - time
+          - depth
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
-          z: so
+          z: v
       project: EERIE
       realm: oce
       references: see MPIM/DWD publications
@@ -566,15 +610,21 @@ sources:
       level_type: ml
       member_id: r1i1p1f1
       plots:
-        quadmesh:
+        quicklook:
+          aspect: 1
+          clim: !!python/tuple
+          - -0.0
+          - 0.0
+          cmap: jet
+          coastline: 50m
           geo: true
-          height: 600
-          project: true
-          rasterize: true
+          groupby: time
+          kind: image
+          use_dask: true
           width: 800
           x: lon
           y: lat
-          z: RR
+          z: fwR
       project: EERIE
       realm: oce
       references: see MPIM/DWD publications
@@ -634,61 +684,3 @@ sources:
       - wT
       - w_prismcenter
       - ww
-  model-level_daily_mean:
-    args:
-      chunks: auto
-      consolidated: false
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/erc1011/oce_ml_1d_mean_remap025.json
-    driver: zarr
-    metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
-      Conventions: CF-1.6
-      DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON Control run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON Control run
-      cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l40342 (Linux 4.18.0-372.32.1.el8_6.x86_64
-        x86_64)
-      experiment: erc1011
-      experiment_id: eerie-1950control
-      format: netcdf
-      frequency: 1day
-      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
-      grid_label: gn
-      history: 'Sun Oct 22 03:27:44 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,to,so /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_ml_1d_mean_20020102T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_ml_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_ml_1d_mean_remap025_20020102T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
-      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
-      institution_id: MPI-M
-      level_type: ml
-      plots:
-        quadmesh:
-          geo: true
-          height: 600
-          project: true
-          rasterize: true
-          width: 800
-          x: lon
-          y: lat
-          z: so
-      project: EERIE
-      realm: oce
-      references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
-      source_id: ICON-ESM
-      time_reduction: mean
-      title: ICON simulation
-      variable-long_names:
-      - sea water salinity
-      - sea water potential temperature
-      variables:
-      - so
-      - to
