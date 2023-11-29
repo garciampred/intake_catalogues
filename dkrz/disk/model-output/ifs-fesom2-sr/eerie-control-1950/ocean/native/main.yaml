@@ -67,7 +67,7 @@ sources:
         - sst
         - uice
         - vice
-        default: null
+        default: MLD1
         description: All available variables in the dataset
         type: str
   elem_grid:
@@ -145,7 +145,7 @@ sources:
         - ty_sur
         - u
         - v
-        default: null
+        default: tx_sur
         description: All available variables in the dataset
         type: str
   nod_monthly:
@@ -201,7 +201,7 @@ sources:
         - salt
         - temp
         - w
-        default: null
+        default: salt
         description: All available variables in the dataset
         type: str
   node_grid:
