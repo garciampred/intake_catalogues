@@ -55,16 +55,21 @@ sources:
       - sea surface temperature
       - ice velocity x
       - ice velocity y
+    parameters:
       variables:
-      - MLD1
-      - MLD2
-      - a_ice
-      - m_ice
-      - ssh
-      - sss
-      - sst
-      - uice
-      - vice
+        allowed:
+        - MLD1
+        - MLD2
+        - a_ice
+        - m_ice
+        - ssh
+        - sss
+        - sst
+        - uice
+        - vice
+        default: null
+        description: All available variables in the dataset
+        type: str
   elem_grid:
     args:
       urlpath: /work/bm1235/a270046/meshes/NG5_griddes_elems_IFS.nc
@@ -133,11 +138,16 @@ sources:
       - meridional wind str. to ocean
       - zonal velocity
       - meridional velocity
+    parameters:
       variables:
-      - tx_sur
-      - ty_sur
-      - u
-      - v
+        allowed:
+        - tx_sur
+        - ty_sur
+        - u
+        - v
+        default: null
+        description: All available variables in the dataset
+        type: str
   nod_monthly:
     args:
       chunks: auto
@@ -185,10 +195,15 @@ sources:
       - salinity
       - temperature
       - vertical velocity
+    parameters:
       variables:
-      - salt
-      - temp
-      - w
+        allowed:
+        - salt
+        - temp
+        - w
+        default: null
+        description: All available variables in the dataset
+        type: str
   node_grid:
     args:
       urlpath: /work/bm1235/a270046/meshes/NG5_griddes_nodes_IFS.nc

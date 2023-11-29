@@ -1,66 +1,4 @@
 sources:
-  daily:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/IFS_025_daily_3d/combined.parq
-    driver: zarr
-    metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
-      Conventions: CF-1.6
-      DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
-      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
-      activity_id: EERIE
-      experiment: ifs-fesom2-sr_eerie-control-1950
-      experiment_id: eerie-control-1950
-      grid_label: gr025
-      history: deleted for convenience
-      institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r1i1p1f1
-      plots:
-        quicklook:
-          aspect: 1
-          clim: !!python/tuple
-          - -2786.529
-          - 490457.344
-          cmap: jet
-          coastline: 50m
-          geo: true
-          groupby:
-          - time
-          - plev
-          kind: image
-          use_dask: true
-          width: 800
-          x: lon
-          y: lat
-          z: z
-      simulation_id: IFS-FESOM2-SR_eerie-control-1950
-      source_id: IFS-FESOM2-SR
-      source_type: AOGCM
-      variable-long_names:
-      - Specific humidity
-      - Relative humidity
-      - Temperature
-      - U component of wind
-      - V component of wind
-      - Vertical velocity
-      - Geopotential
-      variables:
-      - q
-      - r
-      - t
-      - time_bnds
-      - u
-      - v
-      - w
-      - z
   daily_2d:
     args:
       chunks: auto
@@ -88,9 +26,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 220.956
-          - 308.85
           cmap: jet
           coastline: 50m
           geo: true
@@ -100,7 +35,7 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: 2t
+          z: '{{variables}}'
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
@@ -120,19 +55,88 @@ sources:
       - Total Precipitation
       - Top net short-wave (solar) radiation
       - Top net long-wave (thermal) radiation
+    parameters:
       variables:
-      - 2t
-      - ewss
-      - msl
-      - nsss
-      - sd
-      - slhf
-      - sp
-      - sshf
-      - ssr
-      - ssrd
-      - str
-      - strd
-      - tp
-      - tsr
-      - ttr
+        allowed:
+        - 2t
+        - ewss
+        - msl
+        - nsss
+        - sd
+        - slhf
+        - sp
+        - sshf
+        - ssr
+        - ssrd
+        - str
+        - strd
+        - tp
+        - tsr
+        - ttr
+        default: 2t
+        description: All available variables in the dataset
+        type: str
+  daily_3d:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/IFS_025_daily_3d/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      experiment: ifs-fesom2-sr_eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby:
+          - time
+          - plev
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      variable-long_names:
+      - Specific humidity
+      - Relative humidity
+      - Temperature
+      - U component of wind
+      - V component of wind
+      - Vertical velocity
+      - Geopotential
+    parameters:
+      variables:
+        allowed:
+        - q
+        - r
+        - t
+        - time_bnds
+        - u
+        - v
+        - w
+        - z
+        default: z
+        description: All available variables in the dataset
+        type: str
