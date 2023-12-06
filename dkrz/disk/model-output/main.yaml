@@ -24,3 +24,8 @@ sources:
       urlpath: "/work/bm1344/DKRZ/intake/dkrz_eerie_disk.csv.gz"
     description: Intake-ESM data base
     driver: csv
+  esm-json:
+    args:
+      urlpath: "{{CATALOG_DIR}}/esm.json"
+    description: ''
+    driver: intake.source.textfiles.TextFilesSource
