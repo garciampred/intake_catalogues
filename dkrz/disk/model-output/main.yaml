@@ -21,7 +21,7 @@ sources:
     driver: yaml_file_cat    
   csv:
     args:
-      urlpath: "/work/bm1344/DKRZ/intake/dkrz_eerie_disk.csv.gz"
+      urlpath: "{{CATALOG_DIR}}/dkrz_eerie_disk.csv.gz"
     description: Intake-ESM data base
     driver: csv
   esm-json:
