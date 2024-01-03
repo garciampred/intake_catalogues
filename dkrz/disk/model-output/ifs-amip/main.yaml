@@ -7,7 +7,17 @@ sources:
   amip-hist-obs-lr30.atmos.gr025:
     args:
       path: "{{CATALOG_DIR}}/amip-hist-obs-lr30/atmos/gr025/main.yaml"
-    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 output available at DKRZ disk - smoothed OSTIA SST and new EERIE configuration 
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 output available at DKRZ disk - smoothed OSTIA SST anomalies and new EERIE configuration 
+    driver: yaml_file_cat
+  amip-hist-obs-c-lr30-a-0.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/amip-hist-obs-c-lr30-a-0/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-c-lr30-a-0 output available at DKRZ disk - smoothed OSTIA SST climatology and new EERIE configuration 
+    driver: yaml_file_cat
+  amip-hist-obs-c-lr30-a-lr30.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/amip-hist-obs-c-lr30-a-lr30/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-c-lr30-a-lr30 output available at DKRZ disk - smoothed OSTIA SST climatology & anomalies, and new EERIE configuration 
     driver: yaml_file_cat
   amip-ng-obs.atmos.gr025:
     args:
