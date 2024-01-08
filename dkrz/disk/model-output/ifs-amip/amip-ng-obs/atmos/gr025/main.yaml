@@ -8,16 +8,25 @@ sources:
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/RAPS/OSTIA/gribscan/dcda/json.dir/atm2d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/dcda/atm2d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   2D_6h_0.25deg_lightning:
     description: 2D 6-hourly variables from IFS-AMIP - only lightning density
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/RAPS/OSTIA/gribscan/lightning/json.dir/atm2d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/lightning/atm2d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   3D_24h_0.25deg:
     description: 3D daily variables from IFS-AMIP
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/RAPS/OSTIA/gribscan/dcda/json.dir/atm3d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/dcda/atm3d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file

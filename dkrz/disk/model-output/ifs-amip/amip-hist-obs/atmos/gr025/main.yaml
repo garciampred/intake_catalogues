@@ -13,34 +13,52 @@ sources:
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/2D_6h_0.25deg/json.dir/atm2d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/2D_6h_0.25deg/atm2d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   2D_24h_0.25deg:
     description: 2D daily variables from IFS-AMIP
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/2D_24h_0.25deg/json.dir/atm2d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/2D_24h_0.25deg/atm2d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   2D_monthly_0.25deg:
     description: 2D monthly variables from IFS-AMIP
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/2D_monthly_0.25deg/json.dir/atm2d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/2D_monthly_0.25deg/atm2d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   3D_6h_0.25deg:
     description: 3D 6-hourly variables from IFS-AMIP
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/3D_6h_0.25deg/json.dir/atm3d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/3D_6h_0.25deg/atm3d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   3D_24h_0.25deg:
     description: 3D daily variables from IFS-AMIP
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/3D_24h_0.25deg/json.dir/atm3d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/3D_24h_0.25deg/atm3d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
   3D_monthly_0.25deg:
     description: 3D monthly variables from IFS-AMIP
     driver: zarr
     args:
       consolidated: False
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/3D_monthly_0.25deg/json.dir/atm3d.json
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/3D_monthly_0.25deg/atm3d.parq
+      storage_options:
+        lazy: True
+        remote_protocol: file
