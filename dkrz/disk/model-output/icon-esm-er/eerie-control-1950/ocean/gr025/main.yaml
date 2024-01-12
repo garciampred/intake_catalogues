@@ -4,6 +4,7 @@ sources:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_mean_remap025/combined.parq
     driver: zarr
@@ -26,14 +27,7 @@ sources:
       frequency: 1day
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Sat Oct 21 13:40:43 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,atmos_fluxes_FrshFlux_Evaporation,atmos_fluxes_FrshFlux_Precipitation,atmos_fluxes_FrshFlux_Runoff,atmos_fluxes_FrshFlux_SnowFall,atmos_fluxes_HeatFlux_Latent,atmos_fluxes_HeatFlux_Sensible,atmos_fluxes_HeatFlux_LongWave,atmos_fluxes_HeatFlux_ShortWave,atmos_fluxes_HeatFlux_Total,atmos_fluxes_stress_x,delhs,mlotst,mlotst10,ssh,sea_level_pressure,Wind_Speed_10m,stretch_c,to,so,u,v
-        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_mean_20020101T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_mean_remap025_20020101T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -41,9 +35,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 0.56
-          - 23.055
           cmap: jet
           coastline: 50m
           geo: true
@@ -53,14 +44,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: Wind_Speed_10m
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 1095839
+      time_min: 1439
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -75,7 +69,16 @@ sources:
       - atmos_fluxes_HeatFlux_ShortWave
       - atmos_fluxes_HeatFlux_Total
       - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
       - Change in mean snow thickness due to thermodynamic melting
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
       - ocean_mixed_layer_thickness_defined_by_sigma_t
       - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
       - Sea Level Pressure
@@ -85,33 +88,48 @@ sources:
       - sea water potential temperature
       - u zonal velocity component
       - v meridional velocity component
+    parameters:
       variables:
-      - Wind_Speed_10m
-      - atmos_fluxes_FrshFlux_Evaporation
-      - atmos_fluxes_FrshFlux_Precipitation
-      - atmos_fluxes_FrshFlux_Runoff
-      - atmos_fluxes_FrshFlux_SnowFall
-      - atmos_fluxes_HeatFlux_Latent
-      - atmos_fluxes_HeatFlux_LongWave
-      - atmos_fluxes_HeatFlux_Sensible
-      - atmos_fluxes_HeatFlux_ShortWave
-      - atmos_fluxes_HeatFlux_Total
-      - atmos_fluxes_stress_x
-      - delhs
-      - mlotst
-      - mlotst10
-      - sea_level_pressure
-      - so
-      - ssh
-      - stretch_c
-      - to
-      - u
-      - v
+        allowed:
+        - Wind_Speed_10m
+        - atmos_fluxes_FrshFlux_Evaporation
+        - atmos_fluxes_FrshFlux_Precipitation
+        - atmos_fluxes_FrshFlux_Runoff
+        - atmos_fluxes_FrshFlux_SnowFall
+        - atmos_fluxes_HeatFlux_Latent
+        - atmos_fluxes_HeatFlux_LongWave
+        - atmos_fluxes_HeatFlux_Sensible
+        - atmos_fluxes_HeatFlux_ShortWave
+        - atmos_fluxes_HeatFlux_Total
+        - atmos_fluxes_stress_x
+        - atmos_fluxes_stress_xw
+        - atmos_fluxes_stress_y
+        - atmos_fluxes_stress_yw
+        - conc
+        - delhi
+        - delhs
+        - hi
+        - hs
+        - ice_u
+        - ice_v
+        - mlotst
+        - mlotst10
+        - sea_level_pressure
+        - so
+        - ssh
+        - stretch_c
+        - to
+        - u
+        - v
+        default: Wind_Speed_10m
+        description: All available variables in the dataset
+        type: str
   2d_daily_mean_vertical-remap025:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_mean_vertical-remap025/combined.parq
     driver: zarr
@@ -134,13 +152,7 @@ sources:
       frequency: 1day
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Wed Oct 25 10:33:39 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_edge.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc:2
-        -selname,verticallyTotal_mass_flux_e /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_mean_20020101T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm_edge.nc
-        ] /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1d_mean_vertical-remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_mean_remap025_20020101T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -148,9 +160,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -537.923
-          - 387.823
           cmap: jet
           coastline: 50m
           geo: true
@@ -160,25 +169,34 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: verticallyTotal_mass_flux_e
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 1095839
+      time_min: 1439
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
       - vertically integrated mass flux at edges
+    parameters:
       variables:
-      - verticallyTotal_mass_flux_e
+        allowed:
+        - verticallyTotal_mass_flux_e
+        default: verticallyTotal_mass_flux_e
+        description: All available variables in the dataset
+        type: str
   2d_daily_square:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_square_remap025/combined.parq
     driver: zarr
@@ -201,13 +219,7 @@ sources:
       frequency: 1day
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Sat Oct 21 13:57:39 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,to /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_square_20020101T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1d_square_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1d_square_remap025_20020101T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -215,9 +227,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 0.0
-          - 833.172
           cmap: jet
           coastline: 50m
           geo: true
@@ -227,25 +236,34 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: to
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 1095839
+      time_min: 1439
       time_reduction: square
       title: ICON simulation
       variable-long_names:
       - sea water potential temperature
+    parameters:
       variables:
-      - to
+        allowed:
+        - to
+        default: to
+        description: All available variables in the dataset
+        type: str
   2d_monthly_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_mean_remap025/combined.parq
     driver: zarr
@@ -268,14 +286,7 @@ sources:
       frequency: 1month
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Sat Oct 21 17:31:56 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,ssh,to,so,mlotst,mlotst10,atmos_fluxes_HeatFlux_Total,atmos_fluxes_stress_xw,atmos_fluxes_stress_yw,atmos_fluxes_FrshFlux_Evaporation,atmos_fluxes_FrshFlux_Precipitation,atmos_fluxes_FrshFlux_Runoff,atmos_fluxes_FrshFlux_SnowFall,atmos_fluxes_HeatFlux_Latent,atmos_fluxes_HeatFlux_Sensible,atmos_fluxes_HeatFlux_LongWave,atmos_fluxes_HeatFlux_ShortWave,atmos_fluxes_stress_x,atmos_fluxes_stress_y,Qtop,Qbot,ice_v,sea_level_pressure,Wind_Speed_10m,stretch_c
-        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -283,9 +294,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -277.509
-          - 11.871
           cmap: jet
           coastline: 50m
           geo: true
@@ -295,14 +303,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: Qbot
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 2188799
+      time_min: 44639
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -322,6 +333,15 @@ sources:
       - atmos_fluxes_stress_xw
       - atmos_fluxes_stress_y
       - atmos_fluxes_stress_yw
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
+      - Change in mean snow thickness due to thermodynamic melting
+      - heat_content_seaice
+      - heat_conten_snow
+      - heat_content_total
+      - ice thickness
+      - snow thickness
+      - zonal velocity
       - meridional velocity
       - ocean_mixed_layer_thickness_defined_by_sigma_t
       - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
@@ -330,36 +350,51 @@ sources:
       - surface elevation at cell center
       - zstar surface stretch at cell center
       - sea water potential temperature
+    parameters:
       variables:
-      - Qbot
-      - Qtop
-      - Wind_Speed_10m
-      - atmos_fluxes_FrshFlux_Evaporation
-      - atmos_fluxes_FrshFlux_Precipitation
-      - atmos_fluxes_FrshFlux_Runoff
-      - atmos_fluxes_FrshFlux_SnowFall
-      - atmos_fluxes_HeatFlux_Latent
-      - atmos_fluxes_HeatFlux_LongWave
-      - atmos_fluxes_HeatFlux_Sensible
-      - atmos_fluxes_HeatFlux_ShortWave
-      - atmos_fluxes_HeatFlux_Total
-      - atmos_fluxes_stress_x
-      - atmos_fluxes_stress_xw
-      - atmos_fluxes_stress_y
-      - atmos_fluxes_stress_yw
-      - ice_v
-      - mlotst
-      - mlotst10
-      - sea_level_pressure
-      - so
-      - ssh
-      - stretch_c
-      - to
+        allowed:
+        - Qbot
+        - Qtop
+        - Wind_Speed_10m
+        - atmos_fluxes_FrshFlux_Evaporation
+        - atmos_fluxes_FrshFlux_Precipitation
+        - atmos_fluxes_FrshFlux_Runoff
+        - atmos_fluxes_FrshFlux_SnowFall
+        - atmos_fluxes_HeatFlux_Latent
+        - atmos_fluxes_HeatFlux_LongWave
+        - atmos_fluxes_HeatFlux_Sensible
+        - atmos_fluxes_HeatFlux_ShortWave
+        - atmos_fluxes_HeatFlux_Total
+        - atmos_fluxes_stress_x
+        - atmos_fluxes_stress_xw
+        - atmos_fluxes_stress_y
+        - atmos_fluxes_stress_yw
+        - conc
+        - delhi
+        - delhs
+        - heat_content_seaice
+        - heat_content_snow
+        - heat_content_total
+        - hi
+        - hs
+        - ice_u
+        - ice_v
+        - mlotst
+        - mlotst10
+        - sea_level_pressure
+        - so
+        - ssh
+        - stretch_c
+        - to
+        default: Qbot
+        description: All available variables in the dataset
+        type: str
   2d_monthly_mean_vertical-remap025:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_mean_vertical-remap025/combined.parq
     driver: zarr
@@ -382,13 +417,7 @@ sources:
       frequency: 1month
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Mon Oct 30 00:50:51 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_edge.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc:2
-        -selname,verticallyTotal_mass_flux_e /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm_edge.nc
-        ] /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1mth_mean_vertical-remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -396,9 +425,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -350.987
-          - 323.66
           cmap: jet
           coastline: 50m
           geo: true
@@ -408,25 +434,34 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: verticallyTotal_mass_flux_e
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 2188799
+      time_min: 44639
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
       - vertically integrated mass flux at edges
+    parameters:
       variables:
-      - verticallyTotal_mass_flux_e
+        allowed:
+        - verticallyTotal_mass_flux_e
+        default: verticallyTotal_mass_flux_e
+        description: All available variables in the dataset
+        type: str
   2d_monthly_square:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_square_remap025/combined.parq
     driver: zarr
@@ -449,13 +484,7 @@ sources:
       frequency: 1month
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Sat Oct 21 17:37:31 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,ssh,mlotst,mlotst10,to /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_square_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_2d_1mth_square_remap025/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_square_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -463,9 +492,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 1.011
-          - 6474432.5
           cmap: jet
           coastline: 50m
           geo: true
@@ -475,14 +501,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: mlotst
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 2188799
+      time_min: 44639
       time_reduction: square
       title: ICON simulation
       variable-long_names:
@@ -490,16 +519,22 @@ sources:
       - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
       - surface elevation at cell center
       - sea water potential temperature
+    parameters:
       variables:
-      - mlotst
-      - mlotst10
-      - ssh
-      - to
+        allowed:
+        - mlotst
+        - mlotst10
+        - ssh
+        - to
+        default: mlotst
+        description: All available variables in the dataset
+        type: str
   5lev_daily_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_5lev_1d_mean_remap025/combined.parq
     driver: zarr
@@ -522,13 +557,7 @@ sources:
       frequency: 1day
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Thu Oct 26 10:22:55 2023: cdo -L -P 32 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_3d.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,to,so,u,v,rsdoabsorb /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/olev5/erc1011_oce_5lev_1d_mean_20020102T000000Z.nc
-        -sellevel,1,50.55,201.8,617.1,997.9,1451.7 -selname,wet_c /pool/data/ICON/oes/input/r0005/OceanOnly_IcosSymmetric_4932m_rotatedZ37d_modified_srtm30_1min/L72/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.nc
-        ] /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_5lev_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_5lev_1d_mean_remap025_20020102T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
@@ -536,9 +565,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -1.748
-          - 2.03
           cmap: jet
           coastline: 50m
           geo: true
@@ -550,14 +576,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: v
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 71999
+      time_min: 1439
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -565,16 +594,22 @@ sources:
       - sea water potential temperature
       - u zonal velocity component
       - v meridional velocity component
+    parameters:
       variables:
-      - so
-      - to
-      - u
-      - v
+        allowed:
+        - so
+        - to
+        - u
+        - v
+        default: v
+        description: All available variables in the dataset
+        type: str
   eddy_monthly_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_eddy_1mth_mean_remap025/combined.parq
     driver: zarr
@@ -597,14 +632,7 @@ sources:
       frequency: 1month
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gn
-      history: 'Sat Oct 21 18:40:35 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
-        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
-        -selname,w_prismcenter,sigma0,hflR,fwR,tauxu,tauyv,uT,uS,uR,uu,vT,vS,vR,vv,wT,wS,wR,ww,RR,SS,TT,uv,uw,vw
-        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_eddy_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//oce_eddy_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_oce_eddy_1mth_mean_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
@@ -612,9 +640,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -0.0
-          - 0.0
           cmap: jet
           coastline: 50m
           geo: true
@@ -624,14 +649,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: fwR
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: oce
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 2188799
+      time_min: 44639
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -659,28 +687,33 @@ sources:
       - product of vertical velocity and temperature
       - vertical velocity at prism center
       - square of vertical velocity
+    parameters:
       variables:
-      - RR
-      - SS
-      - TT
-      - fwR
-      - hflR
-      - sigma0
-      - tauxu
-      - tauyv
-      - uR
-      - uS
-      - uT
-      - uu
-      - uv
-      - uw
-      - vR
-      - vS
-      - vT
-      - vv
-      - vw
-      - wR
-      - wS
-      - wT
-      - w_prismcenter
-      - ww
+        allowed:
+        - RR
+        - SS
+        - TT
+        - fwR
+        - hflR
+        - sigma0
+        - tauxu
+        - tauyv
+        - uR
+        - uS
+        - uT
+        - uu
+        - uv
+        - uw
+        - vR
+        - vS
+        - vT
+        - vv
+        - vw
+        - wR
+        - wS
+        - wT
+        - w_prismcenter
+        - ww
+        default: fwR
+        description: All available variables in the dataset
+        type: str

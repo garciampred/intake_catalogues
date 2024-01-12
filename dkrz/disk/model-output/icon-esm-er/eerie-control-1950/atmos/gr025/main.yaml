@@ -4,6 +4,7 @@ sources:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_max_remap025/combined.parq
     driver: zarr
@@ -18,19 +19,14 @@ sources:
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l40340 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l50318 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Sun Oct 22 12:39:30 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,tas,sfcwind /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_max_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_max_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_max_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -38,9 +34,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 1.978
-          - 47.912
           cmap: jet
           coastline: 50m
           geo: true
@@ -50,27 +43,36 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: sfcwind
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 4776479
+      time_min: 3682079
       time_reduction: max
       title: ICON simulation
       variable-long_names:
       - 10m windspeed
       - temperature in 2m
+    parameters:
       variables:
-      - sfcwind
-      - tas
+        allowed:
+        - sfcwind
+        - tas
+        default: sfcwind
+        description: All available variables in the dataset
+        type: str
   2d_daily_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_mean_remap025/combined.parq
     driver: zarr
@@ -85,7 +87,7 @@ sources:
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l40338 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l50316 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
@@ -93,13 +95,7 @@ sources:
       frequency: 1day
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Sun Oct 22 12:27:30 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,ps,dew2,tas,pr,psl,sfcwind,clt,uas,vas,hfls,hfss,rlds,rlus,rsds,rsus,rlut,evspsbl
-        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_mean_20020101T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_mean_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_mean_remap025_20020101T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -107,9 +103,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 0.0
-          - 1.0
           cmap: jet
           coastline: 50m
           geo: true
@@ -119,14 +112,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: clt
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 4776479
+      time_min: 3682079
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -147,29 +143,35 @@ sources:
       - temperature in 2m
       - zonal wind in 10m
       - meridional wind in 10m
+    parameters:
       variables:
-      - clt
-      - dew2
-      - evspsbl
-      - hfls
-      - hfss
-      - pr
-      - ps
-      - psl
-      - rlds
-      - rlus
-      - rlut
-      - rsds
-      - rsus
-      - sfcwind
-      - tas
-      - uas
-      - vas
+        allowed:
+        - clt
+        - dew2
+        - evspsbl
+        - hfls
+        - hfss
+        - pr
+        - ps
+        - psl
+        - rlds
+        - rlus
+        - rlut
+        - rsds
+        - rsus
+        - sfcwind
+        - tas
+        - uas
+        - vas
+        default: clt
+        description: All available variables in the dataset
+        type: str
   2d_daily_min:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_min_remap025/combined.parq
     driver: zarr
@@ -184,19 +186,14 @@ sources:
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l40339 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l50317 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Sun Oct 22 12:36:46 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,tas /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_min_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1d_min_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1d_min_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -204,9 +201,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 202.167
-          - 298.021
           cmap: jet
           coastline: 50m
           geo: true
@@ -216,25 +210,34 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: tas
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 4776479
+      time_min: 3682079
       time_reduction: min
       title: ICON simulation
       variable-long_names:
       - temperature in 2m
+    parameters:
       variables:
-      - tas
+        allowed:
+        - tas
+        default: tas
+        description: All available variables in the dataset
+        type: str
   2d_monthly_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1mth_mean_remap025/combined.parq
     driver: zarr
@@ -257,13 +260,7 @@ sources:
       frequency: 1month
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Sun Oct 22 12:24:08 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,tas,tasmin,tasmax,ts,psl,ps,uas,vas,sfcwind,dew2,pr,evspsbl,tauu,tauv,hfls,hfss,rlds,rlus,rsds,rsus,rsdscs,rsuscs,rldscs,rsdt,rsut,rlut,rlutcs,rsutcs,prw,clt,clivi,cllvi
-        /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_2d_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_atm_2d_1mth_mean_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: 2d
@@ -271,9 +268,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - 0.0
-          - 0.225
           cmap: jet
           coastline: 50m
           geo: true
@@ -283,14 +277,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: clivi
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 2188799
+      time_min: 44639
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -326,44 +323,50 @@ sources:
       - surface temperature
       - zonal wind in 10m
       - meridional wind in 10m
+    parameters:
       variables:
-      - clivi
-      - cllvi
-      - clt
-      - dew2
-      - evspsbl
-      - hfls
-      - hfss
-      - pr
-      - prw
-      - ps
-      - psl
-      - rlds
-      - rldscs
-      - rlus
-      - rlut
-      - rlutcs
-      - rsds
-      - rsdscs
-      - rsdt
-      - rsus
-      - rsuscs
-      - rsut
-      - rsutcs
-      - sfcwind
-      - tas
-      - tasmax
-      - tasmin
-      - tauu
-      - tauv
-      - ts
-      - uas
-      - vas
+        allowed:
+        - clivi
+        - cllvi
+        - clt
+        - dew2
+        - evspsbl
+        - hfls
+        - hfss
+        - pr
+        - prw
+        - ps
+        - psl
+        - rlds
+        - rldscs
+        - rlus
+        - rlut
+        - rlutcs
+        - rsds
+        - rsdscs
+        - rsdt
+        - rsus
+        - rsuscs
+        - rsut
+        - rsutcs
+        - sfcwind
+        - tas
+        - tasmax
+        - tasmin
+        - tauu
+        - tauv
+        - ts
+        - uas
+        - vas
+        default: clivi
+        description: All available variables in the dataset
+        type: str
   model-level_monthly_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1mth_mean_remap025/combined.parq
     driver: zarr
@@ -386,12 +389,7 @@ sources:
       frequency: 1month
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Sun Oct 22 12:17:55 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,ta,ua,va,wa,hus,gpsm,clw,cli,pfull,phalf /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_ml_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_ml_1mth_mean_remap025/run_20020101T000000-20020131T235845/erc1011_atm_ml_1mth_mean_remap025_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 141009'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
@@ -399,9 +397,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -98.778
-          - 80.562
           cmap: jet
           coastline: 50m
           geo: true
@@ -413,14 +408,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: va
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 2188799
+      time_min: 44639
       time_reduction: mean
       title: ICON simulation
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
@@ -435,23 +433,29 @@ sources:
       - Zonal wind
       - Meridional wind
       - Vertical velocity
+    parameters:
       variables:
-      - cli
-      - clw
-      - gpsm
-      - height_bnds
-      - hus
-      - pfull
-      - phalf
-      - ta
-      - ua
-      - va
-      - wa
+        allowed:
+        - cli
+        - clw
+        - gpsm
+        - height_bnds
+        - hus
+        - pfull
+        - phalf
+        - ta
+        - ua
+        - va
+        - wa
+        default: va
+        description: All available variables in the dataset
+        type: str
   plev19_daily_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1d_mean_remap025/combined.parq
     driver: zarr
@@ -474,17 +478,7 @@ sources:
       frequency: 1day
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Mon Oct 30 09:40:41 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,ta,ua,va,wa,hus,gpsm,pfull /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1d_mean/erc1011_atm_plev19_1d_mean_1_20080102T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1d_mean_remap025/erc1011_atm_plev19_1d_mean_remap025_20080102T000000Z.nc_temp
-
-        Wed Oct 25 17:50:19 2023: cdo -L -P 16 -ap2pl,100000,92500,85000,70000,60000,50000,40000,30000,25000,20000,15000,10000,7000,5000,3000,2000,1000,500,100
-        -merge [ /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atm_ml_1d_mean_1_20080102T000000Z.nc
-        /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atm_ml_1d_mean_2_20080102T000000Z.nc
-        ] /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/atm_plev19_1d_mean/erc1011_atm_plev19_1d_mean_1_20080102T000000Z.nc_temp
-
-        ./icon at 20231005 005908'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
@@ -492,9 +486,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -61.804
-          - 80.561
           cmap: jet
           coastline: 50m
           geo: true
@@ -506,14 +497,18 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: va
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 3227039
+      time_min: 3156479
+      time_reduction: mean
       title: ICON simulation
       variable-long_names:
       - geopotential above surface
@@ -523,19 +518,25 @@ sources:
       - Zonal wind
       - Meridional wind
       - Vertical velocity
+    parameters:
       variables:
-      - gpsm
-      - hus
-      - pfull
-      - ta
-      - ua
-      - va
-      - wa
+        allowed:
+        - gpsm
+        - hus
+        - pfull
+        - ta
+        - ua
+        - va
+        - wa
+        default: va
+        description: All available variables in the dataset
+        type: str
   plev19_monthly_mean:
     args:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1mth_mean_remap025/combined.parq
     driver: zarr
@@ -558,16 +559,7 @@ sources:
       frequency: 1month
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: 'Mon Oct 16 13:40:40 2023: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/mh0256/m300466/DPP/weights/r2b8G_IFS25invertlat_yconremapweights.nc
-        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
-        -selname,ta,ua,va,wa,hus,gpsm,clw,cli,pfull,phalf /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1mth_mean/erc1011_atm_plev19_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation//atm_plev19_1mth_mean_remap025/erc1011_atm_plev19_1mth_mean_remap025_20020201T000000Z.nc_temp
-
-        Wed Oct 04 11:36:18 2023: cdo -P 48 -ap2pl,100000,92500,85000,70000,60000,50000,40000,30000,25000,20000,15000,10000,7000,5000,3000,2000,1000,500,100
-        /work/bm1344/k203123/experiments/erc1011/run_19500101T000000-19500131T235845/erc1011_atm_ml_1mth_mean_20020201T000000Z.nc
-        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/erc1011_atm_plev19_1mth_mean_20020201T000000Z.nc_temp
-
-        ./icon at 20230924 115726'
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
@@ -575,9 +567,6 @@ sources:
       plots:
         quicklook:
           aspect: 1
-          clim: !!python/tuple
-          - -112.713
-          - 112.465
           cmap: jet
           coastline: 50m
           geo: true
@@ -589,14 +578,17 @@ sources:
           width: 800
           x: lon
           y: lat
-          z: va
+          z: '{{variables}}'
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 29538719
+      time_min: 27394559
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -610,14 +602,19 @@ sources:
       - Zonal wind
       - Meridional wind
       - Vertical velocity
+    parameters:
       variables:
-      - cli
-      - clw
-      - gpsm
-      - hus
-      - pfull
-      - phalf
-      - ta
-      - ua
-      - va
-      - wa
+        allowed:
+        - cli
+        - clw
+        - gpsm
+        - hus
+        - pfull
+        - phalf
+        - ta
+        - ua
+        - va
+        - wa
+        default: va
+        description: All available variables in the dataset
+        type: str

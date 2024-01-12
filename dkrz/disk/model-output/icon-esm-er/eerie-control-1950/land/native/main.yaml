@@ -2,10 +2,17 @@ sources:
   2d_daily_mean:
     args:
       chunks: auto
+      combine_attrs: drop_conflicts
+      compat: override
       consolidated: false
+      coords: minimal
+      data_vars: minimal
       storage_options:
+        lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1d_mean/combined.parq
+      urlpath:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1d_mean/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/lnd_2d_1d_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -16,7 +23,7 @@ sources:
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l40331 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l30780 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
@@ -25,19 +32,22 @@ sources:
       grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: ./icon at 20230924 141009
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
       member_id: r1i1p1f1
       number_of_grid_used: 33
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 28401119
+      time_min: 27351359
       time_reduction: mean
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -45,23 +55,35 @@ sources:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
       - drainage
       - Surface runoff
+    parameters:
       variables:
-      - cell_sea_land_mask
-      - hydro_drainage_box
-      - hydro_fract_snow_box
-      - hydro_runoff_box
-      - hydro_w_ice_sl_box
-      - hydro_w_snow_box
-      - hydro_w_snow_can_box
-      - hydro_w_soil_sl_box
-      - soil_depth_water_bnds
+        allowed:
+        - cell_sea_land_mask
+        - hydro_drainage_box
+        - hydro_fract_snow_box
+        - hydro_runoff_box
+        - hydro_w_ice_sl_box
+        - hydro_w_snow_box
+        - hydro_w_snow_can_box
+        - hydro_w_soil_sl_box
+        - soil_depth_water_bnds
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
   2d_monthly_mean:
     args:
       chunks: auto
+      combine_attrs: drop_conflicts
+      compat: override
       consolidated: false
+      coords: minimal
+      data_vars: minimal
       storage_options:
+        lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1mth_mean/combined.parq
+      urlpath:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/lnd_2d_1mth_mean/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/lnd_2d_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -72,7 +94,7 @@ sources:
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40047 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
@@ -81,22 +103,25 @@ sources:
       grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
-      history: ./icon at 20230924 141009
+      history: deleted for convenience
       institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
       institution_id: MPI-M
       level_type: ml
       member_id: r1i1p1f1
       number_of_grid_used: 33
       project: EERIE
+      project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
+      time_max: 29498399
+      time_min: 27394559
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_lnd_2d_1mth_mean_20020301T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_lnd_2d_1mth_mean_20020201T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
@@ -106,14 +131,19 @@ sources:
       - Density of snow on soil
       - Transpiration from surface
       - Ground heat flux (old)
+    parameters:
       variables:
-      - cell_sea_land_mask
-      - hydro_canopy_cond_limited_box
-      - hydro_discharge_ocean_box
-      - hydro_drainage_box
-      - hydro_runoff_box
-      - hydro_snow_soil_dens_box
-      - hydro_transpiration_box
-      - hydro_w_snow_box
-      - hydro_w_snow_can_box
-      - sse_grnd_hflx_old_box
+        allowed:
+        - cell_sea_land_mask
+        - hydro_canopy_cond_limited_box
+        - hydro_discharge_ocean_box
+        - hydro_drainage_box
+        - hydro_runoff_box
+        - hydro_snow_soil_dens_box
+        - hydro_transpiration_box
+        - hydro_w_snow_box
+        - hydro_w_snow_can_box
+        - sse_grnd_hflx_old_box
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
