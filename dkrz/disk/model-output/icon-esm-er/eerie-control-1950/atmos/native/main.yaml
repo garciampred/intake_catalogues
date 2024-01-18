@@ -2,17 +2,11 @@ sources:
   2d_1h_inst:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1h_inst/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_1h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1h_inst/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -65,17 +59,11 @@ sources:
   2d_1h_mean:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1h_mean/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_1h_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1h_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -128,17 +116,11 @@ sources:
   2d_3h_inst:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_3h_inst/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_3h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_3h_inst/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -195,17 +177,11 @@ sources:
   2d_6h_inst:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_6h_inst/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_6h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_6h_inst/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -268,17 +244,11 @@ sources:
   2d_6h_mean:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_6h_mean/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_6h_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_6h_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -331,17 +301,11 @@ sources:
   2d_daily_max:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_max/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_1d_max/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_max/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -396,17 +360,11 @@ sources:
   2d_daily_mean:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_mean/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -417,7 +375,7 @@ sources:
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l50316 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l30789 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
@@ -440,8 +398,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 4776479
-      time_min: 3682079
+      time_max: 28401119
+      time_min: 27351359
       time_reduction: mean
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -491,17 +449,11 @@ sources:
   2d_daily_min:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_min/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_1d_min/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_min/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -554,17 +506,11 @@ sources:
   2d_monthly_mean:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1mth_mean/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_2d_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -680,17 +626,11 @@ sources:
   atm_mon:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/erc1011_atm_mon/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/erc1012_atm_mon/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/erc1011_atm_mon/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -753,17 +693,11 @@ sources:
   model-level_daily_mean_1:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1d_mean_1/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_ml_1d_mean_1/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1d_mean_1/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -825,17 +759,11 @@ sources:
   model-level_daily_mean_2:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1d_mean_2/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_ml_1d_mean_2/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1d_mean_2/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -895,17 +823,11 @@ sources:
   model-level_monthly_mean:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1mth_mean/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_ml_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1mth_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -979,17 +901,11 @@ sources:
   pl_6h_inst:
     args:
       chunks: auto
-      combine_attrs: drop_conflicts
-      compat: override
       consolidated: false
-      coords: minimal
-      data_vars: minimal
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_pl_6h_inst/combined.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1012/atm_pl_6h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_pl_6h_inst/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)

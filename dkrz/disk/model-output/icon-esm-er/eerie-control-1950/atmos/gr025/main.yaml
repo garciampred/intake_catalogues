@@ -87,7 +87,7 @@ sources:
       DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
       activity_id: EERIE
       cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l50316 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40338 (Linux 4.18.0-372.32.1.el8_6.x86_64
         x86_64)
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
@@ -121,8 +121,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 4776479
-      time_min: 3682079
+      time_max: 1095839
+      time_min: 1439
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
