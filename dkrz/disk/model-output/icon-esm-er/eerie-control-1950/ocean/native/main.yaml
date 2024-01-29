@@ -1,4 +1,16 @@
 sources:
+  2d_grid:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/ICON/erc1011/auxiliary/icon_grid_0016_R02B09_O.json
+    driver: zarr
+  3d_grid:
+    args:
+      chunks: auto
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/ICON/erc1011/auxiliary/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.json
+    driver: zarr
   2d_daily_mean:
     args:
       chunks: auto
