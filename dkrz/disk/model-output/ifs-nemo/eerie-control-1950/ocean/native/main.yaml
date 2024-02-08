@@ -4,41 +4,22 @@ plugins:
 sources:
   daily_ice:
     args:
-      urlpath:
-      - /work/bm1344/b382119/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/SIday/{{var}}/gn/v20220109/*.nc
-      xarray_kwargs:
-        compat: override
-        coords: minimal
-    driver: netcdf
-    parameters:
-      var:
-        allowed:
-        - siconc
-        - siu
-        - siv
-        - sithick
-        default: siconc
-        description: Variable name
-        type: str
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/SIday/combined.parq
+    driver: zarr
   daily:
     args:
-      urlpath:
-      - /work/bm1344/b382119/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/Oday/{{var}}/gn/v20220109/*.nc
-      xarray_kwargs:
-        compat: override
-        coords: minimal
-    driver: netcdf
-    parameters:
-      var:
-        allowed:
-        - sos
-        - tos
-        - zos
-        - tauuo
-        - mlotst
-        default: tos
-        description: Variable name
-        type: str
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/Oday/combined.parq
+    driver: zarr
   monthly:
     args:
       urlpath: /work/bm1344/b382119/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/Omon/*/gn/v20220109/*.nc
