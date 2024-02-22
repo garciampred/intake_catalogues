@@ -5,12 +5,28 @@ sources:
       consolidated: false
       urlpath: reference:://work/bm1344/DKRZ/ICON/erc1011/auxiliary/icon_grid_0016_R02B09_O.json
     driver: zarr
+    metadata:
+      project: EERIE
+      project_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      source_id: ICON-ESM
+      source_type: AOGCM
+      simulation_id: erc1011
   3d_grid:
     args:
       chunks: auto
       consolidated: false
       urlpath: reference:://work/bm1344/DKRZ/ICON/erc1011/auxiliary/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.json
     driver: zarr
+    metadata:
+      project: EERIE
+      project_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      source_id: ICON-ESM
+      source_type: AOGCM
+      simulation_id: erc1011
   2d_daily_mean:
     args:
       chunks: auto
@@ -401,6 +417,8 @@ sources:
       member_id: r1i1p1f1
       number_of_grid_used: 16
       project_id: EERIE
+      project: EERIE
+      experiment_id: eerie-1950control
       references: see MPIM/DWD publications
       simulation_id: erc1011
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
