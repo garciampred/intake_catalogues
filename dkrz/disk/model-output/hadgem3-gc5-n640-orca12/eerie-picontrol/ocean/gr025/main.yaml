@@ -1,0 +1,21 @@
+sources:
+  daily:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/SIday/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin
+  monthly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Omon/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin

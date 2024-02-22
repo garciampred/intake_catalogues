@@ -1,0 +1,71 @@
+sources:
+  atmos_monthly_aermon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+        lazy: true
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/AERmon/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin
+  atmos_monthly_amon_center:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+        lazy: true
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Amon_gn_center/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin
+  atmos_monthly_amon_edge:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+        lazy: true
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Amon_gn_edge/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin
+  atmos_monthly_emon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+        lazy: true
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Emon/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin
+  atmos_daily_center:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+        lazy: true
+      urlpath:
+      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/CFday/combined.parq
+      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/day_gn_center/combined.parq
+      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/HRday_gn_center/combined.parq
+      compat: override
+    driver: zarr
+    metadata:
+      source: jasmin
+  atmos_daily_edge:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+        lazy: true
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/day_gn_edge/combined.parq
+    driver: zarr
+    metadata:
+      source: jasmin

@@ -19,6 +19,16 @@ sources:
       path: "{{CATALOG_DIR}}/ifs-nemo/main.yaml"
     description: IFS-NEMO output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
     driver: yaml_file_cat    
+  hadgem3-gc5-n640-orca12:
+    args:
+      path: "{{CATALOG_DIR}}/hadgem3-gc5-n640-orca12/main.yaml"
+    description: IFS-NEMO output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
+    driver: yaml_file_cat
+  hadgem3-gc5-n216-orca025:
+    args:
+      path: "{{CATALOG_DIR}}/hadgem3-gc5-n216-orca025/main.yaml"
+    description: IFS-NEMO output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
+    driver: yaml_file_cat
   csv:
     args:
       urlpath: "{{CATALOG_DIR}}/dkrz_eerie_disk.csv.gz"

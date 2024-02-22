@@ -1,0 +1,14 @@
+sources:
+  daily:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        remote_protocol: file
+      urlpath:
+      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/day_gr/combined.parq
+      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/HRday_gr/combined.parq
+      compat: override
+    driver: zarr
+    metadata:
+      source: jasmin
