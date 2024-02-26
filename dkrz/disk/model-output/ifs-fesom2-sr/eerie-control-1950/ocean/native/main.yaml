@@ -7,26 +7,26 @@ sources:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
       DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
-      FESOM_ClimateDataPath: /scratch/a/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
-      FESOM_MeshPath: /scratch/a/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
       FESOM_autorotate_back_to_geo: 1
       FESOM_evp_rheol_steps: 120
       FESOM_force_rotation: 1
       FESOM_git_SHA: d6a683a9
       FESOM_include_fleapyear: 1
-      FESOM_mesh_representative_checksum: ''
       FESOM_mix_scheme: cvmix_TKE
       FESOM_model: FESOM2
       FESOM_opt_visc: 7
@@ -37,7 +37,7 @@ sources:
       FESOM_whichEVP: 1
       FESOM_which_ALE: zstar
       activity_id: EERIE
-      experiment: ifs-fesom2-sr_eerie-control-1950
+      experiment: eerie-control-1950
       experiment_id: eerie-control-1950
       grid_label: native
       history: deleted for convenience
@@ -45,10 +45,13 @@ sources:
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
+      time_max: 631151400
+      time_min: 85800
       variable-long_names:
       - Mixed Layer Depth
       - Mixed Layer Depth
       - ice concentration
+      - 'Indicates coastal nodes: coast=1, internal=0'
       - ice height
       - sea surface elevation
       - sea surface salinity
@@ -61,6 +64,7 @@ sources:
         - MLD1
         - MLD2
         - a_ice
+        - coast
         - m_ice
         - ssh
         - sss
@@ -95,26 +99,26 @@ sources:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_monthly_elem/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
       DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
-      FESOM_ClimateDataPath: /scratch/a/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
-      FESOM_MeshPath: /scratch/a/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
       FESOM_autorotate_back_to_geo: 1
       FESOM_evp_rheol_steps: 120
       FESOM_force_rotation: 1
       FESOM_git_SHA: d6a683a9
       FESOM_include_fleapyear: 1
-      FESOM_mesh_representative_checksum: ''
       FESOM_mix_scheme: cvmix_TKE
       FESOM_model: FESOM2
       FESOM_opt_visc: 7
@@ -125,7 +129,7 @@ sources:
       FESOM_whichEVP: 1
       FESOM_which_ALE: zstar
       activity_id: EERIE
-      experiment: ifs-fesom2-sr_eerie-control-1950
+      experiment: eerie-control-1950
       experiment_id: eerie-control-1950
       grid_label: native
       history: deleted for convenience
@@ -133,7 +137,10 @@ sources:
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
+      time_max: 631151400
+      time_min: 2677800
       variable-long_names:
+      - 'Indicates coastal triangles: coast=1, internal=0'
       - zonal wind str. to ocean
       - meridional wind str. to ocean
       - zonal velocity
@@ -141,11 +148,12 @@ sources:
     parameters:
       variables:
         allowed:
+        - coast
         - tx_sur
         - ty_sur
         - u
         - v
-        default: tx_sur
+        default: coast
         description: All available variables in the dataset
         type: str
   monthly_node:
@@ -153,26 +161,26 @@ sources:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_monthly_node/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
       DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
-      FESOM_ClimateDataPath: /scratch/a/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
-      FESOM_MeshPath: /scratch/a/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
       FESOM_autorotate_back_to_geo: 1
       FESOM_evp_rheol_steps: 120
       FESOM_force_rotation: 1
       FESOM_git_SHA: d6a683a9
       FESOM_include_fleapyear: 1
-      FESOM_mesh_representative_checksum: ''
       FESOM_mix_scheme: cvmix_TKE
       FESOM_model: FESOM2
       FESOM_opt_visc: 7
@@ -183,7 +191,7 @@ sources:
       FESOM_whichEVP: 1
       FESOM_which_ALE: zstar
       activity_id: EERIE
-      experiment: ifs-fesom2-sr_eerie-control-1950
+      experiment: eerie-control-1950
       experiment_id: eerie-control-1950
       grid_label: native
       history: deleted for convenience
@@ -191,17 +199,21 @@ sources:
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
+      time_max: 631151400
+      time_min: 2677800
       variable-long_names:
+      - 'Indicates coastal nodes: coast=1, internal=0'
       - salinity
       - temperature
       - vertical velocity
     parameters:
       variables:
         allowed:
+        - coast
         - salt
         - temp
         - w
-        default: salt
+        default: coast
         description: All available variables in the dataset
         type: str
   node_grid:

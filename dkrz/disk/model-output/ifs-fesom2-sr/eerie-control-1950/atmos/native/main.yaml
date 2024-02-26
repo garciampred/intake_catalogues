@@ -4,41 +4,49 @@ sources:
       chunks: auto
       consolidated: false
       storage_options:
+        lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/IFS_original_daily/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
       activity_id: EERIE
-      experiment: ifs-fesom2-sr_eerie-control-1950
+      experiment: eerie-control-1950
       experiment_id: eerie-control-1950
-      grid_label: gr025
+      grid_label: native
+      history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
       member_id: r1i1p1f1
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
+      time_max: 175296
+      time_min: 0
       variable-long_names:
-      - Specific humidity
-      - Relative humidity
-      - Temperature
-      - U component of wind
-      - V component of wind
-      - Vertical velocity
-      - Geopotential
+      - 100 metre U wind component
+      - 100 metre V wind component
+      - 10 metre U wind component
+      - 10 metre V wind component
+      - 2 metre temperature
+      - height above the surface
+      - Total precipitation rate
+    parameters:
       variables:
-      - q
-      - r
-      - t
-      - time_bnds
-      - u
-      - v
-      - w
-      - z
+        allowed:
+        - 100u
+        - 100v
+        - 10u
+        - 10v
+        - 2t
+        - heightAboveGround
+        - tprate
+        default: 100u
+        description: All available variables in the dataset
+        type: str
