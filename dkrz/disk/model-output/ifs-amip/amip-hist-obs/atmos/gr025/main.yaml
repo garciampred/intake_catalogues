@@ -1,7 +1,3 @@
-plugins:
-  source:
-  - module: intake_xarray
-
 sources:
   2D_const_0.25deg:
     description: 2D constant variables from IFS-AMIP
