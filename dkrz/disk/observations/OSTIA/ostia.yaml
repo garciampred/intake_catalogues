@@ -62,28 +62,28 @@ sources:
       urlpath: "/work/bk1377/b382473/obs/OSTIA/rossby_radius/rossrad_miss_025.nc"
   SSTgrad_0_0:
     args:
-      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA/*.nc
+      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA/399_4/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
     driver: netcdf
   SSTgrad_0_LR30:
     args:
-      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA_c_0_a_LR30/*.nc
+      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA_c_0_a_LR30/399_4/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
     driver: netcdf
   SSTgrad_LR30_0:
     args:
-      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA_c_LR30_a_0/*.nc
+      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA_c_LR30_a_0/399_4/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
     driver: netcdf
   SSTgrad_LR30_LR30:
     args:
-      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA_c_LR30_a_LR30/*.nc
+      urlpath: /work/bk1377/b382473/obs/OSTIA/gradients/OSTIA_c_LR30_a_LR30/399_4/*.nc
       xarray_kwargs:
         compat: override
         coords: minimal
