@@ -4,6 +4,9 @@ sources:
     driver: netcdf
     args:
       urlpath: "/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA/gribscan/2D_const_0.25deg/*.grib"
+      path_as_pattern: false
+      xarray_kwargs:
+        engine: cfgrib
   2D_6h_0.25deg:
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
