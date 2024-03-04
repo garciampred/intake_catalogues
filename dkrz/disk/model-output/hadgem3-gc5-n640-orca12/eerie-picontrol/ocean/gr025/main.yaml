@@ -7,7 +7,7 @@ sources:
         remote_protocol: file
       urlpath:
       -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/SIday/combined.parq
-      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/SIday/combined.parq
+      -  reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Oday/combined.parq
       compat: override
     driver: zarr
     metadata:
