@@ -1,4 +1,13 @@
 sources:
+  2D_24h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0/2D_6h_0.25deg/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP
+    driver: zarr
   2D_6h_0.25deg:
     args:
       consolidated: false
@@ -68,6 +77,24 @@ sources:
         default: 10u
         description: All available variables in the dataset
         type: str
+  2D_monthly_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0/2D_6h_0.25deg/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP
+    driver: zarr
+  3D_24h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0/2D_6h_0.25deg/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP
+    driver: zarr
   3D_6h_0.25deg:
     args:
       consolidated: false
@@ -98,3 +125,12 @@ sources:
         default: d
         description: All available variables in the dataset
         type: str
+  3D_monthly_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0/2D_6h_0.25deg/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP
+    driver: zarr
