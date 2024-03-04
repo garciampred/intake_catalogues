@@ -1,3 +1,7 @@
+plugins:
+   source:
+   - module: intake_xarray
+   
 sources:
   2D_24h_0.25deg:
     args:
@@ -137,6 +141,12 @@ sources:
         default: 10u
         description: All available variables in the dataset
         type: str
+  2D_6h_native:
+    description: 2D 6-hourly variables from IFS-AMIP on native tco399 grid
+    driver: zarr
+    args:
+      consolidated: False
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA_c_LR30_a_LR30/gribscan/2D_6h_native/json.dir/atm2d.json
   2D_monthly_0.25deg:
     args:
       consolidated: false
