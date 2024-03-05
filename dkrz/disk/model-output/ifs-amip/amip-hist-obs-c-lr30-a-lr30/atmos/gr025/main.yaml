@@ -1,7 +1,3 @@
-plugins:
-   source:
-   - module: intake_xarray
-   
 sources:
   2D_24h_0.25deg:
     args:
@@ -9,7 +5,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/2D_6h_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/2D_24h_0.25deg/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -153,7 +149,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/2D_6h_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/2D_monthly_0.25deg/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -222,7 +218,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/2D_6h_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/3D_24h_0.25deg/atm3d.parq
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -321,7 +317,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/2D_6h_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_LR30/3D_monthly_0.25deg/atm3d.parq
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
     metadata:
