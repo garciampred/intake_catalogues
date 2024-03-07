@@ -29,3 +29,13 @@ sources:
       path: "{{CATALOG_DIR}}/amip-ng-obs-lr30/atmos/gr025/main.yaml"
     description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 output available at DKRZ disk - smoothed OSTIA SST and NextGEMS cycle3 configuration 
     driver: yaml_file_cat
+  amip-hist-esav3.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/amip-hist-esav3/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-esav3 output available at DKRZ disk - ESA-CCI v3 SST and new EERIE configuration 
+    driver: yaml_file_cat
+  amip-hist-esav3-c-0-a-lr30.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/amip-hist-esav3-c-0-a-lr30/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-esav3-c-0-a-lr30 output available at DKRZ disk - ESA-CCI v3 SST (LR30 smoothed anomalies) and new EERIE configuration 
+    driver: yaml_file_cat
