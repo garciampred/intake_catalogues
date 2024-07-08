@@ -1,12 +1,7 @@
 sources:
-  atmos:
+  v20240304:
     args:
-      path: "{{CATALOG_DIR}}/atmos/main.yaml"
-    description: IFS-FESOM2 IFS output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
-    driver: yaml_file_cat
-  ocean:
-    args:
-      path: "{{CATALOG_DIR}}/ocean/main.yaml"
-      description: IFS-FESOM2 FESOM output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+      path: "{{CATALOG_DIR}}/v20240304/main.yaml"
+    description: This catalog contains EERIE ifs-fesom2-sr eerie-spinup-1950 output available at DKRZ disk; v1. The data used in the Hamburg Hackathon.
     driver: yaml_file_cat
     
