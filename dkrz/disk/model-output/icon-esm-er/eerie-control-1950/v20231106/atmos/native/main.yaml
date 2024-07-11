@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_1h_inst
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -63,7 +63,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1h_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_1h_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -120,7 +120,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_3h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_3h_inst
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -181,7 +181,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_6h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_6h_inst
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -248,7 +248,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_6h_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_6h_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -305,7 +305,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_max/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_max
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -364,7 +364,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -453,7 +453,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_min/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_min
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -510,7 +510,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_monthly_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -548,7 +548,7 @@ sources:
       time_min: 27394559
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_2d_1mth_mean_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_2d_monthly_mean_20020201T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
@@ -623,7 +623,7 @@ sources:
         default: cell_sea_land_mask
         description: All available variables in the dataset
         type: str
-  atm_mon:
+  atmos_native_mon:
     args:
       chunks: auto
       consolidated: false
@@ -666,7 +666,7 @@ sources:
       time_min: 27394559
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_mon_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_mon_20020201T000000Z.nc
       variable-long_names:
       - global mean evaporation flux
       - mean surface freshwater flux over ocean surface
@@ -697,7 +697,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1d_mean_1/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_daily_mean_1
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -735,7 +735,7 @@ sources:
       time_min: 27351359
       time_reduction: inst
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_ml_1d_mean_1_20020103T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_model-level_daily_mean_1_20020103T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
@@ -763,7 +763,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1d_mean_2/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_daily_mean_2
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -801,7 +801,7 @@ sources:
       time_min: 27351359
       time_reduction: inst
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_ml_1d_mean_2_20020103T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_model-level_daily_mean_2_20020103T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
@@ -827,7 +827,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_monthly_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -865,7 +865,7 @@ sources:
       time_min: 27394559
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atm_ml_1mth_mean_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_model-level_monthly_mean_20020201T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
@@ -905,7 +905,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_pl_6h_inst/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_pl_6h_inst
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -972,7 +972,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_plev19_daily_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -1012,7 +1012,7 @@ sources:
       time_min: 3156479
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atm_ml_1d_mean_1_20080103T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atmos_native_model-level_daily_mean_1_20080103T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
@@ -1044,7 +1044,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_plev19_monthly_mean
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -1084,7 +1084,7 @@ sources:
       time_min: 44639
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atm_ml_1mth_mean_20020301T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atmos_native_model-level_monthly_mean_20020301T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
