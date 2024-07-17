@@ -4,9 +4,4 @@ sources:
       path: "{{CATALOG_DIR}}/v20231106/main.yaml"
     description: This catalog contains EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk; v1.
     driver: yaml_file_cat
-  v20240618:
-    args:
-      path: "{{CATALOG_DIR}}/v20240618/main.yaml"
-    description: This catalog contains EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk; v2.
-    driver: yaml_file_cat
 

@@ -1,0 +1,848 @@
+sources:
+  2d_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_2d_1d_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1095839'
+      time_min: '1439'
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - Salt volume flux due to sea ice change
+      - Freshwater Flux due to Sea Ice Change
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
+      - Change in mean snow thickness due to thermodynamic melting
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - new ice growth in open water
+      - Sea Level Pressure
+      - amount of snow that is transformed to ice
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertically integrated mass flux at edges
+    parameters:
+      variables:
+        allowed:
+        - FrshFlux_IceSalt
+        - FrshFlux_TotalIce
+        - Wind_Speed_10m
+        - atmos_fluxes_FrshFlux_Evaporation
+        - atmos_fluxes_FrshFlux_Precipitation
+        - atmos_fluxes_FrshFlux_Runoff
+        - atmos_fluxes_FrshFlux_SnowFall
+        - atmos_fluxes_HeatFlux_Latent
+        - atmos_fluxes_HeatFlux_LongWave
+        - atmos_fluxes_HeatFlux_Sensible
+        - atmos_fluxes_HeatFlux_ShortWave
+        - atmos_fluxes_HeatFlux_Total
+        - atmos_fluxes_stress_x
+        - atmos_fluxes_stress_xw
+        - atmos_fluxes_stress_y
+        - atmos_fluxes_stress_yw
+        - cell_sea_land_mask
+        - conc
+        - delhi
+        - delhs
+        - hi
+        - hs
+        - ice_u
+        - ice_v
+        - mlotst
+        - mlotst10
+        - newice
+        - sea_level_pressure
+        - snow_to_ice
+        - so
+        - ssh
+        - stretch_c
+        - to
+        - u
+        - v
+        - verticallyTotal_mass_flux_e
+        default: FrshFlux_IceSalt
+        description: All available variables in the dataset
+        type: str
+  2d_daily_square:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_2d_1d_square/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1095839'
+      time_min: '1439'
+      time_reduction: square
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - sea water potential temperature
+    parameters:
+      variables:
+        allowed:
+        - cell_sea_land_mask
+        - to
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
+  2d_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_2d_1mth_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_2d_1mth_mean_19500301T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - Salt volume flux due to sea ice change
+      - Freshwater Flux due to Sea Ice Change
+      - Conductive heat flux at ice-ocean interface
+      - Energy flux available for surface melting
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
+      - Change in mean snow thickness due to thermodynamic melting
+      - Heat flux to ocean from the ice growth
+      - Heat flux to ocean from the atmosphere
+      - heat_content_seaice
+      - heat_conten_snow
+      - heat_content_total
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - new ice growth in open water
+      - Sea Level Pressure
+      - amount of snow that is transformed to ice
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+      - barotropic zonal velocity
+      - barotropic meridional velocity
+      - vertically integrated mass flux at edges
+    parameters:
+      variables:
+        allowed:
+        - FrshFlux_IceSalt
+        - FrshFlux_TotalIce
+        - Qbot
+        - Qtop
+        - Wind_Speed_10m
+        - atmos_fluxes_FrshFlux_Evaporation
+        - atmos_fluxes_FrshFlux_Precipitation
+        - atmos_fluxes_FrshFlux_Runoff
+        - atmos_fluxes_FrshFlux_SnowFall
+        - atmos_fluxes_HeatFlux_Latent
+        - atmos_fluxes_HeatFlux_LongWave
+        - atmos_fluxes_HeatFlux_Sensible
+        - atmos_fluxes_HeatFlux_ShortWave
+        - atmos_fluxes_HeatFlux_Total
+        - atmos_fluxes_stress_x
+        - atmos_fluxes_stress_xw
+        - atmos_fluxes_stress_y
+        - atmos_fluxes_stress_yw
+        - cell_sea_land_mask
+        - conc
+        - delhi
+        - delhs
+        - heatOceI
+        - heatOceW
+        - heat_content_seaice
+        - heat_content_snow
+        - heat_content_total
+        - hi
+        - hs
+        - ice_u
+        - ice_v
+        - mlotst
+        - mlotst10
+        - newice
+        - sea_level_pressure
+        - snow_to_ice
+        - so
+        - ssh
+        - stretch_c
+        - to
+        - u_vint
+        - v_vint
+        - verticallyTotal_mass_flux_e
+        default: FrshFlux_IceSalt
+        description: All available variables in the dataset
+        type: str
+  2d_monthly_square:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_2d_1mth_square/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: square
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_2d_1mth_square_19500301T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - surface elevation at cell center
+      - sea water potential temperature
+    parameters:
+      variables:
+        allowed:
+        - cell_sea_land_mask
+        - mlotst
+        - mlotst10
+        - ssh
+        - to
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
+  5lev_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_5lev_1d_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_label: native
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project_id: EERIE
+      references: see MPIM/DWD publications
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      time_max: '71999'
+      time_min: '1439'
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertical velocity at cells
+    parameters:
+      variables:
+        allowed:
+        - cell_sea_land_mask
+        - so
+        - to
+        - u
+        - v
+        - w
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
+  eddy_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_eddy_1mth_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_eddy_1mth_mean_19500301T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - square of density
+      - square of salinity
+      - square of temperature
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - product of fw flux and density
+      - product of net heatflux and density
+      - density anomaly
+      - product of x windstress and u-velocity
+      - product of y windstress and v-velocity
+      - product of zonal velocity and density
+      - product of zonal velocity and salinity
+      - product of zonal velocity and temperature
+      - square of zonal velocity
+      - product of zonal velocity and meridional velocity
+      - product of zonal velocity and vertical velocity
+      - product of meridional velocity and density
+      - product of meridional velocity and salinity
+      - product of meridional velocity and temperature
+      - square of meridional velocity
+      - product of meridional velocity and vertical velocity
+      - product of vertical velocity and density
+      - product of vertical velocity and salinity
+      - product of vertical velocity and temperature
+      - vertical velocity at prism center
+      - square of vertical velocity
+    parameters:
+      variables:
+        allowed:
+        - RR
+        - SS
+        - TT
+        - cell_sea_land_mask
+        - fwR
+        - hflR
+        - sigma0
+        - tauxu
+        - tauyv
+        - uR
+        - uS
+        - uT
+        - uu
+        - uv
+        - uw
+        - vR
+        - vS
+        - vT
+        - vv
+        - vw
+        - wR
+        - wS
+        - wT
+        - w_prismcenter
+        - ww
+        default: RR
+        description: All available variables in the dataset
+        type: str
+  moc_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_moc_1mth_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_moc_1mth_mean_19500301T000000Z.nc
+      variable-long_names:
+      - atlantic northward ocean heat transport
+      - atlantic implied heat transport
+      - atlantic meridional overturning
+      - atlantic northward ocean salt transport
+      - atlantic implied freshwater transport
+      - global northward ocean heat transport
+      - global implied heat transport
+      - global meridional overturning
+      - global northward ocean salt transport
+      - global implied freshwater transport
+      - indopacific northward ocean heat transport
+      - indopacific implied heat transport
+      - indopacific meridional overturning
+      - indopacific northward ocean salt transport
+      - indopacific implied freshwater transport
+    parameters:
+      variables:
+        allowed:
+        - atlantic_hfbasin
+        - atlantic_hfl
+        - atlantic_moc
+        - atlantic_sltbasin
+        - atlantic_wfl
+        - global_hfbasin
+        - global_hfl
+        - global_moc
+        - global_sltbasin
+        - global_wfl
+        - pacific_hfbasin
+        - pacific_hfl
+        - pacific_moc
+        - pacific_sltbasin
+        - pacific_wfl
+        default: atlantic_hfbasin
+        description: All available variables in the dataset
+        type: str
+  model-level_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_ml_1d_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '71999'
+      time_min: '1439'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_oce_ml_1d_mean_19500103T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertical velocity at cells
+    parameters:
+      variables:
+        allowed:
+        - cell_sea_land_mask
+        - so
+        - to
+        - u
+        - v
+        - w
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
+  model-level_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_ml_1mth_mean/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_ml_1mth_mean_19500301T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - Net Rate of Absorption of Shortwave Energy in Ocean Layer
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertical velocity at cells
+    parameters:
+      variables:
+        allowed:
+        - cell_sea_land_mask
+        - rsdoabsorb
+        - so
+        - to
+        - u
+        - v
+        - w
+        default: cell_sea_land_mask
+        description: All available variables in the dataset
+        type: str
+  mon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_mon/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_mon_19500301T000000Z.nc
+      variable-long_names:
+      - FrshFlux_Evaporation_global
+      - FrshFlux_Precipitation
+      - FrshFlux_Runoff
+      - FrshFlux_SnowFall_global
+      - FrshFlux_TotalIce
+      - FrshFlux_TotalOcean
+      - FrshFlux_VolumeIce
+      - FrshFlux_VolumeTotal
+      - HeatFlux_Total
+      - amoc26n
+      - global_heat_content
+      - global_heat_content_solid
+      - ice_extent_nh
+      - ice_extent_sh
+      - ice_volume_nh
+      - ice_volume_sh
+      - kin_energy
+      - pot_energy
+      - potential_enstrophy
+      - ssh_global
+      - global mean sea surface salinity
+      - global mean sea surface temperature
+      - total_energy
+      - total_salt
+      - total_saltinliquidwater
+      - total_saltinseaice
+      - totalsnowfall
+    parameters:
+      variables:
+        allowed:
+        - FrshFlux_Evaporation_global
+        - FrshFlux_Precipitation_global
+        - FrshFlux_Runoff_global
+        - FrshFlux_SnowFall_global
+        - FrshFlux_TotalIce_global
+        - FrshFlux_TotalOcean_global
+        - FrshFlux_VolumeIce_global
+        - FrshFlux_VolumeTotal_global
+        - HeatFlux_Total_global
+        - amoc26n
+        - global_heat_content
+        - global_heat_content_solid
+        - ice_extent_nh
+        - ice_extent_sh
+        - ice_volume_nh
+        - ice_volume_sh
+        - kin_energy_global
+        - pot_energy_global
+        - potential_enstrophy_global
+        - ssh_global
+        - sss_global
+        - sst_global
+        - total_energy_global
+        - total_salt
+        - total_saltinliquidwater
+        - total_saltinseaice
+        - totalsnowfall_global
+        default: FrshFlux_Evaporation_global
+        description: All available variables in the dataset
+        type: str

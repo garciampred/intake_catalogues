@@ -6,24 +6,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_1h_inst
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_1h_inst/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l40046 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1hour
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -36,12 +34,12 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27349979
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: inst
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -63,24 +61,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_1h_mean
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_1h_mean/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l40045 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1hour
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -93,12 +89,12 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27349979
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: mean
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -120,24 +116,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_3h_inst
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_3h_inst/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l40044 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 3hour
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -150,12 +144,12 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27350099
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: inst
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -181,24 +175,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_6h_inst
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_6h_inst/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30794 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 6hour
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -211,19 +203,18 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27350279
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: inst
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - dew point temperature in 2m
-      - surface pressure
+      - specific humidity in 2m
       - mean sea level pressure
       - surface temperature
       - zonal wind in 10m
@@ -232,8 +223,7 @@ sources:
       variables:
         allowed:
         - cell_sea_land_mask
-        - dew2
-        - ps
+        - hus2m
         - psl
         - ts
         - uas
@@ -248,24 +238,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_6h_mean
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_6h_mean/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30795 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 6hour
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -278,12 +266,12 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27350279
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: mean
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -305,24 +293,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_max
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_1d_max/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l50318 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1day
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -335,23 +321,27 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 4776479
-      time_min: 3682079
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: max
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - relative humidity
       - 10m windspeed
       - temperature in 2m
     parameters:
       variables:
         allowed:
         - cell_sea_land_mask
+        - height_3_bnds
+        - hur
         - sfcwind
         - tas
         default: cell_sea_land_mask
@@ -364,24 +354,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_mean
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_1d_mean/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30789 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1day
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -394,25 +382,29 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27351359
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: mean
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
       - total cloud cover
-      - dew point temperature in 2m
       - evaporation
       - latent heat flux
       - sensible heat flux
+      - relative humidity
+      - specific humidity in 2m
       - precipitation flux
+      - water vapor path
       - surface pressure
       - mean sea level pressure
+      - rain path
       - surface downwelling longwave radiation
       - surface upwelling longwave radiation
       - toa outgoing longwave radiation
@@ -420,6 +412,7 @@ sources:
       - surface upwelling shortwave radiation
       - 10m windspeed
       - temperature in 2m
+      - surface temperature
       - zonal wind in 10m
       - meridional wind in 10m
     parameters:
@@ -427,13 +420,17 @@ sources:
         allowed:
         - cell_sea_land_mask
         - clt
-        - dew2
         - evspsbl
+        - height_3_bnds
         - hfls
         - hfss
+        - hur
+        - hus2m
         - pr
+        - prw
         - ps
         - psl
+        - qrvi
         - rlds
         - rlus
         - rlut
@@ -441,6 +438,7 @@ sources:
         - rsus
         - sfcwind
         - tas
+        - ts
         - uas
         - vas
         default: cell_sea_land_mask
@@ -453,24 +451,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_min
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_1d_min/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l50317 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1day
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -483,22 +479,26 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 4776479
-      time_min: 3682079
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: min
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - relative humidity
       - temperature in 2m
     parameters:
       variables:
         allowed:
         - cell_sea_land_mask
+        - height_2_bnds
+        - hur
         - tas
         default: cell_sea_land_mask
         description: All available variables in the dataset
@@ -510,24 +510,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_2d_monthly_mean
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_2d_1mth_mean/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30783 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1month
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -540,27 +538,29 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 29498399
-      time_min: 27394559
+      time_max: '2148479'
+      time_min: '-1'
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_2d_monthly_mean_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_atm_2d_1mth_mean_19500201T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - vertically integrated cloud ice
-      - vertically integrated cloud water
+      - cloud ice path
+      - cloud liquid water path
       - total cloud cover
-      - dew point temperature in 2m
       - evaporation
       - latent heat flux
       - sensible heat flux
+      - relative humidity
+      - specific humidity in 2m
       - precipitation flux
-      - vertically integrated water vapour
+      - water vapor path
       - surface pressure
       - mean sea level pressure
       - surface downwelling longwave radiation
@@ -591,10 +591,12 @@ sources:
         - clivi
         - cllvi
         - clt
-        - dew2
         - evspsbl
+        - height_3_bnds
         - hfls
         - hfss
+        - hur
+        - hus2m
         - pr
         - prw
         - ps
@@ -623,73 +625,6 @@ sources:
         default: cell_sea_land_mask
         description: All available variables in the dataset
         type: str
-  atmos_native_mon:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/erc1011_atm_mon/combined.parq
-    driver: zarr
-    metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
-      Conventions: CF-1.6
-      DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
-      activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30781 (Linux 4.18.0-372.32.1.el8_6.x86_64
-        x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
-      format: netcdf
-      frequency: 1month
-      grid_id: not implemented
-      grid_label: gn
-      history: deleted for convenience
-      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
-      institution_id: MPI-M
-      level_type: ml
-      member_id: r1i1p1f1
-      project: EERIE
-      project_id: EERIE
-      realm: atm
-      references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
-      source_id: ICON-ESM
-      source_type: AOGCM
-      time_max: 29498399
-      time_min: 27394559
-      time_reduction: mean
-      title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_mon_20020201T000000Z.nc
-      variable-long_names:
-      - global mean evaporation flux
-      - mean surface freshwater flux over ocean surface
-      - global mean precipitation flux
-      - global mean toa total radiation
-      - global mean toa outgoing longwave radiation
-      - global mean toa incident shortwave radiation
-      - global mean toa outgoing shortwave radiation
-      - global mean temperature at 2m
-    parameters:
-      variables:
-        allowed:
-        - evap_gmean
-        - fwfoce_gmean
-        - prec_gmean
-        - radtop_gmean
-        - rlut_gmean
-        - rsdt_gmean
-        - rsut_gmean
-        - tas_gmean
-        default: evap_gmean
-        description: All available variables in the dataset
-        type: str
   model-level_daily_mean_1:
     args:
       chunks: auto
@@ -697,24 +632,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_daily_mean_1
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_ml_1d_mean_1/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30786 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1day
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -727,15 +660,15 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 27394559
-      time_min: 27351359
-      time_reduction: inst
+      time_max: '70559'
+      time_min: '-1'
+      time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_model-level_daily_mean_1_20020103T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_atm_ml_1d_mean_1_19500102T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
@@ -763,24 +696,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_daily_mean_2
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_ml_1d_mean_2/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30788 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1day
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -793,20 +724,21 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 27394559
-      time_min: 27351359
-      time_reduction: inst
+      time_max: '70559'
+      time_min: '-1'
+      time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_model-level_daily_mean_2_20020103T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_atm_ml_1d_mean_2_19500102T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
       - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
       - geopotential above surface
+      - relative humidity
       - Specific humidity
       - Pressure
     parameters:
@@ -815,6 +747,7 @@ sources:
         - cell_sea_land_mask
         - gpsm
         - height_bnds
+        - hur
         - hus
         - pfull
         default: cell_sea_land_mask
@@ -827,24 +760,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_monthly_mean
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_ml_1mth_mean/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l30782 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 1month
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -857,15 +788,15 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 29498399
-      time_min: 27394559
+      time_max: '2148479'
+      time_min: '-1'
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_atmos_native_model-level_monthly_mean_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_atm_ml_1mth_mean_19500201T000000Z.nc
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
       variable-long_names:
@@ -873,6 +804,7 @@ sources:
       - specific cloud ice content
       - specific cloud water content
       - geopotential above surface
+      - relative humidity
       - Specific humidity
       - Pressure
       - pressure at half level
@@ -888,6 +820,7 @@ sources:
         - clw
         - gpsm
         - height_bnds
+        - hur
         - hus
         - pfull
         - phalf
@@ -898,6 +831,87 @@ sources:
         default: cell_sea_land_mask
         description: All available variables in the dataset
         type: str
+  mon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_mon/combined.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2148479'
+      time_min: '-1'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_atm_mon_19500201T000000Z.nc
+      variable-long_names:
+      - mean vertically integrated moist internal energy change by physics
+      - global mean evaporation flux
+      - mean surface freshwater flux over ocean surface
+      - mean vert. integr. dissip. kin. energy
+      - global mean precipitation flux
+      - global mean net radiative flux into atmosphere
+      - global mean toa net total radiation
+      - global mean toa outgoing longwave radiation
+      - global mean toa incident shortwave radiation
+      - global mean toa outgoing shortwave radiation
+      - global mean temperature at 2m
+      - mean vertically integrated moist internal energy after dynamics
+      - mean energy flux at surface from condensate
+      - mean energy flux at surface from thermal exchange
+      - mean energy flux at surface from vapor exchange
+      - mean energy balance in aes physics
+    parameters:
+      variables:
+        allowed:
+        - duphyvi_gmean
+        - evap_gmean
+        - fwfoce_gmean
+        - kedisp_gmean
+        - prec_gmean
+        - radbal_gmean
+        - radtop_gmean
+        - rlut_gmean
+        - rsdt_gmean
+        - rsut_gmean
+        - tas_gmean
+        - udynvi_gmean
+        - ufcs_gmean
+        - ufts_gmean
+        - ufvs_gmean
+        - uphybal_gmean
+        default: duphyvi_gmean
+        description: All available variables in the dataset
+        type: str
   pl_6h_inst:
     args:
       chunks: auto
@@ -905,24 +919,22 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_pl_6h_inst
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_pl_6h_inst/combined.parq
     driver: zarr
     metadata:
-      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
       activity_id: EERIE
-      comment: Sapphire Dyamond (k203123) on l40026 (Linux 4.18.0-372.32.1.el8_6.x86_64
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
         x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
       format: netcdf
       frequency: 6hour
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -935,12 +947,12 @@ sources:
       project_id: EERIE
       realm: atm
       references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 28401119
-      time_min: 27350279
+      time_max: '1095839'
+      time_min: '-1'
       time_reduction: inst
       title: ICON simulation
       uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
@@ -958,156 +970,6 @@ sources:
         - cell_sea_land_mask
         - gpsm
         - hus
-        - ta
-        - ua
-        - va
-        - wa
-        default: cell_sea_land_mask
-        description: All available variables in the dataset
-        type: str
-  plev19_daily_mean:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_plev19_daily_mean
-    driver: zarr
-    metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
-      Conventions: CF-1.6
-      DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
-      activity_id: EERIE
-      cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l40570 (Linux 4.18.0-372.32.1.el8_6.x86_64
-        x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
-      format: netcdf
-      frequency: 1day
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
-      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
-      grid_label: gn
-      history: deleted for convenience
-      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
-      institution_id: MPI-M
-      level_type: ml
-      member_id: r1i1p1f1
-      number_of_grid_used: 33
-      project: EERIE
-      project_id: EERIE
-      realm: atm
-      references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
-      source_id: ICON-ESM
-      source_type: AOGCM
-      time_max: 3227039
-      time_min: 3156479
-      time_reduction: mean
-      title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20080101T000000-20080131T235845/erc1011_atmos_native_model-level_daily_mean_1_20080103T000000Z.nc
-      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
-      variable-long_names:
-      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - geopotential above surface
-      - Specific humidity
-      - Pressure
-      - Temperature
-      - Zonal wind
-      - Meridional wind
-      - Vertical velocity
-    parameters:
-      variables:
-        allowed:
-        - cell_sea_land_mask
-        - gpsm
-        - hus
-        - pfull
-        - ta
-        - ua
-        - va
-        - wa
-        default: cell_sea_land_mask
-        description: All available variables in the dataset
-        type: str
-  plev19_monthly_mean:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/native/atmos_native_plev19_monthly_mean
-    driver: zarr
-    metadata:
-      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
-      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
-      Conventions: CF-1.6
-      DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
-      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
-      DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
-      activity_id: EERIE
-      cdo_openmp_thread_number: 16
-      comment: Sapphire Dyamond (k203123) on l40334 (Linux 4.18.0-372.32.1.el8_6.x86_64
-        x86_64)
-      experiment: eerie-control-1950
-      experiment_id: eerie-1950control
-      format: netcdf
-      frequency: 1month
-      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
-      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
-      grid_label: gn
-      history: deleted for convenience
-      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
-      institution_id: MPI-M
-      level_type: ml
-      member_id: r1i1p1f1
-      number_of_grid_used: 33
-      project: EERIE
-      project_id: EERIE
-      realm: atm
-      references: see MPIM/DWD publications
-      simulation_id: erc1011
-      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
-      source_id: ICON-ESM
-      source_type: AOGCM
-      time_max: 2188799
-      time_min: 44639
-      time_reduction: mean
-      title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020201T000000-20020228T235845/erc1011_atmos_native_model-level_monthly_mean_20020301T000000Z.nc
-      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
-      variable-long_names:
-      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
-      - specific cloud ice content
-      - specific cloud water content
-      - geopotential above surface
-      - Specific humidity
-      - Pressure
-      - pressure at half level
-      - Temperature
-      - Zonal wind
-      - Meridional wind
-      - Vertical velocity
-    parameters:
-      variables:
-        allowed:
-        - cell_sea_land_mask
-        - cli
-        - clw
-        - gpsm
-        - hus
-        - pfull
-        - phalf
         - ta
         - ua
         - va

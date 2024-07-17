@@ -80,11 +80,15 @@
         {
             "column_name": "urlpath",
             "vocabulary": ""
+        },
+        {
+            "column_name": "version",
+            "vocabulary": ""
         }
     ],
     "description": null,
     "esmcat_version": "0.0.1",
     "id": "dkrz-catalogue",
-    "last_updated":"2023-12-06 12:07:19",
+    "last_updated":"2024-07-16 12:07:19",
     "title": null
 }
