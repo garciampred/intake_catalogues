@@ -396,7 +396,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference::/reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_5lev_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_5lev_1d_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
