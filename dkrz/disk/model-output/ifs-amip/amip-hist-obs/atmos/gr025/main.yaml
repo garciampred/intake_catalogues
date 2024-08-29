@@ -7,8 +7,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/2D_24h_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/2D_24h_0.25deg/atm2d.parq
     description: 2D daily variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -33,8 +32,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/2D_6h_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/2D_6h_0.25deg/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -166,8 +164,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/2D_monthly_0.25deg/atm2d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/2D_monthly_0.25deg/atm2d.parq
     description: 2D monthly variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -239,8 +236,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/3D_24h_0.25deg/atm3d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/3D_24h_0.25deg/atm3d.parq
     description: 3D daily variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -267,8 +263,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/3D_6h_0.25deg/atm3d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/3D_6h_0.25deg/atm3d.parq
     description: 3D 6-hourly variables from IFS-AMIP
     driver: zarr
     metadata:
@@ -297,8 +292,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA/3D_monthly_0.25deg/atm3d.parq
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/3D_monthly_0.25deg/atm3d.parq
     description: 3D monthly variables from IFS-AMIP
     driver: zarr
     metadata:
