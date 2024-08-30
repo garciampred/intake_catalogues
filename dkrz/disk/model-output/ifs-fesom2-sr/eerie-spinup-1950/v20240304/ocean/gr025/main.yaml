@@ -6,13 +6,9 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-<<<<<<< HEAD
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched_new/IFS-FESOM2-SR_eerie-spinup-1950/FESOM_025_daily/combined.parq
-=======
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_025_daily/combined.parq
       drop_variables:
         - MLD1
->>>>>>> 8595298c2cb72177f90f541ef9b78cdb29f92d2c
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
