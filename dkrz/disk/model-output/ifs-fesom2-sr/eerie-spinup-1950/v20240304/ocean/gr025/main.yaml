@@ -79,7 +79,7 @@ sources:
         - sst
         - uice
         - vice
-        default: MLD1
+        default: MLD2
         description: All available variables in the dataset
         type: str
   monthly:
