@@ -3,6 +3,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/dcda/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
@@ -78,6 +79,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/lightning/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP - only lightning density
@@ -101,6 +103,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_cloud/dcda/atm3d.parq
     description: 3D daily variables from IFS-AMIP

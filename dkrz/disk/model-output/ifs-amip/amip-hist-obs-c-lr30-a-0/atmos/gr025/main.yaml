@@ -4,6 +4,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
+        remote_protocol: https
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0_cloud/2D_24h_0.25deg/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
     driver: zarr
@@ -28,6 +29,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0_cloud/2D_6h_0.25deg/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
@@ -127,6 +129,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0_cloud/2D_monthly_0.25deg/atm2d.parq
     description: 2D 6-hourly variables from IFS-AMIP
@@ -199,6 +202,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0_cloud/3D_24h_0.25deg/atm3d.parq
     description: 2D 6-hourly variables from IFS-AMIP
@@ -226,6 +230,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0_cloud/3D_6h_0.25deg/atm3d.parq
     description: 3D 6-hourly variables from IFS-AMIP
@@ -255,6 +260,7 @@ sources:
     args:
       consolidated: false
       storage_options:
+        remote_protocol: https
         lazy: true
       urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_c_LR30_a_0_cloud/3D_monthly_0.25deg/atm3d.parq
     description: 2D 6-hourly variables from IFS-AMIP
