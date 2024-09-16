@@ -57,15 +57,15 @@ sources:
       time_reduction: max
       title: ICON simulation
       variable-long_names:
-      - 10m windspeed
-      - temperature in 2m
-      - relative humidity
+       - 10m windspeed
+       - temperature in 2m
+       - relative humidity
     parameters:
       variables:
         allowed:
-        - sfcwind
-        - tas
-        - hur
+          - sfcwind
+          - tas
+          - hur
         default: sfcwind
         description: All available variables in the dataset
         type: str
@@ -462,7 +462,7 @@ sources:
         - ua
         - va
         - wa
-   default: va
+        default: va
         description: All available variables in the dataset
         type: str
   model-level_daily_mean_1:
@@ -547,7 +547,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1mth_mean_remap025/combined.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/atm_ml_1d_mean_2_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
