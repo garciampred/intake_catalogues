@@ -462,7 +462,7 @@ sources:
         - ua
         - va
         - wa
-   default: va
+        default: va
         description: All available variables in the dataset
         type: str
   model-level_daily_mean_1:
