@@ -1,5 +1,5 @@
 sources:
-  2D_24h_0.25deg:
+  2D_24h:
     args:
       consolidated: false
       storage_options:
@@ -25,7 +25,7 @@ sources:
         default: lmlt
         description: All available variables in the dataset
         type: str
-  2D_6h_0.25deg:
+  2D_6h:
     args:
       consolidated: false
       storage_options:
@@ -125,7 +125,7 @@ sources:
         default: 10u
         description: All available variables in the dataset
         type: str
-  2D_monthly_0.25deg:
+  2D_monthly:
     args:
       consolidated: false
       storage_options:
@@ -198,7 +198,7 @@ sources:
         default: 10si
         description: All available variables in the dataset
         type: str
-  3D_24h_0.25deg:
+  3D_24h:
     args:
       consolidated: false
       storage_options:
@@ -226,7 +226,7 @@ sources:
         default: q
         description: All available variables in the dataset
         type: str
-  3D_6h_0.25deg:
+  3D_6h:
     args:
       consolidated: false
       storage_options:
@@ -256,7 +256,7 @@ sources:
         default: d
         description: All available variables in the dataset
         type: str
-  3D_monthly_0.25deg:
+  3D_monthly:
     args:
       consolidated: false
       storage_options:

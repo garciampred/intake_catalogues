@@ -1,5 +1,5 @@
 sources:
-  2D_6h_0.25deg:
+  2D_6h:
     args:
       consolidated: false
       storage_options:
@@ -99,7 +99,7 @@ sources:
         default: litota6
         description: All available variables in the dataset
         type: str
-  3D_24h_0.25deg:
+  3D_24h:
     args:
       consolidated: false
       storage_options:
