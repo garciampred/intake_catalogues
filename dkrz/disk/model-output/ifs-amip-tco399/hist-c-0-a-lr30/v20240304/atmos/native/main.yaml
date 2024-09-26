@@ -1,0 +1,7 @@
+sources:
+  2D_6h:
+    args:
+      consolidated: false
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_lr30/gribscan/2D_6h_native/json.dir/atm2d.json
+    description: 2D 6-hourly variables from IFS-AMIP on native grid
+    driver: zarr

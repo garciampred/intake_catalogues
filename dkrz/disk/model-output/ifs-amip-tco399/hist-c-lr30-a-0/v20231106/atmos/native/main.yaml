@@ -1,0 +1,32 @@
+sources:
+  2D_6h:
+    args:
+      consolidated: false
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA_c_LR30_a_0/gribscan/2D_6h_native/json.dir/atm2d.json
+    description: 2D 6-hourly variables from IFS-AMIP on native tco399 grid
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - 10u
+        - 10v
+        - ewss
+        - nsss
+        - slhf
+        - sshf
+        - ssr
+        - sst
+        - str
+        - tcc
+        - tp
+        default: 10u
+        description: All available variables in the dataset
+        type: str
