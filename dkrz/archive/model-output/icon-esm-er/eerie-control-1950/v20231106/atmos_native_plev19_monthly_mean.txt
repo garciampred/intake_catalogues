@@ -1,0 +1,20 @@
+cli  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/cli
+    Files: 38 (125.75 G)
+clw  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/clw
+    Files: 38 (66.58 G)
+gpsm  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/gpsm
+    Files: 38 (91.41 G)
+hus  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/hus
+    Files: 38 (105.10 G)
+pfull  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/pfull
+    Files: 38 (1.13 G)
+phalf  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/phalf
+    Files: 38 (1.13 G)
+ta  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/ta
+    Files: 38 (86.23 G)
+ua  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/ua
+    Files: 38 (121.52 G)
+va  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/va
+    Files: 38 (129.35 G)
+wa  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/wa
+    Files: 38 (145.67 G)

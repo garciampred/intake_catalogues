@@ -1,0 +1,12 @@
+dew2  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/dew2
+    Files: 456 (337.19 G)
+ps  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/ps
+    Files: 456 (305.00 G)
+psl  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/psl
+    Files: 456 (235.63 G)
+ts  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/ts
+    Files: 456 (334.78 G)
+uas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/uas
+    Files: 456 (359.38 G)
+vas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/vas
+    Files: 456 (369.60 G)

@@ -1,0 +1,16 @@
+2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2002
+    Files: 5 (2.15 G)
+2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2007
+    Files: 5 (2.17 G)
+2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2012
+    Files: 5 (2.17 G)
+2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2017
+    Files: 5 (2.15 G)
+2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2022
+    Files: 5 (2.18 G)
+2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2027
+    Files: 5 (2.17 G)
+2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2032
+    Files: 5 (2.16 G)
+2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_monthly_mean/2037
+    Files: 3 (1.30 G)

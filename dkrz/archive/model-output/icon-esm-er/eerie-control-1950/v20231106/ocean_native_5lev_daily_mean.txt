@@ -1,0 +1,85 @@
+so  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2002
+        Files: 60 (230.79 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2007
+        Files: 60 (230.87 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2012
+        Files: 60 (231.11 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2017
+        Files: 60 (231.31 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2022
+        Files: 60 (231.31 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2027
+        Files: 60 (231.32 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2032
+        Files: 60 (231.51 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/so/2037
+        Files: 36 (138.67 G)
+to  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2002
+        Files: 60 (247.89 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2007
+        Files: 60 (247.87 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2012
+        Files: 60 (247.99 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2017
+        Files: 60 (247.88 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2022
+        Files: 60 (248.00 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2027
+        Files: 60 (248.19 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2032
+        Files: 60 (247.92 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/to/2037
+        Files: 36 (148.58 G)
+u  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2002
+        Files: 60 (196.89 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2007
+        Files: 60 (196.91 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2012
+        Files: 60 (197.07 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2017
+        Files: 60 (196.94 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2022
+        Files: 60 (197.01 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2027
+        Files: 60 (197.00 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2032
+        Files: 60 (197.15 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/u/2037
+        Files: 36 (118.11 G)
+v  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2002
+        Files: 60 (200.29 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2007
+        Files: 60 (200.29 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2012
+        Files: 60 (200.47 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2017
+        Files: 60 (200.39 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2022
+        Files: 60 (200.36 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2027
+        Files: 60 (200.42 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2032
+        Files: 60 (200.58 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/v/2037
+        Files: 36 (120.18 G)
+w  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2002
+        Files: 60 (514.60 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2007
+        Files: 60 (514.59 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2012
+        Files: 60 (514.96 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2017
+        Files: 60 (514.73 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2022
+        Files: 60 (514.71 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2027
+        Files: 60 (514.79 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2032
+        Files: 60 (515.02 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/w/2037
+        Files: 36 (308.64 G)

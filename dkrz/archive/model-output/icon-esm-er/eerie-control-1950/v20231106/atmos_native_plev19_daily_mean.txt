@@ -1,0 +1,14 @@
+gpsm  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/gpsm
+    Files: 372 (2324.94 G)
+hus  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/hus
+    Files: 372 (2737.19 G)
+pfull  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/pfull
+    Files: 372 (28.01 G)
+ta  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/ta
+    Files: 372 (2209.01 G)
+ua  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/ua
+    Files: 372 (3142.95 G)
+va  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/va
+    Files: 372 (3247.63 G)
+wa  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/wa
+    Files: 372 (3647.69 G)

@@ -1,0 +1,8 @@
+ta  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_1/ta
+    Files: 372 (3594.24 G)
+ua  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_1/ua
+    Files: 372 (4964.54 G)
+va  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_1/va
+    Files: 372 (5799.64 G)
+wa  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_1/wa
+    Files: 372 (17649.95 G)

@@ -1,0 +1,2 @@
+to  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_square/to
+    Files: 38 (538.59 G)

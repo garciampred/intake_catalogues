@@ -1,0 +1,119 @@
+hydro-drainage-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2002
+        Files: 5 (7.71 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2007
+        Files: 5 (7.71 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2012
+        Files: 5 (7.73 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2017
+        Files: 5 (7.70 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2022
+        Files: 5 (7.70 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2027
+        Files: 5 (7.72 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2032
+        Files: 5 (7.67 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-drainage-box/2037
+        Files: 3 (4.60 G)
+hydro-fract-snow-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2002
+        Files: 5 (8.10 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2007
+        Files: 5 (8.10 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2012
+        Files: 5 (8.12 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2017
+        Files: 5 (8.10 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2022
+        Files: 5 (8.09 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2027
+        Files: 5 (8.11 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2032
+        Files: 5 (8.10 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-fract-snow-box/2037
+        Files: 3 (4.86 G)
+hydro-runoff-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2002
+        Files: 5 (10.68 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2007
+        Files: 5 (10.68 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2012
+        Files: 5 (10.69 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2017
+        Files: 5 (10.68 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2022
+        Files: 5 (10.68 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2027
+        Files: 5 (10.68 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2032
+        Files: 5 (10.68 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-runoff-box/2037
+        Files: 3 (6.40 G)
+hydro-w-ice-sl-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2002
+        Files: 60 (12.70 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2007
+        Files: 60 (12.66 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2012
+        Files: 60 (12.72 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2017
+        Files: 60 (12.80 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2022
+        Files: 60 (12.82 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2027
+        Files: 60 (12.80 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2032
+        Files: 60 (13.00 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-ice-sl-box/2037
+        Files: 36 (7.80 G)
+hydro-w-snow-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2002
+        Files: 5 (8.48 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2007
+        Files: 5 (8.48 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2012
+        Files: 5 (8.49 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2017
+        Files: 5 (8.48 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2022
+        Files: 5 (8.48 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2027
+        Files: 5 (8.48 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2032
+        Files: 5 (8.49 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-box/2037
+        Files: 3 (5.09 G)
+hydro-w-snow-can-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2002
+        Files: 5 (7.78 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2007
+        Files: 5 (7.78 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2012
+        Files: 5 (7.79 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2017
+        Files: 5 (7.78 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2022
+        Files: 5 (7.78 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2027
+        Files: 5 (7.78 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2032
+        Files: 5 (7.79 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-snow-can-box/2037
+        Files: 3 (4.67 G)
+hydro-w-soil-sl-box  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2002
+        Files: 60 (34.60 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2007
+        Files: 60 (34.62 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2012
+        Files: 60 (34.64 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2017
+        Files: 60 (34.56 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2022
+        Files: 60 (34.53 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2027
+        Files: 60 (34.59 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2032
+        Files: 60 (34.44 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/land_native_2d_daily_mean/hydro-w-soil-sl-box/2037
+        Files: 36 (20.62 G)

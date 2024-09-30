@@ -1,0 +1,6 @@
+gpsm  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_2/gpsm
+    Files: 372 (4358.26 G)
+hus  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_2/hus
+    Files: 372 (7790.72 G)
+pfull  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_2/pfull
+    Files: 372 (5269.93 G)
