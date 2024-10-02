@@ -1,0 +1,12 @@
+gpsm  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/gpsm
+    Files: 456 (2619.31 G)
+hus  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/hus
+    Files: 456 (2299.24 G)
+ta  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/ta
+    Files: 456 (972.53 G)
+ua  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/ua
+    Files: 456 (1319.73 G)
+va  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/va
+    Files: 456 (1402.85 G)
+wa  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/wa
+    Files: 456 (3976.29 G)

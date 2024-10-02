@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_max_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_2d_1d_max_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -74,7 +74,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_mean_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_2d_1d_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -173,7 +173,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1d_min_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_2d_1d_min_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -239,7 +239,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_2d_1mth_mean_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_2d_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -368,7 +368,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_ml_1mth_mean_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_ml_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -457,7 +457,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1d_mean_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_plev19_1d_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -538,7 +538,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/atm_plev19_1mth_mean_remap025/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/atmos/gr025/atm_plev19_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)

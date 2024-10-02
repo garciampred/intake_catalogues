@@ -1,0 +1,102 @@
+rsdoabsorb  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2002
+        Files: 60 (96.04 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2007
+        Files: 60 (96.07 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2012
+        Files: 60 (96.12 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2017
+        Files: 60 (96.10 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2022
+        Files: 60 (96.08 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2027
+        Files: 60 (96.07 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2032
+        Files: 60 (96.17 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/rsdoabsorb/2037
+        Files: 36 (57.70 G)
+so  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2002
+        Files: 60 (98.20 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2007
+        Files: 60 (98.22 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2012
+        Files: 60 (98.24 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2017
+        Files: 60 (98.31 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2022
+        Files: 60 (98.34 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2027
+        Files: 66 (98.97 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2032
+        Files: 60 (98.43 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/so/2037
+        Files: 36 (59.05 G)
+to  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2002
+        Files: 60 (135.50 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2007
+        Files: 60 (135.47 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2012
+        Files: 60 (135.49 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2017
+        Files: 60 (135.51 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2022
+        Files: 60 (135.54 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2027
+        Files: 60 (135.58 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2032
+        Files: 60 (135.51 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/to/2037
+        Files: 36 (81.30 G)
+u  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2002
+        Files: 60 (171.16 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2007
+        Files: 60 (171.17 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2012
+        Files: 60 (171.19 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2017
+        Files: 60 (171.19 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2022
+        Files: 60 (171.21 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2027
+        Files: 60 (171.18 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2032
+        Files: 60 (171.22 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/u/2037
+        Files: 36 (102.71 G)
+v  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2002
+        Files: 60 (172.16 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2007
+        Files: 60 (172.17 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2012
+        Files: 60 (172.18 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2017
+        Files: 60 (172.18 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2022
+        Files: 60 (172.19 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2027
+        Files: 60 (172.18 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2032
+        Files: 60 (172.22 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/v/2037
+        Files: 36 (103.32 G)
+w  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2002
+        Files: 60 (182.74 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2007
+        Files: 60 (182.72 G)
+    2012  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2012
+        Files: 60 (182.72 G)
+    2017  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2017
+        Files: 60 (182.72 G)
+    2022  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2022
+        Files: 60 (182.73 G)
+    2027  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2027
+        Files: 60 (182.72 G)
+    2032  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2032
+        Files: 60 (182.74 G)
+    2037  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/w/2037
+        Files: 36 (109.63 G)

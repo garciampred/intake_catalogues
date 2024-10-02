@@ -1,0 +1,6 @@
+psl  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_3h_inst/psl
+    Files: 456 (471.30 G)
+uas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_3h_inst/uas
+    Files: 456 (718.52 G)
+vas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_3h_inst/vas
+    Files: 456 (739.03 G)

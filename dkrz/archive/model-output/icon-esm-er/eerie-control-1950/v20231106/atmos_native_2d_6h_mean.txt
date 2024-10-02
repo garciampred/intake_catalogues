@@ -1,0 +1,2 @@
+pr  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_6h_mean/pr
+    Files: 456 (813.01 G)

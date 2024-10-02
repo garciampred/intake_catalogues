@@ -1,0 +1,34 @@
+clt  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/clt
+    Files: 38 (118.33 G)
+dew2  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/dew2
+    Files: 38 (152.92 G)
+evspsbl  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/evspsbl
+    Files: 38 (218.93 G)
+hfls  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/hfls
+    Files: 38 (218.95 G)
+hfss  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/hfss
+    Files: 38 (227.49 G)
+pr  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/pr
+    Files: 38 (237.31 G)
+ps  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/ps
+    Files: 38 (153.34 G)
+psl  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/psl
+    Files: 38 (139.60 G)
+rlds  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/rlds
+    Files: 38 (195.69 G)
+rlus  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/rlus
+    Files: 38 (177.29 G)
+rlut  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/rlut
+    Files: 38 (196.33 G)
+rsds  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/rsds
+    Files: 38 (201.29 G)
+rsus  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/rsus
+    Files: 38 (204.54 G)
+sfcwind  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/sfcwind
+    Files: 38 (209.36 G)
+tas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/tas
+    Files: 38 (152.22 G)
+uas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/uas
+    Files: 38 (218.79 G)
+vas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/vas
+    Files: 38 (221.42 G)

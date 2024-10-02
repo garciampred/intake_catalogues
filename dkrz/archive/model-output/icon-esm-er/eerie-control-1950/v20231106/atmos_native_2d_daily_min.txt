@@ -1,0 +1,2 @@
+tas  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/atmos_native_2d_daily_min/tas
+    Files: 31 (127.50 G)

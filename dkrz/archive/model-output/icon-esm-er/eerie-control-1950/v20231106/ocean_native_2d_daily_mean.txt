@@ -1,0 +1,62 @@
+Wind-Speed-10m  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/Wind-Speed-10m
+    Files: 38 (529.00 G)
+atmos-fluxes-FrshFlux-Evaporation  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-FrshFlux-Evaporation
+    Files: 38 (568.81 G)
+atmos-fluxes-FrshFlux-Precipitation  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-FrshFlux-Precipitation
+    Files: 38 (614.27 G)
+atmos-fluxes-FrshFlux-Runoff  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-FrshFlux-Runoff
+    Files: 38 (58.62 G)
+atmos-fluxes-FrshFlux-SnowFall  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-FrshFlux-SnowFall
+    Files: 38 (567.63 G)
+atmos-fluxes-HeatFlux-Latent  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-HeatFlux-Latent
+    Files: 38 (566.97 G)
+atmos-fluxes-HeatFlux-LongWave  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-HeatFlux-LongWave
+    Files: 38 (548.35 G)
+atmos-fluxes-HeatFlux-Sensible  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-HeatFlux-Sensible
+    Files: 38 (595.16 G)
+atmos-fluxes-HeatFlux-ShortWave  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-HeatFlux-ShortWave
+    Files: 38 (529.28 G)
+atmos-fluxes-HeatFlux-Total  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-HeatFlux-Total
+    Files: 38 (588.51 G)
+atmos-fluxes-stress-x  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-stress-x
+    Files: 38 (50.18 G)
+atmos-fluxes-stress-xw  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-stress-xw
+    Files: 38 (579.52 G)
+atmos-fluxes-stress-y  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-stress-y
+    Files: 38 (50.31 G)
+atmos-fluxes-stress-yw  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/atmos-fluxes-stress-yw
+    Files: 38 (586.25 G)
+conc  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/conc
+    Files: 38 (47.16 G)
+delhi  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/delhi
+    Files: 38 (55.69 G)
+delhs  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/delhs
+    Files: 38 (53.30 G)
+hi  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/hi
+    Files: 38 (50.15 G)
+hs  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/hs
+    Files: 38 (50.96 G)
+ice-u  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/ice-u
+    Files: 38 (134.14 G)
+ice-v  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/ice-v
+    Files: 38 (124.91 G)
+mlotst  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/mlotst
+    Files: 38 (607.46 G)
+mlotst10  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/mlotst10
+    Files: 38 (592.64 G)
+sea-level-pressure  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/sea-level-pressure
+    Files: 38 (334.66 G)
+so  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/so
+    Files: 38 (433.71 G)
+ssh  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/ssh
+    Files: 38 (572.92 G)
+stretch-c  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/stretch-c
+    Files: 38 (265.76 G)
+to  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/to
+    Files: 38 (510.90 G)
+u  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/u
+    Files: 38 (638.29 G)
+v  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/v
+    Files: 38 (647.03 G)
+verticallyTotal-mass-flux-e  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/verticallyTotal-mass-flux-e
+    Files: 456 (1061.24 G)

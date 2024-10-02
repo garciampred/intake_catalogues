@@ -1,0 +1,46 @@
+RR  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/RR
+    Files: 456 (825.75 G)
+SS  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/SS
+    Files: 456 (793.09 G)
+TT  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/TT
+    Files: 456 (1091.27 G)
+fwR  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/fwR
+    Files: 38 (19.65 G)
+hflR  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/hflR
+    Files: 38 (19.26 G)
+sigma0  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/sigma0
+    Files: 456 (783.81 G)
+tauxu  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/tauxu
+    Files: 38 (20.10 G)
+tauyv  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/tauyv
+    Files: 38 (20.39 G)
+uR  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/uR
+    Files: 456 (1300.85 G)
+uS  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/uS
+    Files: 456 (1300.88 G)
+uT  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/uT
+    Files: 456 (1302.53 G)
+uu  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/uu
+    Files: 456 (1263.23 G)
+uv  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/uv
+    Files: 456 (1354.36 G)
+uw  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/uw
+    Files: 456 (1385.32 G)
+vR  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/vR
+    Files: 456 (1308.46 G)
+vS  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/vS
+    Files: 456 (1308.46 G)
+vT  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/vT
+    Files: 456 (1310.04 G)
+vv  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/vv
+    Files: 456 (1257.41 G)
+vw  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/vw
+    Files: 456 (1385.62 G)
+wR  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/wR
+    Files: 456 (1386.17 G)
+wS  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/wS
+    Files: 456 (1386.16 G)
+wT  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/wT
+    Files: 456 (1387.05 G)
+ww  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/ww
+    Files: 456 (1237.88 G)

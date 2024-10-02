@@ -1,0 +1,25 @@
+so  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/so
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/so/2002
+        Files: 60 (2380.16 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/so/2007
+        Files: 60 (2380.06 G)
+to  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/to
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/to/2002
+        Files: 60 (2704.52 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/to/2007
+        Files: 60 (2702.82 G)
+u  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/u
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/u/2002
+        Files: 60 (2182.52 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/u/2007
+        Files: 60 (2182.68 G)
+v  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/v
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/v/2002
+        Files: 60 (2208.52 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/v/2007
+        Files: 60 (2208.49 G)
+w  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/w
+    2002  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/w/2002
+        Files: 60 (5576.18 G)
+    2007  -  /arch/bm1344/ICON/outdata/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/w/2007
+        Files: 60 (5575.89 G)
