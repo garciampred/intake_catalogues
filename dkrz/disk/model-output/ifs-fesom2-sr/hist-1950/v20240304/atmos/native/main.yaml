@@ -33,13 +33,13 @@ sources:
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
       activity_id: EERIE
-      experiment: historical-1950
-      experiment_id: historical-1950
+      experiment: hist-1950
+      experiment_id: hist-1950
       grid_label: native
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
@@ -57,7 +57,7 @@ sources:
           x: lon
           y: lat
           z: '{{variables}}'
-      simulation_id: IFS-FESOM2-SR_historical-1950
+      simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
       time_max: '1969-12-31T12:00:00.000000000'
@@ -190,13 +190,13 @@ sources:
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
       activity_id: EERIE
-      experiment: historical-1950
-      experiment_id: historical-1950
+      experiment: hist-1950
+      experiment_id: hist-1950
       grid_label: native
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
@@ -214,7 +214,7 @@ sources:
           x: lon
           y: lat
           z: '{{variables}}'
-      simulation_id: IFS-FESOM2-SR_historical-1950
+      simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
       time_max: '1969-12-31T12:00:00.000000000'
@@ -263,13 +263,13 @@ sources:
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
       activity_id: EERIE
-      experiment: historical-1950
-      experiment_id: historical-1950
+      experiment: hist-1950
+      experiment_id: hist-1950
       grid_label: native
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
@@ -287,7 +287,7 @@ sources:
           x: lon
           y: lat
           z: '{{variables}}'
-      simulation_id: IFS-FESOM2-SR_historical-1950
+      simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
       time_max: '1969-12-31T12:00:00.000000000'
@@ -320,13 +320,13 @@ sources:
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
       activity_id: EERIE
-      experiment: historical-1950
-      experiment_id: historical-1950
+      experiment: hist-1950
+      experiment_id: hist-1950
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
@@ -344,7 +344,7 @@ sources:
           x: lon
           y: lat
           z: '{{variables}}'
-      simulation_id: IFS-FESOM2-SR_historical-1950
+      simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
       time_max: '1969-12-31T12:00:00.000000000'
@@ -459,13 +459,13 @@ sources:
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
       activity_id: EERIE
-      experiment: historical-1950
-      experiment_id: historical-1950
+      experiment: hist-1950
+      experiment_id: hist-1950
       grid_label: native
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
@@ -483,7 +483,7 @@ sources:
           x: lon
           y: lat
           z: '{{variables}}'
-      simulation_id: IFS-FESOM2-SR_historical-1950
+      simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
       time_max: '1969-12-31T12:00:00.000000000'
@@ -514,13 +514,13 @@ sources:
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
       activity_id: EERIE
-      experiment: historical-1950
-      experiment_id: historical-1950
+      experiment: hist-1950
+      experiment_id: hist-1950
       grid_label: native
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
@@ -538,7 +538,7 @@ sources:
           x: lon
           y: lat
           z: '{{variables}}'
-      simulation_id: IFS-FESOM2-SR_historical-1950
+      simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
       time_max: '1969-12-31T12:00:00.000000000'
