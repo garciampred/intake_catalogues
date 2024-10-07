@@ -1,0 +1,132 @@
+sources: 
+  3D_daily_avg:
+    driver: zarr
+    args:
+      consolidated: False
+      chunks: auto
+     # storage_options:
+     #   lazy: true
+      #  remote_protocol: file      
+      urlpath: 
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1950/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1951/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1952/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1953/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1954/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1955/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1956/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1957/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1958/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1959/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1960/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1961/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1962/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1963/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1964/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1965/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1966/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1967/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1968/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1969/sol.dir/atm2d_avg.json
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      activity_id: EERIE
+      experiment: historical-1950
+      experiment_id: historical-1950
+      grid_label: native
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_historical-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '1969-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+        - Time-mean soil temperature
+        - Time-mean volumetric soil moisture
+    parameters:
+      variables:
+        allowed:
+          - msot
+          - mvsw
+        default: msot
+        description: All available variables in the dataset
+        type: str      
+
+  3D_monthly_avg:
+    driver: zarr
+    args:
+      consolidated: False
+      chunks: auto
+     # storage_options:
+      #  lazy: true
+      #  remote_protocol: file      
+      urlpath:
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1m_NATIVE/jsons.1950-1959/sol.dir/atm2d_avg.json
+      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1m_NATIVE/jsons.1960-1969/sol.dir/atm2d_avg.json
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR historical-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR historical-1950 run
+      activity_id: EERIE
+      experiment: historical-1950
+      experiment_id: historical-1950
+      grid_label: native
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_historical-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '1969-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+        - Time-mean soil temperature
+        - Time-mean volumetric soil moisture
+    parameters:
+      variables:
+        allowed:
+          - msot
+          - mvsw
+        default: msot
+        description: All available variables in the dataset
+        type: str      
