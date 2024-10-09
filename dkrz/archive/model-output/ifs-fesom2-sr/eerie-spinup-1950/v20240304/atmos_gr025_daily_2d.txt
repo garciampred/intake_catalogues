@@ -1,0 +1,12 @@
+1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_gr025_daily_2d/1955
+    Files: 5 (55.15 G)
+1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_gr025_daily_2d/1960
+    Files: 5 (55.22 G)
+1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_gr025_daily_2d/1965
+    Files: 5 (55.18 G)
+1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_gr025_daily_2d/1970
+    Files: 5 (55.17 G)
+1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_gr025_daily_2d/1975
+    Files: 5 (55.14 G)
+1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_gr025_daily_2d/1980
+    Files: 1 (11.05 G)

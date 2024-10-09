@@ -1,0 +1,60 @@
+tx-sur  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1950
+        Files: 5 (2.46 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1955
+        Files: 5 (2.46 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1960
+        Files: 5 (2.44 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1965
+        Files: 5 (2.47 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1970
+        Files: 5 (2.47 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1975
+        Files: 5 (2.46 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/tx-sur/1980
+        Files: 1 (0.49 G)
+ty-sur  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1950
+        Files: 5 (2.51 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1955
+        Files: 5 (2.50 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1960
+        Files: 5 (2.48 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1965
+        Files: 5 (2.51 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1970
+        Files: 5 (2.51 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1975
+        Files: 5 (2.51 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/ty-sur/1980
+        Files: 1 (0.50 G)
+u  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1950
+        Files: 60 (152.78 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1955
+        Files: 60 (152.85 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1960
+        Files: 60 (156.45 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1965
+        Files: 60 (152.88 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1970
+        Files: 60 (152.93 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1975
+        Files: 60 (152.94 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/u/1980
+        Files: 12 (30.59 G)
+v  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1950
+        Files: 60 (154.41 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1955
+        Files: 60 (154.46 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1960
+        Files: 60 (186.56 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1965
+        Files: 60 (154.52 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1970
+        Files: 60 (154.57 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1975
+        Files: 60 (154.58 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_monthly_elem/v/1980
+        Files: 12 (30.93 G)

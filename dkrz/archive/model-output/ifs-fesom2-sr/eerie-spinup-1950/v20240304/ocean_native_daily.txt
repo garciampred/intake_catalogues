@@ -1,0 +1,135 @@
+MLD1  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1950
+        Files: 5 (0.20 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1955
+        Files: 5 (0.20 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1960
+        Files: 5 (0.20 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1965
+        Files: 5 (0.20 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1970
+        Files: 5 (0.20 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1975
+        Files: 5 (0.20 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD1/1980
+        Files: 1 (0.04 G)
+MLD2  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1950
+        Files: 5 (37.77 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1955
+        Files: 5 (37.75 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1960
+        Files: 5 (37.63 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1965
+        Files: 5 (37.58 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1970
+        Files: 5 (37.53 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1975
+        Files: 5 (37.55 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/MLD2/1980
+        Files: 1 (7.52 G)
+a-ice  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1950
+        Files: 5 (5.74 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1955
+        Files: 5 (5.94 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1960
+        Files: 5 (6.11 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1965
+        Files: 5 (6.32 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1970
+        Files: 5 (6.28 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1975
+        Files: 5 (6.06 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/a-ice/1980
+        Files: 1 (1.21 G)
+m-ice  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1950
+        Files: 5 (6.33 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1955
+        Files: 5 (6.58 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1960
+        Files: 5 (6.77 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1965
+        Files: 5 (7.02 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1970
+        Files: 5 (6.95 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1975
+        Files: 5 (6.72 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/m-ice/1980
+        Files: 1 (1.34 G)
+ssh  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1950
+        Files: 5 (37.05 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1955
+        Files: 5 (37.00 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1960
+        Files: 5 (36.95 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1965
+        Files: 5 (36.91 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1970
+        Files: 5 (36.89 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1975
+        Files: 5 (36.86 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/ssh/1980
+        Files: 1 (7.39 G)
+sss  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1950
+        Files: 5 (27.53 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1955
+        Files: 5 (27.51 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1960
+        Files: 5 (27.52 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1965
+        Files: 5 (27.53 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1970
+        Files: 5 (27.53 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1975
+        Files: 5 (27.47 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sss/1980
+        Files: 1 (5.51 G)
+sst  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1950
+        Files: 5 (35.24 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1955
+        Files: 5 (35.21 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1960
+        Files: 5 (35.17 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1965
+        Files: 5 (35.11 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1970
+        Files: 5 (35.12 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1975
+        Files: 5 (35.12 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/sst/1980
+        Files: 1 (7.05 G)
+uice  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1950
+        Files: 5 (12.48 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1955
+        Files: 5 (12.85 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1960
+        Files: 5 (13.25 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1965
+        Files: 5 (13.42 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1970
+        Files: 5 (13.73 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1975
+        Files: 5 (13.81 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/uice/1980
+        Files: 1 (2.78 G)
+vice  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1950
+        Files: 5 (12.57 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1955
+        Files: 5 (12.94 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1960
+        Files: 5 (13.31 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1965
+        Files: 5 (13.47 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1970
+        Files: 5 (13.80 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1975
+        Files: 5 (13.93 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_native_daily/vice/1980
+        Files: 1 (2.79 G)

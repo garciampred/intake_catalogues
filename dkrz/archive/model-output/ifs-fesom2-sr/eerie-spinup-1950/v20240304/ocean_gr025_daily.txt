@@ -1,0 +1,14 @@
+1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1950
+    Files: 5 (18.55 G)
+1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1955
+    Files: 5 (18.57 G)
+1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1960
+    Files: 5 (18.74 G)
+1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1965
+    Files: 5 (18.63 G)
+1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1970
+    Files: 5 (19.04 G)
+1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1975
+    Files: 5 (18.62 G)
+1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/ocean_gr025_daily/1980
+    Files: 1 (3.77 G)

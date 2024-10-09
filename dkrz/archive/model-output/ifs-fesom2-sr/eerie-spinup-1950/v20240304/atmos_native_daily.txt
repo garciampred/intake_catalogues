@@ -1,0 +1,90 @@
+100u  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1950
+        Files: 5 (30.18 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1955
+        Files: 5 (30.18 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1960
+        Files: 5 (30.20 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1965
+        Files: 5 (30.18 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1970
+        Files: 5 (30.20 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1975
+        Files: 5 (30.18 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100u/1980
+        Files: 1 (6.05 G)
+100v  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1950
+        Files: 5 (30.62 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1955
+        Files: 5 (30.62 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1960
+        Files: 5 (30.64 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1965
+        Files: 5 (30.62 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1970
+        Files: 5 (30.63 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1975
+        Files: 5 (30.63 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/100v/1980
+        Files: 1 (6.14 G)
+10u  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1950
+        Files: 5 (30.43 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1955
+        Files: 5 (30.43 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1960
+        Files: 5 (30.45 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1965
+        Files: 5 (30.43 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1970
+        Files: 5 (30.45 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1975
+        Files: 5 (30.44 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10u/1980
+        Files: 1 (6.10 G)
+10v  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1950
+        Files: 5 (30.74 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1955
+        Files: 5 (30.73 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1960
+        Files: 5 (30.76 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1965
+        Files: 5 (30.74 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1970
+        Files: 5 (30.75 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1975
+        Files: 5 (30.75 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/10v/1980
+        Files: 1 (6.16 G)
+2t  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1950
+        Files: 5 (19.46 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1955
+        Files: 5 (19.46 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1960
+        Files: 5 (19.47 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1965
+        Files: 5 (19.47 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1970
+        Files: 5 (19.47 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1975
+        Files: 5 (19.46 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/2t/1980
+        Files: 1 (3.90 G)
+tprate  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate
+    1950  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1950
+        Files: 5 (26.14 G)
+    1955  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1955
+        Files: 5 (26.17 G)
+    1960  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1960
+        Files: 5 (26.28 G)
+    1965  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1965
+        Files: 5 (26.30 G)
+    1970  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1970
+        Files: 5 (26.20 G)
+    1975  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1975
+        Files: 5 (26.26 G)
+    1980  -  /arch/bm1344/IFS-FESOM2/outdata/eerie-spinup-1950/v20240304/atmos_native_daily/tprate/1980
+        Files: 1 (5.26 G)
