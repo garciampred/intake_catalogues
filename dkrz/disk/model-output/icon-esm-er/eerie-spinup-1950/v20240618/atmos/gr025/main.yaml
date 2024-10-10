@@ -52,8 +52,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-31T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: max
       title: ICON simulation
       variable-long_names:
@@ -123,8 +123,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-31T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -229,8 +229,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-31T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: min
       title: ICON simulation
       variable-long_names:
@@ -298,8 +298,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 2188799
-      time_min: 44639
+      time_max: '1990-12-01T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -431,8 +431,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-01T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
       uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
@@ -521,8 +521,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-31T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -565,7 +565,7 @@ sources:
       experiment: eerie-spinup-1950
       experiment_id: eerie-1950spinup
       format: netcdf
-      frequency: 1month
+      frequency: 1day
       grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
       grid_label: gn
       history: deleted for convenience
@@ -596,8 +596,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-31T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
@@ -612,6 +612,178 @@ sources:
         - hur
         - hus
         - pfull
+        default: gpsm
+        description: All available variables in the dataset
+        type: str
+  plev19_1mth_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/atm_plev19_1mth_mean_remap025.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30782 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1month
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: plev19
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby:
+          - time
+          - plev_2
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1990-12-01T00:00:00.000000000'
+      time_min: '1980-01-01T00:00:00.000000000'
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - specific cloud ice content
+      - specific cloud water content
+      - geopotential above surface
+      - relative humidity
+      - Specific humidity
+      - Pressure
+      - pressure at half level
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+    parameters:
+      variables:
+        allowed:
+        - cli
+        - clw
+        - gpsm
+        - hur
+        - hus
+        - pfull
+        - phalf
+        - ta
+        - ua
+        - va
+        - wa
+        default: gpsm
+        description: All available variables in the dataset
+        type: str
+  plev19_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/atm_plev19_1d_mean_1_remap025.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30782 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1day
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: plev19
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby:
+          - time
+          - plev_2
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1991-01-01T00:00:00.000000000'
+      time_min: '1980-01-02T00:00:00.000000000'
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - geopotential_above_surface
+      - relative_humidity
+      - specific_humidity
+      - air_pressure
+      - air_temperature
+      - eastward_wind
+      - northward_wind
+      - upward_air_velocity
+    parameters:
+      variables:
+        allowed:
+        - gpsm
+        - hur
+        - hus
+        - pfull
+        - ta
+        - ua
+        - va
+        - wa
         default: gpsm
         description: All available variables in the dataset
         type: str
