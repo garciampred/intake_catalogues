@@ -793,8 +793,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
-        remote_protocol: file
-      decode_times: False       
+        remote_protocol: file      
       urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/atmos_pl_6h_inst_remap025.parq
     driver: zarr
     metadata:
