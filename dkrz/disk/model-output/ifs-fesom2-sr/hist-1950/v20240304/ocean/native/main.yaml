@@ -3,6 +3,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/native/2D_daily_avg.parq
     driver: zarr
     metadata:
@@ -68,6 +70,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/native/3D_daily_avg_elems.parq
     driver: zarr
     metadata:
@@ -119,6 +123,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/native/3D_daily_avg_nodes.parq
     driver: zarr
     metadata:

@@ -3,6 +3,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/native/2D_daily_avg.parq
     driver: zarr
     metadata:
@@ -136,6 +138,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/native/2D_daily_max.parq
     driver: zarr
     metadata:
@@ -187,6 +191,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/native/2D_daily_min.parq
     driver: zarr
     metadata:
@@ -236,6 +242,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/native/2D_monthly_avg.parq
     driver: zarr
     metadata:
@@ -369,6 +377,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/native/2D_monthly_max.parq
     driver: zarr
     metadata:
@@ -420,6 +430,8 @@ sources:
     args:
       chunks: auto
       consolidated: false
+      storage_options:
+        lazy: true
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/native/2D_monthly_min.parq
     driver: zarr
     metadata:
