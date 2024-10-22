@@ -1,33 +1,10 @@
 sources:
   2D_daily_avg:
-    driver: zarr
     args:
-      consolidated: False
       chunks: auto
-      #storage_options:
-      #  lazy: true
-       # remote_protocol: file      
-      urlpath: 
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1950/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1951/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1952/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1953/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1954/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1955/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1956/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1957/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1958/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1959/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1960/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1961/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1962/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1963/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1964/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1965/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1966/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1967/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1968/o2d.dir/atm2d_avg.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1969/o2d.dir/atm2d_avg.json
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/native/2D_daily_avg.parq
+    driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
@@ -86,37 +63,13 @@ sources:
         - avg_zos
         default: avg_mlotst125
         description: All available variables in the dataset
-        type: str 
-
+        type: str
   3D_daily_avg_elems:
-    driver: zarr
     args:
-      consolidated: False
       chunks: auto
-     # storage_options:
-     #   lazy: true
-     #   remote_protocol: file      
-      urlpath: 
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1950/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1951/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1952/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1953/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1954/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1955/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1956/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1957/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1958/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1959/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1960/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1961/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1962/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1963/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1964/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1965/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1966/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1967/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1968/o3d.dir/elem_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1969/o3d.dir/elem_based_variables.json
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/native/3D_daily_avg_elems.parq
+    driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
@@ -161,37 +114,13 @@ sources:
         - avg_von
         default: avg_uoe
         description: All available variables in the dataset
-        type: str 
-
+        type: str
   3D_daily_avg_nodes:
-    driver: zarr
     args:
-      consolidated: False
       chunks: auto
-     # storage_options:
-     #   lazy: true
-     #   remote_protocol: file      
-      urlpath:  
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1950/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1951/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1952/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1953/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1954/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1955/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1956/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1957/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1958/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1959/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1960/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1961/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1962/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1963/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1964/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1965/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1966/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1967/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1968/o3d.dir/node_based_variables.json
-      - reference::/work/bm1344/a270228/phase1_hist/gribscan_1d_NATIVE/jsons.1969/o3d.dir/node_based_variables.json
+      consolidated: false
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/native/3D_daily_avg_nodes.parq
+    driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
@@ -238,5 +167,4 @@ sources:
         - avg_wo
         default: avg_so
         description: All available variables in the dataset
-        type: str 
-
+        type: str
