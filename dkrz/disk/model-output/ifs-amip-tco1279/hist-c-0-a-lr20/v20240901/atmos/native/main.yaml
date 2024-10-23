@@ -12,6 +12,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly.parq
   2D_24h:
@@ -20,6 +21,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h.parq
   2D_6h:
@@ -28,6 +30,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h.parq
   2D_6h_native_acc:
@@ -36,6 +39,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_native_acc.parq
   3D_monthly:
@@ -44,6 +48,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_monthly.parq
   3D_24h:
@@ -52,6 +57,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_24h.parq
   3D_6h:
@@ -60,6 +66,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_6h.parq
   2D_monthly_wam:
@@ -68,6 +75,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly_wam.parq
   2D_24h_wam:
@@ -76,6 +84,7 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h_wam.parq
   2D_6h_wam:
@@ -84,5 +93,6 @@ sources:
     args:
       storage_options:
         lazy: true
+        remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_wam.parq
