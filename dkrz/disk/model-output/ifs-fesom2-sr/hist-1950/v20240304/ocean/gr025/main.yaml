@@ -5,6 +5,7 @@ sources:
       consolidated: false
       storage_options:
         lazy: true
+        remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/ocean/gr025/2D_daily_avg.parq
     driver: zarr
     metadata:
