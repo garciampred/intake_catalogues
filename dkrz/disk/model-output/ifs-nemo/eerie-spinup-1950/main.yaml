@@ -1,0 +1,7 @@
+sources:
+  v20241010:
+    args:
+      path: "{{CATALOG_DIR}}/v20241010/main.yaml"
+    description: This catalog contains atmospheric EERIE IFS-NEMO eerie-spinup-1950 output available at DKRZ disk.
+    driver: yaml_file_cat
+

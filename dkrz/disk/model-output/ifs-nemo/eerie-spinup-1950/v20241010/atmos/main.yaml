@@ -1,0 +1,7 @@
+sources:
+  gr1x1:
+    args:
+      path: "{{CATALOG_DIR}}/gr1x1/main.yaml"
+    description: This catalog contains atmospheric EERIE IFS-NEMO eerie-control-1950 output on 1x1deg grid available at DKRZ disk.
+    driver: yaml_file_cat
+
