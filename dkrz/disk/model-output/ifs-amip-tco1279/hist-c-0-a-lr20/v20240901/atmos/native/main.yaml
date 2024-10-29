@@ -33,7 +33,7 @@ sources:
         remote_protocol: file
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h.parq
-  2D_6h_native_acc:
+  2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on the native grid
     driver: zarr
     args:
