@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/703708231.svg)](https://doi.org/10.5281/zenodo.14243676)
+
+
 # intake_catalogues
 Intake catalogues for the EERIE data held at the analysis facilities (JASMIN and DKRZ)
 

@@ -19,11 +19,6 @@ sources:
       path: "{{CATALOG_DIR}}/ifs-amip-tco399/main.yaml"
     description: Medium-resolution (tco399, ~ 28 km) IFS-AMIP output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
     driver: yaml_file_cat
-  ifs-amip:
-    args:
-      path: "{{CATALOG_DIR}}/ifs-amip/main.yaml"
-    description: IFS-AMIP output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
-    driver: yaml_file_cat
   ifs-nemo:
     args:
       path: "{{CATALOG_DIR}}/ifs-nemo/main.yaml"
