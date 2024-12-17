@@ -1,0 +1,28 @@
+sources:
+  2d_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_2d_daily_mean.parq
+    driver: zarr
+  2d_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_2d_monthly_mean.parq
+    driver: zarr
+  mon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_mon.parq
+    driver: zarr
