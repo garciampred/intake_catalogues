@@ -118,7 +118,7 @@ sources:
         allowed:
         - avg_mlotst030
         - avg_sigrowth
-        default: avg_mlotst30
+        default: avg_mlotst030
         description: All available variables in the dataset
         type: str
   3D_daily_avg:
