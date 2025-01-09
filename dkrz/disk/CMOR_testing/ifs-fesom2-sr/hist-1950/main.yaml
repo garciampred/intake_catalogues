@@ -1,0 +1,6 @@
+sources:
+  v20240304:
+    args:
+      path: "{{CATALOG_DIR}}/v20240304/main.yaml"
+    description: This catalog contains CMORized IFS-FESOM2-SR hist-1950 testing output available at DKRZ disk; v1.
+    driver: yaml_file_cat
