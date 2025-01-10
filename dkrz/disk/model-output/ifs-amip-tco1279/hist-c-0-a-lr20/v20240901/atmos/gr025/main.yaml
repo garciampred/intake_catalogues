@@ -28,12 +28,18 @@ sources:
     description: 2D 6-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
+      storage_options:
+        remote_protocol: file
+        lazy: true         
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/gr025/2D_6h.parq
   2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
+      storage_options:
+        remote_protocol: file
+        lazy: true            
       consolidated: False
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/gr025/2D_6h_acc.parq
   3D_monthly:
