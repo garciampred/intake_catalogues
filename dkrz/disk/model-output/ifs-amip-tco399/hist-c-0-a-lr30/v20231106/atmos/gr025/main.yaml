@@ -99,8 +99,10 @@ sources:
         type: str
   2D_6h_native:
     args:
+      storage_options:
+        lazy: True
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA_LR30/gribscan/2D_6h_native/json.dir/atm2d.json
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr30/v20231106/atmos/gr025/2D_6h_native.parq
     description: 2D 6-hourly variables from IFS-AMIP on native tco399 grid
     driver: zarr
     metadata:

@@ -10,8 +10,10 @@ sources:
     description: 2D monthly variables from IFS-AMIP on the native grid. Mostly monthly averages, but also mininum (mn2t) and maximum (mx2t, 10fg)
     driver: zarr
     args:
+      storage_options:
+        lazy: True
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1980/atm2d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1980/atm2d_min.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1980/atm2d_max.json
@@ -141,15 +143,17 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2022/atm2d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2022/atm2d_min.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2022/atm2d_max.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_avg.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_min.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_max.json
+      #- reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_avg.json
+      #- reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_min.json
+      #- reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_max.json
   2D_24h:
     description: 2D 24-hourly variables from IFS-AMIP on the native grid. Mostly daily averages, but also mininum (mn2t24) and maximum (mx2t24, 10fg)
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d_min.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d_max.json
@@ -279,15 +283,17 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm2d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm2d_min.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm2d_max.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_avg.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_min.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_max.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_avg.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_min.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_max.json
   2D_6h:
     description: 2D 6-hourly instantaneous variables from IFS-AMIP on the native grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1981/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1982/atm2d.json
@@ -331,13 +337,15 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2020/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2021/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm2d.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d.json
   2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on the native grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_acc.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d_acc.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1981/atm2d_acc.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1982/atm2d_acc.json
@@ -386,8 +394,10 @@ sources:
     description: 3D monthly average variables from IFS-AMIP on the native grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/3D_monthly.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1980/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1981/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1982/atm3d_avg.json
@@ -431,13 +441,15 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2020/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2021/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2022/atm3d_avg.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm3d_avg.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm3d_avg.json
   3D_24h:
     description: 3D 24-hourly average variables from IFS-AMIP on the native grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/3D_24h.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1981/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1982/atm3d_avg.json
@@ -481,13 +493,15 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2020/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2021/atm3d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm3d_avg.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm3d_avg.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm3d_avg.json
   3D_6h:
     description: 3D 6-hourly instantaneous variables from IFS-AMIP on the native grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/3D_6h.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm3d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1981/atm3d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1982/atm3d.json
@@ -531,13 +545,15 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2020/atm3d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2021/atm3d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm3d.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm3d.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm3d.json
   2D_monthly_wam:
     description: 2D monthly mean variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly_wam.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1980/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1981/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.1982/atm2d_ll_avg.json
@@ -581,13 +597,15 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2020/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2021/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2022/atm2d_ll_avg.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_ll_avg.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clmn/jsons.2023/atm2d_ll_avg.json
   2D_24h_wam:
     description: 2D daily mean variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h_wam.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1981/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1982/atm2d_ll_avg.json
@@ -631,13 +649,15 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2020/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2021/atm2d_ll_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm2d_ll_avg.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_ll_avg.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_ll_avg.json
   2D_6h_wam:
     description: 6-hourly instantaneous variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
     args:
+      storage_options:
+        lazy: True            
       consolidated: False
-      urlpath:
+      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_wam.parq
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1980/atm2d_ll.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1981/atm2d_ll.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.1982/atm2d_ll.json
@@ -681,4 +701,4 @@ sources:
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2020/atm2d_ll.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2021/atm2d_ll.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2022/atm2d_ll.json
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_ll.json
+      #      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/native/clte/jsons.2023/atm2d_ll.json
