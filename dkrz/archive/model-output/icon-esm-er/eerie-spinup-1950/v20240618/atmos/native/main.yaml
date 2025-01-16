@@ -109,3 +109,14 @@ sources:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_model-level_daily_mean_2_slk.parq
     driver: zarr
+  pl_6h_inst:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: slk
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_pl_6h_inst_slk.parq
+    driver: zarr
