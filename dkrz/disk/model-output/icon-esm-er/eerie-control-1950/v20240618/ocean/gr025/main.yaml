@@ -1,0 +1,54 @@
+sources:
+  2d_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/v20240618/ocean/gr025/oce_2d_1d_mean_gr025_sst.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l30792 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: daily
+      grid_id: not implemented
+      grid_label: gr
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: ocean
+      references: see MPIM/DWD publications
+      simulation_id: erc1011
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2040-12-31T12:00:00.000000000'
+      time_min: '1990-01-01T12:00:00.000000000'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_20390401T000000-20390430T235900/erc2002_oce_2d_1d_mean_20390401T000000Z.nc
+      variable-long_names:
+      - sea surface temperature
+    parameters:
+      variables:
+        allowed:
+        - sst
+        default: sst    
+        description: All available variables in the dataset
+        type: str
