@@ -1,0 +1,1028 @@
+sources:
+  pressure-level_analysis_daily:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1D/combined.parq
+    driver: zarr
+    metadata:
+      data_type: analysis
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: daily
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: pressure-level
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-31T11:30:00.000000000'
+      time_min: '1940-01-01T11:30:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - Fraction of cloud cover
+      - Specific cloud ice water content
+      - Specific cloud liquid water content
+      - Specific rain water content
+      - Specific snow water content
+      - Divergence
+      - Ozone mass mixing ratio
+      - Potential vorticity
+      - Specific humidity
+      - Relative humidity
+      - Temperature
+      - U component of wind
+      - V component of wind
+      - Vorticity (relative)
+      - Vertical velocity
+      - Geopotential
+    parameters:
+      variables:
+        allowed:
+        - cc
+        - ciwc
+        - clwc
+        - crwc
+        - cswc
+        - d
+        - o3
+        - pv
+        - q
+        - r
+        - t
+        - u
+        - v
+        - vo
+        - w
+        - z
+        default: cc
+        description: All available variables in the dataset
+        type: str
+  pressure-level_analysis_hourly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1940-1949.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1970-1979.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/2010-2019.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/2020-2023.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/2000-2009.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1960-1969.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1990-1999.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1950-1959.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1980-1989.parq
+    driver: zarr
+    metadata:
+      data_type: analysis
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: hourly
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: pressure-level
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-31T23:00:00.000000000'
+      time_min: '1940-01-01T00:00:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - Fraction of cloud cover
+      - Specific cloud ice water content
+      - Specific cloud liquid water content
+      - Specific rain water content
+      - Specific snow water content
+      - Divergence
+      - Ozone mass mixing ratio
+      - Potential vorticity
+      - Specific humidity
+      - Relative humidity
+      - Temperature
+      - U component of wind
+      - V component of wind
+      - Vorticity (relative)
+      - Vertical velocity
+      - Geopotential
+    parameters:
+      variables:
+        allowed:
+        - cc
+        - ciwc
+        - clwc
+        - crwc
+        - cswc
+        - d
+        - o3
+        - pv
+        - q
+        - r
+        - t
+        - u
+        - v
+        - vo
+        - w
+        - z
+        default: cc
+        description: All available variables in the dataset
+        type: str
+  pressure-level_analysis_monthly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1M/combined.parq
+    driver: zarr
+    metadata:
+      data_type: analysis
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: monthly
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: pressure-level
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-01T12:00:00.000000000'
+      time_min: '1940-01-01T12:00:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - Fraction of cloud cover
+      - Specific cloud ice water content
+      - Specific cloud liquid water content
+      - Specific rain water content
+      - Specific snow water content
+      - Divergence
+      - Ozone mass mixing ratio
+      - Potential vorticity
+      - Specific humidity
+      - Relative humidity
+      - Temperature
+      - U component of wind
+      - V component of wind
+      - Vorticity (relative)
+      - Vertical velocity
+      - Geopotential
+    parameters:
+      variables:
+        allowed:
+        - cc
+        - ciwc
+        - clwc
+        - crwc
+        - cswc
+        - d
+        - o3
+        - pv
+        - q
+        - r
+        - t
+        - u
+        - v
+        - vo
+        - w
+        - z
+        default: cc
+        description: All available variables in the dataset
+        type: str
+  surface_analysis_daily:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf00_1D/combined.parq
+    driver: zarr
+    metadata:
+      data_type: analysis
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: daily
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: surface
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-31T11:30:00.000000000'
+      time_min: '1940-01-01T11:30:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - 100 metre U wind component
+      - 100 metre V wind component
+      - 10 metre U wind component
+      - 10 metre V wind component
+      - 2 metre dewpoint temperature
+      - 2 metre temperature
+      - Snow albedo
+      - Sea ice area fraction
+      - Forecast albedo
+      - Forecast logarithm of surface roughness for heat
+      - Forecast surface roughness
+      - High cloud cover
+      - Ice temperature layer 1
+      - Ice temperature layer 2
+      - Ice temperature layer 3
+      - Ice temperature layer 4
+      - Low cloud cover
+      - Medium cloud cover
+      - Mean sea level pressure
+      - Snow density
+      - Snow depth
+      - Skin temperature
+      - Surface pressure
+      - Skin reservoir content
+      - Sea surface temperature
+      - Soil temperature level 1
+      - Soil temperature level 2
+      - Soil temperature level 3
+      - Soil temperature level 4
+      - Volumetric soil water layer 1
+      - Volumetric soil water layer 2
+      - Volumetric soil water layer 3
+      - Volumetric soil water layer 4
+      - Total cloud cover
+      - Total column ozone
+      - Total column water
+      - Total column vertically-integrated water vapour
+      - Temperature of snow layer
+    parameters:
+      variables:
+        allowed:
+        - 100u
+        - 100v
+        - 10u
+        - 10v
+        - 2d
+        - 2t
+        - asn
+        - ci
+        - fal
+        - flsr
+        - fsr
+        - hcc
+        - istl1
+        - istl2
+        - istl3
+        - istl4
+        - lcc
+        - mcc
+        - msl
+        - rsn
+        - sd
+        - skt
+        - sp
+        - src
+        - sst
+        - stl1
+        - stl2
+        - stl3
+        - stl4
+        - swvl1
+        - swvl2
+        - swvl3
+        - swvl4
+        - tcc
+        - tco3
+        - tcw
+        - tcwv
+        - tsn
+        default: 100u
+        description: All available variables in the dataset
+        type: str
+  surface_analysis_hourly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf00_1H/combined.parq
+    driver: zarr
+    metadata:
+      data_type: analysis
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: hourly
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: surface
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-31T23:00:00.000000000'
+      time_min: '1940-01-01T00:00:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - 100 metre U wind component
+      - 100 metre V wind component
+      - 10 metre U wind component
+      - 10 metre V wind component
+      - 2 metre dewpoint temperature
+      - 2 metre temperature
+      - Snow albedo
+      - Sea ice area fraction
+      - Forecast albedo
+      - Forecast logarithm of surface roughness for heat
+      - Forecast surface roughness
+      - High cloud cover
+      - Ice temperature layer 1
+      - Ice temperature layer 2
+      - Ice temperature layer 3
+      - Ice temperature layer 4
+      - Low cloud cover
+      - Medium cloud cover
+      - Mean sea level pressure
+      - Snow density
+      - Snow depth
+      - Skin temperature
+      - Surface pressure
+      - Skin reservoir content
+      - Sea surface temperature
+      - Soil temperature level 1
+      - Soil temperature level 2
+      - Soil temperature level 3
+      - Soil temperature level 4
+      - Volumetric soil water layer 1
+      - Volumetric soil water layer 2
+      - Volumetric soil water layer 3
+      - Volumetric soil water layer 4
+      - Total cloud cover
+      - Total column ozone
+      - Total column water
+      - Total column vertically-integrated water vapour
+      - Temperature of snow layer
+    parameters:
+      variables:
+        allowed:
+        - 100u
+        - 100v
+        - 10u
+        - 10v
+        - 2d
+        - 2t
+        - asn
+        - ci
+        - fal
+        - flsr
+        - fsr
+        - hcc
+        - istl1
+        - istl2
+        - istl3
+        - istl4
+        - lcc
+        - mcc
+        - msl
+        - rsn
+        - sd
+        - skt
+        - sp
+        - src
+        - sst
+        - stl1
+        - stl2
+        - stl3
+        - stl4
+        - swvl1
+        - swvl2
+        - swvl3
+        - swvl4
+        - tcc
+        - tco3
+        - tcw
+        - tcwv
+        - tsn
+        default: 100u
+        description: All available variables in the dataset
+        type: str
+  surface_analysis_monthly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf00_1M/combined.parq
+    driver: zarr
+    metadata:
+      data_type: analysis
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: monthly
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: surface
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-01T12:00:00.000000000'
+      time_min: '1940-01-01T12:00:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - 100 metre U wind component
+      - 100 metre V wind component
+      - 10 metre wind speed
+      - 10 metre U wind component
+      - 10 metre V wind component
+      - 2 metre dewpoint temperature
+      - 2 metre temperature
+      - Snow albedo
+      - Sea ice area fraction
+      - Forecast albedo
+      - Forecast logarithm of surface roughness for heat
+      - Forecast surface roughness
+      - High cloud cover
+      - Ice temperature layer 1
+      - Ice temperature layer 2
+      - Ice temperature layer 3
+      - Ice temperature layer 4
+      - Low cloud cover
+      - Medium cloud cover
+      - Mean sea level pressure
+      - Snow density
+      - Snow depth
+      - Skin temperature
+      - Surface pressure
+      - Skin reservoir content
+      - Sea surface temperature
+      - Soil temperature level 1
+      - Soil temperature level 2
+      - Soil temperature level 3
+      - Soil temperature level 4
+      - Volumetric soil water layer 1
+      - Volumetric soil water layer 2
+      - Volumetric soil water layer 3
+      - Volumetric soil water layer 4
+      - Total cloud cover
+      - Total column ozone
+      - Total column water
+      - Total column vertically-integrated water vapour
+      - Temperature of snow layer
+    parameters:
+      variables:
+        allowed:
+        - 100u
+        - 100v
+        - 10si
+        - 10u
+        - 10v
+        - 2d
+        - 2t
+        - asn
+        - ci
+        - fal
+        - flsr
+        - fsr
+        - hcc
+        - istl1
+        - istl2
+        - istl3
+        - istl4
+        - lcc
+        - mcc
+        - msl
+        - rsn
+        - sd
+        - skt
+        - sp
+        - src
+        - sst
+        - stl1
+        - stl2
+        - stl3
+        - stl4
+        - swvl1
+        - swvl2
+        - swvl3
+        - swvl4
+        - tcc
+        - tco3
+        - tcw
+        - tcwv
+        - tsn
+        default: 100u
+        description: All available variables in the dataset
+        type: str
+  surface_forecast_hourly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf12_1H/combined.parq
+    driver: zarr
+    metadata:
+      data_type: forecast
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: hourly
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: surface
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-31T23:00:00.000000000'
+      time_min: '1940-01-01T07:00:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - 10 metre wind gust since previous post-processing
+      - Boundary layer dissipation
+      - Boundary layer height
+      - Convective available potential energy
+      - Cloud base height
+      - Clear-sky direct solar radiation at surface
+      - Convective precipitation
+      - Convective rain rate
+      - Convective snowfall
+      - Convective snowfall rate water equivalent
+      - Evaporation
+      - Snow evaporation
+      - Eastward turbulent surface stress
+      - Forecast albedo
+      - Total sky direct solar radiation at surface
+      - Forecast logarithm of surface roughness for heat
+      - Forecast surface roughness
+      - Gravity wave dissipation
+      - Instantaneous 10 metre wind gust
+      - Leaf area index, high vegetation
+      - Leaf area index, low vegetation
+      - Eastward gravity wave surface stress
+      - Large-scale snowfall
+      - Large-scale precipitation
+      - Large-scale precipitation fraction
+      - Large scale rain rate
+      - Large scale snowfall rate water equivalent
+      - Northward gravity wave surface stress
+      - Minimum temperature at 2 metres since previous post-processing
+      - Maximum temperature at 2 metres since previous post-processing
+      - Northward turbulent surface stress
+      - Potential evaporation
+      - Runoff
+      - Snowfall
+      - Surface latent heat flux
+      - Snowmelt
+      - Surface runoff
+      - Surface sensible heat flux
+      - Surface net short-wave (solar) radiation
+      - Surface net short-wave (solar) radiation, clear sky
+      - Surface short-wave (solar) radiation downwards
+      - Surface solar radiation downward clear-sky
+      - Sea surface temperature
+      - Surface net long-wave (thermal) radiation
+      - Surface net long-wave (thermal) radiation, clear sky
+      - Surface long-wave (thermal) radiation downwards
+      - Surface thermal radiation downward clear-sky
+      - Total cloud cover
+      - Total column cloud ice water
+      - Total column cloud liquid water
+      - Total column rain water
+      - Total column snow water
+      - Total column vertically-integrated water vapour
+      - TOA incident solar radiation
+      - Total precipitation
+      - Top net short-wave (solar) radiation
+      - Top net solar radiation, clear sky
+      - Top net long-wave (thermal) radiation
+      - Top net thermal radiation, clear sky
+      - Downward UV radiation at the surface
+      - Friction velocity
+    parameters:
+      variables:
+        allowed:
+        - 10fg
+        - bld
+        - blh
+        - cape
+        - cbh
+        - cdir
+        - cp
+        - crr
+        - csf
+        - csfr
+        - e
+        - es
+        - ewss
+        - fal
+        - fdir
+        - flsr
+        - fsr
+        - gwd
+        - i10fg
+        - lai_hv
+        - lai_lv
+        - lgws
+        - lsf
+        - lsp
+        - lspf
+        - lsrr
+        - lssfr
+        - mgws
+        - mn2t
+        - mx2t
+        - nsss
+        - pev
+        - ro
+        - sf
+        - slhf
+        - smlt
+        - sro
+        - sshf
+        - ssr
+        - ssrc
+        - ssrd
+        - ssrdc
+        - sst
+        - str
+        - strc
+        - strd
+        - strdc
+        - tcc
+        - tciw
+        - tclw
+        - tcrw
+        - tcsw
+        - tcwv
+        - tisr
+        - tp
+        - tsr
+        - tsrc
+        - ttr
+        - ttrc
+        - uvb
+        - zust
+        default: 10fg
+        description: All available variables in the dataset
+        type: str
+  surface_forecast_monthly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf12_1M/combined.parq
+    driver: zarr
+    metadata:
+      data_type: forecast
+      experiment_id: ERA5
+      format: kerchunk
+      frequency: monthly
+      grid_id: N320
+      grid_label: gn
+      grid_type: gaussian_reduced
+      institution: Data from European Centre for Medium-Range Weather Forecasts (ECMWF)
+        distributed by the Germen Climate Computing Center (DKRZ)
+      institution_id: ECMWF-DKRZ
+      level_type: surface
+      license: The ERA5 data are published with the Copernicus Product License with
+        the necessity of attribution. https://cds.climate.copernicus.eu/cdsapp/#!/terms/licence-to-use-copernicus-products
+      product: reanalysis
+      project: ECMWF Re-Analysis
+      project_id: ERA
+      realm: atmos
+      references: "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Hor\xE1nyi,\
+        \ A., Mu\xF1oz\u2010Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers,\
+        \ D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold,\
+        \ P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P.,\
+        \ Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes,\
+        \ M., Geer, A., Haimberger, L., Healy, S., Hogan, R.J., H\xF3lm, E., Janiskov\xE1\
+        , M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay,\
+        \ P., Rozum, I., Vamborg, F., Villaume, S., Th\xE9paut, J-N. (2017): Complete\
+        \ ERA5 from 1940: Fifth generation of ECMWF atmospheric reanalyses of the\
+        \ global climate. Copernicus Climate Change Service (C3S) Data Store (CDS).\
+        \ DOI: 10.24381/cds.143582cf"
+      resolution: 0.28125 deg
+      responsible_persons: Angelika Heil, Fabian Wachsmann
+      simulation_id: ERA5
+      source: ECMWF Integrated Forecast System (IFS) CY41R2
+      source_id: IFS
+      time_max: '2023-12-01T12:00:00.000000000'
+      time_min: '1940-01-01T12:00:00.000000000'
+      title: The DKRZ ERA5 data pool. Generated using Copernicus Climate Change Service
+        information [2024]. Data distribution by the German Climate Computing Center
+        (DKRZ). Neither the European Commission nor ECMWF is responsible for any use
+        that may be made of the Copernicus information or data it contains
+      variable-long_names:
+      - 10 metre wind gust since previous post-processing
+      - Boundary layer dissipation
+      - Boundary layer height
+      - Convective available potential energy
+      - Cloud base height
+      - Clear-sky direct solar radiation at surface
+      - Convective precipitation
+      - Convective rain rate
+      - Convective snowfall
+      - Convective snowfall rate water equivalent
+      - Evaporation
+      - Snow evaporation
+      - Eastward turbulent surface stress
+      - Forecast albedo
+      - Total sky direct solar radiation at surface
+      - Forecast logarithm of surface roughness for heat
+      - Forecast surface roughness
+      - Gravity wave dissipation
+      - Instantaneous 10 metre wind gust
+      - Leaf area index, high vegetation
+      - Leaf area index, low vegetation
+      - Eastward gravity wave surface stress
+      - Large-scale snowfall
+      - Large-scale precipitation
+      - Large-scale precipitation fraction
+      - Large scale rain rate
+      - Large scale snowfall rate water equivalent
+      - Northward gravity wave surface stress
+      - Minimum temperature at 2 metres since previous post-processing
+      - Maximum temperature at 2 metres since previous post-processing
+      - Northward turbulent surface stress
+      - Potential evaporation
+      - Runoff
+      - Snowfall
+      - Surface latent heat flux
+      - Snowmelt
+      - Surface runoff
+      - Surface sensible heat flux
+      - Surface net short-wave (solar) radiation
+      - Surface net short-wave (solar) radiation, clear sky
+      - Surface short-wave (solar) radiation downwards
+      - Surface solar radiation downward clear-sky
+      - Sea surface temperature
+      - Surface net long-wave (thermal) radiation
+      - Surface net long-wave (thermal) radiation, clear sky
+      - Surface long-wave (thermal) radiation downwards
+      - Surface thermal radiation downward clear-sky
+      - Total cloud cover
+      - Total column cloud ice water
+      - Total column cloud liquid water
+      - Total column rain water
+      - Total column snow water
+      - Total column vertically-integrated water vapour
+      - TOA incident solar radiation
+      - Total precipitation
+      - Top net short-wave (solar) radiation
+      - Top net solar radiation, clear sky
+      - Top net long-wave (thermal) radiation
+      - Top net thermal radiation, clear sky
+      - Downward UV radiation at the surface
+      - Friction velocity
+    parameters:
+      variables:
+        allowed:
+        - 10fg
+        - bld
+        - blh
+        - cape
+        - cbh
+        - cdir
+        - cp
+        - crr
+        - csf
+        - csfr
+        - e
+        - es
+        - ewss
+        - fal
+        - fdir
+        - flsr
+        - fsr
+        - gwd
+        - i10fg
+        - lai_hv
+        - lai_lv
+        - lgws
+        - lsf
+        - lsp
+        - lspf
+        - lsrr
+        - lssfr
+        - mgws
+        - mn2t
+        - mx2t
+        - nsss
+        - pev
+        - ro
+        - sf
+        - slhf
+        - smlt
+        - sro
+        - sshf
+        - ssr
+        - ssrc
+        - ssrd
+        - ssrdc
+        - sst
+        - str
+        - strc
+        - strd
+        - strdc
+        - tcc
+        - tciw
+        - tclw
+        - tcrw
+        - tcsw
+        - tcwv
+        - tisr
+        - tp
+        - tsr
+        - tsrc
+        - ttr
+        - ttrc
+        - uvb
+        - zust
+        default: 10fg
+        description: All available variables in the dataset
+        type: str

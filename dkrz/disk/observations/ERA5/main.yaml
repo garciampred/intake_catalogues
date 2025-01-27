@@ -8,4 +8,4 @@ sources:
     description: ERA5 data from DKRZ catalog
     driver: yaml_file_cat
     args:
-        path: "{{CATALOG_DIR}}/era5-dkrz.yaml"
+        path: "{{CATALOG_DIR}}/new.yaml"
