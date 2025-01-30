@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_mean.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -109,7 +109,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_square.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_square_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -164,7 +164,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_mean.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -202,7 +202,7 @@ sources:
       time_min: '2020-01-01T12:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_mean_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_20200101T000000-20200131T235900/erc2002_oce_2d_1mth_mean_20200201T000000Z.nc
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
       - Salt volume flux due to sea ice change
@@ -278,7 +278,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_square.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_square_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -316,7 +316,7 @@ sources:
       time_min: '2020-01-01T12:00:00.000000000'
       time_reduction: square
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_2d_1mth_square_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_20200101T000000-20200131T235900/erc2002_oce_2d_1mth_square_20200201T000000Z.nc
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
       - Square of ocean mixed layer thickness defined by sigma t
@@ -340,7 +340,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_eddy_monthly_mean.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_eddy_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -378,7 +378,7 @@ sources:
       time_min: '2020-01-01T12:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc1011/run_20020101T000000-20020131T235845/erc1011_oce_eddy_1mth_mean_20020201T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_20200101T000000-20200131T235900/erc2002_oce_eddy_1mth_mean_20200201T000000Z.nc
       uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       variable-long_names:
       - square of density
@@ -478,7 +478,7 @@ sources:
       time_min: '1990-01-01T12:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
-      uri: /work/bm1344/k203123/experiments/erc2002/run_20390401T000000-20390430T235900/erc2002_oce_2d_1d_mean_20390401T000000Z.nc
+      uri: /work/bm1344/k203123/experiments/erc2002/run_20200101T000000-20200131T235900/erc2002_oce_2d_1d_mean_20200101T000000Z.nc
       variable-long_names:
       - sea surface temperature
     parameters:
