@@ -13,7 +13,7 @@ sources:
     driver: netcdf
     metadata:
       contact: stella.berzina@usys.ethz.ch
-  anticyclonic_tracks:
+  anticyclonic:
     args:
       chunks: auto
       urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/anticyclonic_tracks.nc
@@ -41,7 +41,7 @@ sources:
     driver: netcdf
     metadata:
       contact: stella.berzina@usys.ethz.ch
-  cyclonic_tracks:
+  cyclonic:
     args:
       chunks: auto
       urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/cyclonic_tracks.nc
