@@ -1,4 +1,9 @@
 sources:
+  eddytracks:
+    args:
+      path: "{{CATALOG_DIR}}/eddytracks/main.yaml"
+    driver: yaml_file_cat
+
   crossSSTgrad_dm:
     args:
       urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/crossSSTgrad/dm/*.nc

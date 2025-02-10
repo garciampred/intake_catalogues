@@ -1,0 +1,57 @@
+sources:
+  anticyclonic_correspondance:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/anticyclonic_correspondance.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  anticyclonic_short:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/anticyclonic_short.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  anticyclonic_tracks:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/anticyclonic_tracks.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  anticyclonic_untracked:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/anticyclonic_untracked.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  cyclonic_correspondance:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/cyclonic_correspondance.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  cyclonic_short:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/cyclonic_short.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  cyclonic_tracks:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/cyclonic_tracks.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  cyclonic_untracked:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/icon_eddies/eerie-control-1950/gr025/eddyTracks/cyclonic_untracked.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
