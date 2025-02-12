@@ -1,0 +1,15 @@
+sources:
+  cyclonic:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/aviso_eddies/aviso/cyclonic.nc
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch
+  anticyclonic:
+    args:
+      chunks: auto
+      urlpath: /work/bk1377/b382618/model_eddy_eval/aviso_eddies/aviso/anticyclonic.nc  
+    driver: netcdf
+    metadata:
+      contact: stella.berzina@usys.ethz.ch    
