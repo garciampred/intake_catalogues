@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1D/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1D/combined.parq
     driver: zarr
     metadata:
       data_type: analysis
@@ -95,15 +95,15 @@ sources:
         lazy: true
         remote_protocol: file
       urlpath:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1940-1949.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1970-1979.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/2010-2019.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/2020-2023.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/2000-2009.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1960-1969.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1990-1999.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1950-1959.parq
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1H/1980-1989.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/1940-1949.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/1970-1979.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/2010-2019.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/2020-2023.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/2000-2009.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/1960-1969.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/1990-1999.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/1950-1959.parq
+      - reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1H/1980-1989.parq
     driver: zarr
     metadata:
       data_type: analysis
@@ -191,7 +191,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5pl00_1M/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5pl00_1M/combined.parq
     driver: zarr
     metadata:
       data_type: analysis
@@ -279,7 +279,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf00_1D/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5sf00_1D/combined.parq
     driver: zarr
     metadata:
       data_type: analysis
@@ -411,7 +411,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf00_1H/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5sf00_1H/combined.parq
     driver: zarr
     metadata:
       data_type: analysis
@@ -543,7 +543,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf00_1M/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5sf00_1M/combined.parq
     driver: zarr
     metadata:
       data_type: analysis
@@ -677,7 +677,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf12_1H/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5sf12_1H/combined.parq
     driver: zarr
     metadata:
       data_type: forecast
@@ -855,7 +855,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ERA5/E5sf12_1M/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/git/era5-kerchunks/kerchunks/file/parquets/E5sf12_1M/combined.parq
     driver: zarr
     metadata:
       data_type: forecast
