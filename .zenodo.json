@@ -47,15 +47,7 @@
       "funder": {
         "name": "European Commission",
         "identifier": "https://doi.org/10.13039/501100000780",
-        "scheme": "Crossref Funder ID"
-      }
-    },
-    {
-      "id": "10049639",
-      "funder": {
-        "name": "UK Research and Innovation",
-        "identifier": "https://doi.org/10.13039/501100000266",
-        "scheme": "Crossref Funder ID"
+        "scheme": "doi"
       }
     },
     {
@@ -63,7 +55,7 @@
       "funder": {
         "name": "UK Research and Innovation",
         "identifier": "https://doi.org/10.13039/501100000266",
-        "scheme": "Crossref Funder ID"
+        "scheme": "doi"
       }
     },
     {
@@ -71,7 +63,7 @@
       "funder": {
         "name": "UK Research and Innovation",
         "identifier": "https://doi.org/10.13039/501100000266",
-        "scheme": "Crossref Funder ID"
+        "scheme": "doi"
       }
     }
   ]
