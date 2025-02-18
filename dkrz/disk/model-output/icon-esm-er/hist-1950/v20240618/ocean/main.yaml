@@ -1,4 +1,9 @@
 sources:
+  gr025:
+    args:
+      path: "{{CATALOG_DIR}}/gr025/main.yaml"
+    description: This catalog contains oceanic EERIE ICON-ESM-ER hist-1950 output on 0.25deg grid available at DKRZ disk.
+    driver: yaml_file_cat
   native:
     args:
       path: "{{CATALOG_DIR}}/native/main.yaml"
