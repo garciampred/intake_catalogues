@@ -1,0 +1,21 @@
+sources:
+  ifs-fesom2-sr.eerie-control-1950.v20240304.ocean.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-fesom2-sr/eerie-control-1950/v20240304/ocean/gr025/main.yaml"
+    description: "Eddy tracks calculated with the pyEddy tracker. Shortest lifetime is 10 days."
+    driver: yaml_file_cat
+  icon-esm-er.eerie-control-1950.v20231106.ocean.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/icon-esm-er/eerie-control-1950/v20240618/ocean/gr025/main.yaml"
+    description: "Eddy tracks calculated with the pyEddy tracker. Shortest liftetime is 4 days."
+    driver: yaml_file_cat
+  hadgem3-gc5-n640-orca12.eerie-picontrol.ocean.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hadgem3-gc5-n640-orca12/eerie-picontrol/ocean/gr025/main.yaml"
+    description: "Eddy tracks calculated with the pyEddy tracker. Shortest lifetime is 10 days."
+    driver: yaml_file_cat    
+  aviso:
+    args:
+      path: "{{CATALOG_DIR}}/aviso/main.yaml"
+    description: "Eddy tracks from satellite altimeter. Shortest lifetime is 10 days."
+    driver: yaml_file_cat          
