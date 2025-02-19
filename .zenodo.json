@@ -43,27 +43,35 @@
   ],
   "grants": [
     {
-      "id": "101081383",
+      "id": "10.13039/501100000780::101081383",
       "funder": {
         "name": "European Commission",
         "identifier": "https://doi.org/10.13039/501100000780",
-        "scheme": "doi"
+        "scheme": "Crossref Funder ID"
       }
     },
     {
-      "id": "10057890",
+      "id": "0.13039/501100000266::10049639",
       "funder": {
         "name": "UK Research and Innovation",
         "identifier": "https://doi.org/10.13039/501100000266",
-        "scheme": "doi"
+        "scheme": "Crossref Funder ID"
       }
     },
     {
-      "id": "10040510",
+      "id": "10.13039/501100000266::10057890",
       "funder": {
         "name": "UK Research and Innovation",
         "identifier": "https://doi.org/10.13039/501100000266",
-        "scheme": "doi"
+        "scheme": "Crossref Funder ID"
+      }
+    },
+    {
+      "id": "10.13039/501100000266::10040510",
+      "funder": {
+        "name": "UK Research and Innovation",
+        "identifier": "https://doi.org/10.13039/501100000266",
+        "scheme": "Crossref Funder ID"
       }
     }
   ]
