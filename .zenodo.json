@@ -35,6 +35,7 @@
     "JASMIN",
     "DKRZ"
   ],
+  "communities": [{'identifier':'eerie-project'}],
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
