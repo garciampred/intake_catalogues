@@ -251,7 +251,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/atm_2d_1mth_mean_remap025.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/v20240618/atmos/gr025/spinup_1950_atm_2d_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -299,7 +299,7 @@ sources:
       source_id: ICON-ESM
       source_type: AOGCM
       time_max: '1990-12-01T00:00:00.000000000'
-      time_min: '1980-01-01T00:00:00.000000000'
+      time_min: '1950-01-01T00:00:00.000000000'
       time_reduction: mean
       title: ICON simulation
       variable-long_names:
