@@ -8,7 +8,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_1h_inst_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_1h_inst/combined_slk.parq
     driver: zarr
   2d_1h_mean:
     args:
@@ -19,7 +19,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_1h_mean_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_1h_mean/combined_slk.parq
     driver: zarr
   2d_3h_inst:
     args:
@@ -30,7 +30,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_3h_inst_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_3h_inst/combined_slk.parq
     driver: zarr
   2d_6h_inst:
     args:
@@ -41,7 +41,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_6h_inst_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_6h_inst/combined_slk.parq
     driver: zarr
   2d_6h_mean:
     args:
@@ -52,7 +52,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_6h_mean_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_6h_mean/combined_slk.parq
     driver: zarr
   2d_daily_max:
     args:
@@ -63,7 +63,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_daily_max_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_daily_max/combined_slk.parq
     driver: zarr
   2d_daily_mean:
     args:
@@ -74,7 +74,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_daily_mean_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_daily_mean/combined_slk.parq
     driver: zarr
   2d_daily_min:
     args:
@@ -85,7 +85,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_daily_min_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_daily_min/combined_slk.parq
     driver: zarr
   2d_monthly_mean:
     args:
@@ -96,7 +96,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_2d_monthly_mean_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_2d_monthly_mean/combined_slk.parq
     driver: zarr
   model-level_daily_mean_1:
     args:
@@ -107,7 +107,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_model-level_daily_mean_1_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_1/combined_slk.parq
     driver: zarr
   model-level_daily_mean_2:
     args:
@@ -118,7 +118,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_model-level_daily_mean_2_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_model-level_daily_mean_2/combined_slk.parq
     driver: zarr
   model-level_monthly_mean:
     args:
@@ -129,7 +129,7 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_model-level_monthly_mean_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_model-level_monthly_mean/combined_slk.parq
     driver: zarr
   pl_6h_inst:
     args:
@@ -140,5 +140,27 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/atmos_native_pl_6h_inst_slk.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_pl_6h_inst/combined_slk.parq
+    driver: zarr
+  plev19_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_plev19_daily_mean/combined_slk.parq
+    driver: zarr
+  plev19_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/atmos_native_plev19_monthly_mean/combined_slk.parq
     driver: zarr
