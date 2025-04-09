@@ -216,7 +216,7 @@ sources:
         default: hur
         description: All available variables in the dataset
         type: str
-  plev19_1d_mean:
+  plev19_daily_mean:
     args:
       chunks: auto
       consolidated: false
