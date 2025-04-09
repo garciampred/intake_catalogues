@@ -215,7 +215,76 @@ sources:
         - height_2_bnds
         default: hur
         description: All available variables in the dataset
-        type: str  
+        type: str
+  plev19_1d_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/atm_plev19_1d_mean_remap025.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l30789 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gr
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: plev19
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2059-11-30T23:59:59.000000000'
+      time_min: '2041-01-01T23:59:59.000000000'
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      variable-long_names:
+      - geopotential above surface
+      - relative humidity
+      - Specific humidity
+      - Pressure
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+    parameters:
+      variables:
+        allowed:
+        - gpsm
+        - hur
+        - hus
+        - pfull
+        - ta
+        - ua
+        - va
+        - wa
+        default: gpsm
+        description: All available variables in the dataset
+        type: str          
   2d_monthly_mean:
     args:
       chunks: auto
