@@ -1,4 +1,8 @@
 sources:
+  dataviewer:
+    args:
+      path: "{{CATALOG_DIR}}/dataviewer/main.yaml"
+    driver: yaml_file_cat
   eddytracks:
     args:
       path: "{{CATALOG_DIR}}/eddytracks/main.yaml"
