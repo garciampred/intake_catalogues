@@ -198,7 +198,7 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: '2049-12-31T23:59:59.000000000'
+      time_max: '2067-12-31T23:59:59.000000000'
       time_min: '1991-01-31T23:59:59.000000000'
       time_reduction: mean
       title: ICON simulation
@@ -515,7 +515,7 @@ sources:
       experiment: eerie-control-1950
       experiment_id: eerie-1950control
       format: netcdf
-      frequency: 1month
+      frequency: 1day
       grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
       grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
       grid_label: gr
@@ -548,6 +548,62 @@ sources:
         default: verticallyTotal_mass_flux_e
         description: All available variables in the dataset
         type: str
+  2d_monthly_mean_vertical:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_mean_vertical-remap025.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40045 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-control-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gr
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2067-12-31T23:59:59.000000000'
+      time_min: '1991-01-31T23:59:59.000000000'
+      time_reduction: square
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_20200101T000000-20200131T235900/erc2002_oce_2d_1mth_square_20200201T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - vertically integrated mass flux at edges
+    parameters:
+      variables:
+        allowed:
+        - verticallyTotal_mass_flux_e
+        default: verticallyTotal_mass_flux_e
+        description: All available variables in the dataset
+        type: str        
   2d_daily_mean_sst_50year:
     args:
       chunks: auto
