@@ -95,7 +95,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/ocean/gr025/hist_last20/oce_2d_1d_mean_vertical-remap025.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/ocean/gr025/oce_2d_1d_mean_vertical-remap025.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
