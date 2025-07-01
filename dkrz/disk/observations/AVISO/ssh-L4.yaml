@@ -11,4 +11,4 @@ sources:
       compat: override
       combine: nested
       urlpath: 
-      - reference::/work/bb1153/b382075/datasets/AVISO/AVISO.json
+      - reference::/work/bm1344/k202193/Kerchunk/Obs/AVISO.parq
