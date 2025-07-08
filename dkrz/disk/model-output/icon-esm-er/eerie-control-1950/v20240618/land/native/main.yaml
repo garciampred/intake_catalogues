@@ -12,7 +12,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: EERIE
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-16T16:05:56'
+      creation_date: '2025-07-08T14:09:13'
       data_specs_version: 01.00.32
       experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
         of pre-industrial control)
@@ -89,7 +89,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: EERIE
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-16T16:05:56'
+      creation_date: '2025-07-08T14:09:13'
       data_specs_version: 01.00.32
       experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
         of pre-industrial control)
