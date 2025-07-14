@@ -625,7 +625,7 @@ sources:
       - precipitation flux
       variant_label: r1i1p1f1
       version_id: v20240618
-  pl_6hourly_mean:
+  pl_6hourly_inst:
     args:
       chunks: auto
       consolidated: false
