@@ -4,4 +4,9 @@ sources:
       path: "{{CATALOG_DIR}}/native/main.yaml"
     description: This catalog contains oceanic EERIE ICON-ESM-ER highres-future-ssp245 output on native grid available at DKRZ disk.
     driver: yaml_file_cat
+  gr025:
+    args:
+      path: "{{CATALOG_DIR}}/gr025/main.yaml"
+    description: This catalog contains oceanic EERIE ICON-ESM-ER highres-future-ssp245 output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat
 
