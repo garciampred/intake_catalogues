@@ -4,46 +4,5 @@
   "id": "gr025",
   "description": "Auto-generated STAC catalog for gr025",
   "zarr_format": 2,
-  "links": [
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/2D_daily_avg.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/2D_daily_max.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/2D_daily_min.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/2D_monthly_avg.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/2D_monthly_max.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/2D_monthly_min.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/3D_daily_avg.parq/.zmetadata",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/3D_monthly_avg.parq/.zmetadata",
-      "type": "application/json"
-    }
-  ]
+  "links": []
 }
