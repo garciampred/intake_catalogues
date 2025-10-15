@@ -1,0 +1,20 @@
+{
+  "zarr_consolidated_format": 1,
+  "record_size": 1000,
+  "metadata": {
+    ".zgroup": {
+      "zarr_format": 2
+    }
+  },
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "atmos",
+  "description": "Auto-generated STAC catalog for atmos",
+  "links": [
+    {
+      "rel": "child",
+      "href": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/main/dkrz/disk/model-output/ifs-fesom2-sr/hist-1950/v20240304/atmos/gr025/.zmetadata",
+      "type": "application/json"
+    }
+  ]
+}
