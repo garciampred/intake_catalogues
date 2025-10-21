@@ -1,0 +1,991 @@
+{
+  "attributes": {},
+  "zarr_format": 3,
+  "consolidated_metadata": {
+    "kind": "inline",
+    "must_understand": false,
+    "metadata": {
+      "eerie-control-1950": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/land": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/ocean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/land": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/ocean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/atmos": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/land": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/ocean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/atmos": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/land": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/ocean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/atmos": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/land": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/ocean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/atmos": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/land": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/ocean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/land/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/land/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/ocean/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/ocean/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/land/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/ocean/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/ocean/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/atmos/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/atmos/gr100": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/atmos/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/land/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/land/gr100": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/land/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/ocean/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/ocean/gr100": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20231106/ocean/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/atmos/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/atmos/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/land/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/ocean/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-spinup-1950/v20240618/ocean/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/atmos/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/atmos/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/land/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/ocean/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "highres-future-ssp245/v20240618/ocean/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/atmos/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/atmos/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/land/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/ocean/gr025": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "hist-1950/v20240618/ocean/native": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_2d_1d_max_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_2d_1d_mean_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_2d_1d_min_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_2d_1mth_mean_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_ml_1mth_mean_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_plev19_1d_mean_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/gr025/atm_plev19_1mth_mean_remap025.parq": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_1h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_1h_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_3h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_6h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_6h_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_max": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_daily_min": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_2d_monthly_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_daily_mean_1": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_daily_mean_2": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_model-level_monthly_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_pl_6h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_plev19_daily_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20231106/atmos/native/atmos_native_plev19_monthly_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_1h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_1h_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_3h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_6h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_6h_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_daily_max": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_daily_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_daily_min": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_2d_monthly_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_model-level_daily_mean_1": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_model-level_daily_mean_2": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_model-level_monthly_mean": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      },
+      "eerie-control-1950/v20240618/atmos/native/atmos_native_pl_6h_inst": {
+        "attributes": {},
+        "zarr_format": 3,
+        "consolidated_metadata": {
+          "kind": "inline",
+          "must_understand": false,
+          "metadata": {}
+        },
+        "node_type": "group"
+      }
+    }
+  },
+  "node_type": "group"
+}
