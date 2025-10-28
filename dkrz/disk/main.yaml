@@ -9,7 +9,7 @@ sources:
       path: "{{CATALOG_DIR}}/observations/main.yaml"
     description: This catalog contains observational data that is used for EERIE evaluation.
     driver: yaml_file_cat
-  CMOR_testing:
+  CMOR:
     args:
       path: "{{CATALOG_DIR}}/CMOR/main.yaml"
     description: This catalog contains CMORized testing data that is going to use for ESGF publication.
