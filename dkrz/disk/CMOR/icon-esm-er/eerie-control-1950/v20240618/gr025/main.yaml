@@ -1,13 +1,4 @@
 sources:
-  6hrPlevPt:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_6hrPlevPt.parquet
-    driver: zarr
   Amon:
     args:
       chunks: auto
@@ -15,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_Amon.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_Amon.parquet
     driver: zarr
   day:
     args:
@@ -24,16 +15,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_day.parquet
-    driver: zarr
-  HR6hr:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_HR6hr.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_day.parquet
     driver: zarr
   HRAmon:
     args:
@@ -42,7 +24,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_HRAmon.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HRAmon.parquet
     driver: zarr
   HRday:
     args:
@@ -51,7 +33,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_HRday.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HRday.parquet
     driver: zarr   
   HROday:
     args:
@@ -60,7 +42,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_HROday.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HROday.parquet
     driver: zarr
   HROmon:
     args:
@@ -69,7 +51,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_HROmon.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HROmon.parquet
     driver: zarr 
   Oday:
     args:
@@ -78,7 +60,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_Oday.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_Oday.parquet
     driver: zarr  
   Omon:
     args:
@@ -87,7 +69,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_Omon.parquet       
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_Omon.parquet       
     driver: zarr
   SIday:
     args:
@@ -96,7 +78,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_SIday.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_SIday.parquet
     driver: zarr
   SImon:
     args:
@@ -105,7 +87,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/cmor/ICON-ESM-ER_hist-1950_SImon.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_SImon.parquet
     driver: zarr
 
     
