@@ -27,5 +27,3 @@ sources:
         remote_protocol: file
       urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_hist-1950_SImon.parquet"
     driver: zarr
-
-    
