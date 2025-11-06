@@ -1,7 +1,7 @@
 sources:
   Amon:
     args:
-      chunks: auto
+      chunks: null
       consolidated: false
       storage_options:
         lazy: true
