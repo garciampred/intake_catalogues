@@ -1,13 +1,14 @@
 sources:
   Amon:
+    driver: zarr
     args:
-      chunks: auto
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_hist-1950_Amon.parquet
+      chunks: null           
       consolidated: false
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_hist-1950_Amon.parquet
-    driver: zarr 
+        cache: true
   Omon:
     args:
       chunks: null
