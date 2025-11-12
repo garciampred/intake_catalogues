@@ -7,6 +7,7 @@ sources:
     description: AVISO ssh vDT2021    
     driver: zarr
     args:
+      chunks: auto
       consolidated: False
       compat: override
       combine: nested
@@ -16,6 +17,7 @@ sources:
     description: AVISO ssh vDT2024    
     driver: zarr
     args:
+      chunks: auto
       consolidated: False
       compat: override
       combine: nested
