@@ -12,7 +12,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -67,7 +67,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -122,7 +122,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -179,7 +179,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -238,7 +238,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -293,7 +293,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -350,7 +350,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -425,7 +425,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -481,7 +481,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -568,7 +568,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -626,7 +626,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -684,7 +684,7 @@ sources:
       Conventions: CF-1.7 CMIP-6.2
       activity_id: HighResMIP
       contact: juergen.kroeger@mpimet.mpg.de
-      creation_date: '2024-12-17T17:33:20'
+      creation_date: '2025-04-02T13:48:28'
       data_specs_version: 01.00.32
       experiment: coupled historical 1950-2014
       experiment_id: hist-1950
@@ -739,11 +739,7 @@ sources:
   mon:
     args:
       chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_mon.parq
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_mon.zarr.zip
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2

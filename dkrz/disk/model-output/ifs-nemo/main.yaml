@@ -1,9 +1,9 @@
 sources:
-  eerie-control-1950:
-    args:
-      path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
-    description: This catalog contains EERIE ICON-NEMO eerie-1950control output available at DKRZ disk.
-    driver: yaml_file_cat
+#  eerie-control-1950:
+#    args:
+#      path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
+#    description: This catalog contains EERIE ICON-NEMO eerie-1950control output available at DKRZ disk.
+#    driver: yaml_file_cat
   eerie-spinup-1950:
     args:
       path: "{{CATALOG_DIR}}/eerie-spinup-1950/main.yaml"

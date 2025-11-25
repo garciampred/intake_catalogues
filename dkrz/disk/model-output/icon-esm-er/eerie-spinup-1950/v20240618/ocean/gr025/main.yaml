@@ -274,7 +274,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1mth_mean_remap025.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/v20240618/ocean/gr025/spinup_1950_oce_2d_1mth_mean_remap025.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -321,8 +321,8 @@ sources:
       source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
       source_id: ICON-ESM
       source_type: AOGCM
-      time_max: 21564000
-      time_min: 15778080
+      time_max: '1990-12-31T23:59:59.000000000'
+      time_min: '1950-01-31T23:59:59.000000000'
       time_reduction: mean
       title: ICON simulation
       variable-long_names:

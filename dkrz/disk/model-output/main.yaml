@@ -9,6 +9,16 @@ sources:
       path: "{{CATALOG_DIR}}/ifs-fesom2-sr/main.yaml"
     description: IFS-FESOM2 output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
     driver: yaml_file_cat
+  ifs-amip-tco3999:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-amip-tco3999/main.yaml"
+    description: High-resolution (tco3999, ~ 2.8km) IFS-AMIP output available on DKRZ's Levante File System. With nextGEMS output and run with nextGEMS resources.
+    driver: yaml_file_cat
+  ifs-amip-tco2559:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-amip-tco2559/main.yaml"
+    description: High-resolution (tco2559, ~ 4.4km) IFS-AMIP output available on DKRZ's Levante File System. 
+    driver: yaml_file_cat
   ifs-amip-tco1279:
     args:
       path: "{{CATALOG_DIR}}/ifs-amip-tco1279/main.yaml"
@@ -19,10 +29,10 @@ sources:
       path: "{{CATALOG_DIR}}/ifs-amip-tco399/main.yaml"
     description: Medium-resolution (tco399, ~ 28 km) IFS-AMIP output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
     driver: yaml_file_cat
-  ifs-nemo:
+  ifs-nemo-er:
     args:
-      path: "{{CATALOG_DIR}}/ifs-nemo/main.yaml"
-    description: IFS-NEMO output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
+      path: "{{CATALOG_DIR}}/ifs-nemo-er/main.yaml"
+    description: IFS-NEMO-ER output available on DKRZ's Levante File System. 
     driver: yaml_file_cat    
   hadgem3-gc5-n640-orca12:
     args:

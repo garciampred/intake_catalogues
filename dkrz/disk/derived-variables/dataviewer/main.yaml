@@ -1,0 +1,33 @@
+sources:
+  climatologies.hist-1950:
+    args:
+      urlpath: /work/bm1344/DKRZ/viewer_products/decadal/*_hist_EERIE_clim.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+    driver: netcdf
+    description: Tbd
+  climatologies.hist-amip:
+    args:
+      urlpath: /work/bm1344/DKRZ/viewer_products/decadal/*_hist-amip_EERIE_clim.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+    driver: netcdf
+    description: Tbd
+  climatologies.era5:
+    args:
+      urlpath: /work/bm1344/DKRZ/viewer_products/decadal/*_era5_clim.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+    driver: netcdf
+    description: Tbd
+  climatologies.eerie-control-1950:
+    args:
+      urlpath: /work/bm1344/DKRZ/viewer_products/decadal/*_control_EERIE_clim.nc
+      xarray_kwargs:
+        compat: override
+        coords: minimal
+    driver: netcdf
+    description: Tbd    

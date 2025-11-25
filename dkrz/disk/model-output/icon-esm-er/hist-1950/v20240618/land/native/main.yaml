@@ -126,11 +126,7 @@ sources:
   mon:
     args:
       chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_mon.parq
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_mon.zarr.zip
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2

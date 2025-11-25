@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/eerie-control-1950/v20240304/ocean/native/2D_daily_avg.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/native/2D_daily_avg.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -67,14 +67,14 @@ sources:
         default: avg_mlotst125
         description: All available variables in the dataset
         type: str
-  3D_daily_avg_elems:
+  3D_daily_avg:
     args:
       chunks: auto
       consolidated: false
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/eerie-control-1950/v20240304/ocean/native/3D_daily_avg_elems.parq
+      urlpath: reference::/work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/native/3D_daily_avg.parquet
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -108,27 +108,33 @@ sources:
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '1969-12-31T12:00:00.000000000'
-      time_min: '1950-01-01T12:00:00.000000000'
+      time_max: '2050-12-31T00:00:00.000000000'
+      time_min: '1950-01-01T00:00:00.000000000'
       variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature      
       - Time-mean eastward sea water velocity
       - Time-mean northward sea water velocity
+      - Time-mean upward sea water velocity      
     parameters:
       variables:
         allowed:
+        - avg_so
+        - avg_thetao        
         - avg_uoe
         - avg_von
-        default: avg_uoe
+        - avg_wo        
+        default: avg_so
         description: All available variables in the dataset
         type: str
-  3D_daily_avg_nodes:
+  3D_monthly_avg:
     args:
       chunks: auto
       consolidated: false
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/eerie-control-1950/v20240304/ocean/native/3D_daily_avg_nodes.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/native/3D_monthly_avg.parquet
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -162,17 +168,21 @@ sources:
       simulation_id: IFS-FESOM2-SR_eerie-control-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '1969-12-31T12:00:00.000000000'
+      time_max: '2050-12-31T00:00:00.000000000'
       time_min: '1950-01-01T12:00:00.000000000'
       variable-long_names:
       - Time-mean sea water practical salinity
       - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
       - Time-mean upward sea water velocity
     parameters:
       variables:
         allowed:
         - avg_so
         - avg_thetao
+        - avg_uoe
+        - avg_von
         - avg_wo
         default: avg_so
         description: All available variables in the dataset

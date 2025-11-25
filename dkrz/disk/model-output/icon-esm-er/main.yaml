@@ -1,4 +1,9 @@
 sources:
+  highres-future-ssp245:
+    args:
+      path: "{{CATALOG_DIR}}/highres-future-ssp245/main.yaml"
+    description: This catalog contains EERIE ICON-ESM-ER highres-future-ssp245 output available at DKRZ disk.
+    driver: yaml_file_cat        
   hist-1950:
     args:
       path: "{{CATALOG_DIR}}/hist-1950/main.yaml"
@@ -7,11 +12,11 @@ sources:
   eerie-control-1950:
     args:
       path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
-    description: This catalog contains EERIE ICON-ESM-ER eerie-1950control output available at DKRZ disk.
+    description: This catalog contains EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk.
     driver: yaml_file_cat
   eerie-spinup-1950:
     args:
       path: "{{CATALOG_DIR}}/eerie-spinup-1950/main.yaml"
-    description: This catalog contains EERIE ICON-ESM-ER eerie-1950control output available at DKRZ disk.
+    description: This catalog contains EERIE ICON-ESM-ER spinup output available at DKRZ disk.
     driver: yaml_file_cat
 
